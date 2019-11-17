@@ -1,0 +1,1 @@
+This file has been quarantined due to a potential Booking.com Data Protection policy violation. Please contact the Data Protection Office (dataprotectionoffice@booking.com) if you believe this to be an error or need to request a content exception
