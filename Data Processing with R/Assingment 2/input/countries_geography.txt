@@ -1,0 +1,236 @@
+Country	Coastline_KM	Climate
+Afghanistan 	0	1
+Albania 	362	3
+Algeria 	998	1
+American Samoa 	116	2
+Andorra 	0	3
+Angola 	1600	NA
+Anguilla 	61	2
+Antigua and Barbuda 	153	2
+Argentina 	4989	3
+Armenia 	0	4
+Aruba 	68.5	2
+Australia 	25760	1
+Austria 	0	3
+Azerbaijan 	0	1
+Bahamas, The 	3542	2
+Bahrain 	161	1
+Bangladesh 	580	2
+Barbados 	97	2
+Belarus 	0	4
+Belgium 	66.5	3
+Belize 	386	2
+Benin 	121	2
+Bermuda 	103	2
+Bhutan 	0	2
+Bolivia 	0	1
+Bosnia and Herzegovina 	20	4
+Botswana 	0	1
+Brazil 	7491	2
+British Virgin Islands 	80	2
+Brunei 	161	2
+Bulgaria 	354	3
+Burkina Faso 	0	2
+Burma 	1930	2
+Burundi 	0	2
+Cambodia 	443	2
+Cameroon 	402	1
+Canada 	202080	NA
+Cape Verde 	965	3
+Cayman Islands 	160	2
+Central African Republic 	0	2
+Chad 	0	2
+Chile 	6435	3
+China 	14500	1
+Christmas Island 	138.9	2
+Cocos (Keeling) Islands 	26	2
+Colombia 	3208	2
+Comoros 	340	2
+Congo, Democratic Republic of the 	37	2
+Congo, Republic of the 	169	2
+Cook Islands 	120	2
+Costa Rica 	1290	2
+Cote d'Ivoire 	515	2
+Croatia 	5835	NA
+Cuba 	3735	2
+Cyprus 	648	3
+Czech Republic 	0	3
+Denmark 	7314	3
+Djibouti 	314	1
+Dominica 	148	2
+Dominican Republic 	1288	2
+East Timor 	706	2
+Ecuador 	2237	2
+Egypt 	2450	1
+El Salvador 	307	2
+Equatorial Guinea 	296	2
+Eritrea 	2234	1
+Estonia 	3794	3
+Ethiopia 	0	2
+Falkland Islands (Islas Malvinas) 	1288	NA
+Faroe Islands 	1117	NA
+Fiji 	1129	2
+Finland 	1250	3
+France 	3427	4
+French Guiana 	378	2
+French Polynesia 	2525	2
+Gabon 	885	2
+Gambia, The 	80	2
+Gaza Strip 	40	3
+Georgia 	310	3
+Germany 	2389	3
+Ghana 	539	2
+Gibraltar 	12	NA
+Greece 	13676	3
+Greenland 	44087	1
+Grenada 	121	2
+Guadeloupe 	306	2
+Guam 	125.5	2
+Guatemala 	400	2
+Guernsey 	50	3
+Guinea 	320	2
+Guinea-Bissau 	350	2
+Guyana 	459	2
+Haiti 	1771	2
+Honduras 	820	2
+Hong Kong 	733	2
+Hungary 	0	3
+Iceland 	4970	3
+India 	7000	3
+Indonesia 	54716	2
+Iran 	2440	1
+Iraq 	58	1
+Ireland 	1448	3
+Isle of Man 	160	3
+Israel 	273	3
+Italy 	7600	NA
+Jamaica 	1022	2
+Japan 	29751	3
+Jersey 	70	3
+Jordan 	26	1
+Kazakhstan 	0	4
+Kenya 	536	1
+Kiribati 	1143	2
+Korea, North 	2495	3
+Korea, South 	2413	3
+Kuwait 	499	1
+Kyrgyzstan 	0	3
+Laos 	0	2
+Latvia 	531	3
+Lebanon 	225	NA
+Lesotho 	0	3
+Liberia 	579	2
+Libya 	1770	NA
+Liechtenstein 	0	4
+Lithuania 	90	NA
+Luxembourg 	0	NA
+Macau 	41	2
+Macedonia 	0	3
+Madagascar 	4828	2
+Malawi 	0	2
+Malaysia 	4675	2
+Maldives 	644	2
+Mali 	0	2
+Malta 	196.8	NA
+Marshall Islands 	370.4	2
+Martinique 	350	2
+Mauritania 	754	1
+Mauritius 	177	2
+Mayotte 	185.2	2
+Mexico 	9330	1
+Micronesia, Federated States of 	6112	2
+Moldova 	0	NA
+Monaco 	4.1	NA
+Mongolia 	0	1
+Montenegro 	293.5	NA
+Montserrat 	40	2
+Morocco 	1835	NA
+Mozambique 	2470	2
+Namibia 	1572	1
+Nauru 	30	2
+Nepal 	0	NA
+Netherlands 	451	3
+Netherlands Antilles 	364	2
+New Caledonia 	2254	2
+New Zealand 	15134	3
+Nicaragua 	910	2
+Niger 	0	1
+Nigeria 	853	1
+Niue 	64	2
+Norfolk Island 	32	2
+Northern Mariana Islands 	1482	2
+Norway 	25148	3
+Oman 	2092	1
+Pakistan 	1046	1
+Palau 	1519	2
+Panama 	2490	2
+Papua New Guinea 	5152	2
+Paraguay 	0	2
+Peru 	2414	1
+Philippines 	36289	2
+Poland 	491	3
+Portugal 	1793	3
+Puerto Rico 	501	2
+Qatar 	563	1
+Reunion 	207	2
+Romania 	225	3
+Russia 	37653	NA
+Rwanda 	0	3
+Saint Helena 	60	NA
+Saint Kitts and Nevis 	135	2
+Saint Lucia 	158	2
+Saint Pierre and Miquelon 	120	NA
+Saint Vincent and the Grenadines 	84	2
+Samoa 	403	2
+San Marino 	0	NA
+Sao Tome and Principe 	209	2
+Saudi Arabia 	2640	1
+Senegal 	531	2
+Serbia 	0	NA
+Seychelles 	491	2
+Sierra Leone 	402	2
+Singapore 	193	2
+Slovakia 	0	3
+Slovenia 	46.6	NA
+Solomon Islands 	5313	2
+Somalia 	3025	1
+South Africa 	2798	1
+Spain 	4964	3
+Sri Lanka 	1340	2
+Sudan 	853	2
+Suriname 	386	2
+Svalbard 	3587	1
+Swaziland 	0	3
+Sweden 	3218	3
+Switzerland 	0	3
+Syria 	193	1
+Taiwan 	1566.3	2
+Tajikistan 	0	2
+Tanzania 	1424	NA
+Thailand 	3219	2
+Togo 	56	2
+Tokelau 	101	2
+Tonga 	419	2
+Trinidad and Tobago 	362	2
+Tunisia 	1148	3
+Turkey 	7200	3
+Turkmenistan 	0	1
+Turks and Caicos Islands 	389	2
+Tuvalu 	24	2
+Uganda 	0	2
+Ukraine 	2782	3
+United Arab Emirates 	1318	1
+United Kingdom 	12429	3
+United States 	19924	3
+Uruguay 	660	3
+Uzbekistan 	0	1
+Vanuatu 	2528	2
+Venezuela 	2800	2
+Vietnam 	3444	2
+Virgin Islands 	188	2
+Wallis and Futuna 	129	2
+West Bank 	0	3
+Western Sahara 	1110	1
+Yemen 	1906	1
+Zambia 	0	2
+Zimbabwe 	0	2

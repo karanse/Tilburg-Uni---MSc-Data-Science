@@ -1,0 +1,412 @@
+---
+title: "Predicting Weather Forecast"
+output:
+  pdf_document: default
+  html_document: default
+---
+
+Kruger 60 A
+
+Research Skills: Programming with R
+
+
+| Name          | u-number      | e-mail|
+|:------------- |:------------- |:-----|
+| Vicky Mekes   | u980683       |v.j.b.mekes@tilburguniversity.edu     |
+| Sema Karan    | u924823       |s.karan@tilburguniversity.edu       |
+| Shelly van Erp| u1266624      |s.d.a.vanerp@tilburguniversity.edu       |
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, error = TRUE)
+```
+
+### Introduction
+
+Weather forecasting has been attempted to be predicted formally since 19th century (wikipedia). Traditionally, this has been done through physical simulations in which the atmosphere is modeled as a fluid (Holmstrom, Liu & Vo, 2016). The samples from the present state of atmosphere are collected and prediction has been done by computing the numerical equations fluid dynamics & thermodynamics with the samples collected. Later on, a lot work and methods have been used to predict weather forecast with machine learning models since they are more robust to perturbations. In this project, a few different machine learning models are attempt to predict whether it’ll rain tomorrow or not and the amount of rain that will rain tomorrow. 
+
+### Data Description
+
+The dataset used was retrieved from the competition website Kaggle. The original dataset contains 24 different variables about weather in Australia. Every observation represents one day at an Australian city and 20 of the variables represent specific measurements like humidity, wind speed, minimum and maximum temperature and so on. The dataset contains two target variables as presented as a challenge by Kaggle: a binary variable that states if it would rain the next day and a continuous variable that states the amount of rain that would fall the next day. 
+
+### Research Questions
+
+For the two target variables presented in the previous section, two separate research questions were constructed: 
+
+* R1: Which weather features can most accurately predict whether it will rain tomorrow? 
+
+* R2: How accurate can weather measurements from today predict the amount of rain that will fall tomorrow? 
+
+For both research questions, different types of modeling and feature selection methods were tried to find the optimal solution.
+
+### Packages Used
+
+`caret` was used to make a test en training set for our dataset. Furthermore, we build a KNN model to predict research question 1. `tidyverse` is used to benefit from `dplyr` packages which is used to select and made new variables, subsetting or deleting certain unnecessary variables and also benefit from `ggplot2` which is used for visualization both in modelling and EDA parts, besides we followed tidy data principles with " %>% " in `tidyverse` package. `ggfortify` was needed for the PCA analysis. The package assists the `ggplot2` package and makes it possible to use the `autoplot()` function. The function made it possible to easily plot the PCA graph. `leaps` and `MASS` are used by Caret to do the forward and backward feature selection methods. `MLmetrics` MLmetrics was used to get the mean squared error for all linear models tried to answer research question 2, to be able to compare the model performances. `neuralnet` The package neuralnet was used to build a simple neural network to answer question 2 and compare the results with the simple linear regression models. `Boruta` package is built to find important variables based on Boruta algoithm which is a wrapper built around random forest classification algorithm. It tries to bring variables as *important*, *unimportant* and *tentative*. We used the package to answer research question 1.
+
+```{r Clearing work environment & Loading libraries, echo=TRUE, message=FALSE}
+rm(list=ls(all=TRUE))
+library(caret)
+library(dplyr)
+library(tidyverse)
+library(ggplot2)
+library(ggfortify)
+library(leaps)
+library(MASS)
+library(mice)
+library(MLmetrics)
+library(neuralnet)
+library(Boruta)
+```
+
+### Data Processing
+
+First the data is loaded and structure is viewed to see what type of variables are available.
+```{r Reading data & Viewing columns}
+weather <- read.delim("weatherAUS.csv", sep=",", stringsAsFactors = FALSE)
+str(weather) # dataset has int, num and chr values
+```
+
+*  **Variable classes**
+
+The variables as presented in the original dataset were all integer, numerical and character values. We decided to convert all variables that contained character values to factors, except for the variable Date. This was done as character values are difficult to use in further analysis to answer the research questions. 
+
+```{r Arranging variable classes}
+weather$RainToday <- factor(weather$RainToday)
+weather$RainTomorrow <- factor(weather$RainTomorrow)
+weather$WindDir3pm <- factor(weather$WindDir3pm)
+weather$WindDir9am <- factor(weather$WindDir9am)
+weather$WindGustDir <- factor(weather$WindGustDir)
+weather$Location <- factor(weather$Location)
+```
+
+* **Adding new variables**
+
+As the Date variable is coded like *yyyy-mm-dd*, it was not very helpful to use this variable as a predictor, therefore we decided to break the variable down and make two new variables with it: *Month* and *Season*. First, we added the column Month by taking a substring from the *Date* column, after that we wrote our own function (`conver_season`) to convert a column with month numbers to the Australian season and we saved those in a new column: *Season*.  
+
+```{r Adding new variables}
+#Creating a new column with only the month number 
+weather$Season <- substr(weather$Date, 6, 7)
+weather$Season <- as.numeric(weather$Season)
+weather$Season[weather$Season == 12] <- 0 
+
+convert_season <- function(Month) {
+  Month[Month <= 2] <- "Summer"
+  Month[Month >= 3 & Month <= 5] <- "Autumn"
+  Month[Month >= 6 & Month <= 8] <- "Winter"
+  Month[!(Month %in% c("Autumn", "Winter", "Summer"))] <- "Spring"
+  Month
+}
+
+weather$Season <- convert_season(weather$Season)
+weather$Season <- factor(weather$Season )
+```
+
+* **Missing data** 
+
+The dataset contained quite a lot of missing data, especially for four of the variables: *Evaporation, Sunshine, Cloud9am and Cloud3pm*. Values of those four variables were missing for more than one third of the observations. Before deleting those variables from the dataset immediately we looked at some graphs to see if the variables could be good predictors for the target variables. Although *Cloud9am and Cloud3pm* seemed to be reasonably good predictors we decided to delete all four of them from consideration, as the fraction of data missing was too big.
+
+For the other variables we tried to impute the missing values with multiple imputation using the `mice` package. Unfortunately, due to the size of the dataset the imputation was very computationally expensive so we decided to omit the observations that contained missing values. This still resulted in a dataset of **112.925 observations** (against 145.460 observations from the original dataset), which we think should be enough to get reasonable good results. 
+
+```{r Checking missing data}
+sapply(weather, function(x) sum(is.na(x))) # shows absolute numbers of missing values
+
+colMeans(is.na(weather)) # shows percentage of missig values per column
+```
+
+```{r Removing columns & rows with NAs }
+weather_clean <- subset(weather, select = -c(Evaporation, Sunshine, Cloud3pm, Cloud9am))
+weather_clean <- na.omit(weather_clean)
+
+sapply(weather_clean, function(x) sum(is.na(x)))
+```
+
+
+### Exploratory Data Analysis (EDA)
+
+The graphs show the distribution of the numberic values per each binary target value. It can be observed tht skewnesses of  **Humidity3pm** and **Humidty9am** are changing based on tomorrow is rainy or not. Pressure and temparature distributions are also slightly different that my help to predict whether it'll rain tomorrow or the amount of rain will it rain.
+```{r, fig.height = 7, fig.width = 8}
+num_values_paired <- weather_clean %>% 
+  gather("NumericVar", "Value", c(3,5,7, 10:17))
+
+dist_yes <- ggplot(data = num_values_paired %>% filter(RainTomorrow == "Yes"),
+              aes(x = Value, color = NumericVar)) +
+  geom_histogram() +
+  scale_y_continuous("Number of days") +
+  scale_x_continuous("value") +
+  facet_wrap( .~ NumericVar, ncol = 2, scales = "free") +
+  ggtitle("Distribution of variables when it will rain tomorrow")
+dist_yes
+
+dist_no <- ggplot(data = num_values_paired %>% filter(RainTomorrow == "No"),
+              aes(x = Value, color = NumericVar)) +
+  geom_histogram() +
+  scale_y_continuous("Number of days") +
+  scale_x_continuous("value") +
+  facet_wrap( .~ NumericVar, ncol = 2, scales = "free") +
+  ggtitle("Distribution of variables when it will not rain tomorrow")
+dist_no
+```
+
+
+### Modelling Research Question 1
+
+#### 1. Logistic Regression & Burato Algorithm for Feature Selection
+When we approach the problem as **binary classification proplem** to predict whether it'll rain tomorrow or not, the algorithm will be **logistic regression** to apply on the problem. Since the research question has two predictable outcome which are "yes" or "no".
+
+Target variable: *RainTomorrow*
+Predictor variables: all columns excluding *Date, Rainfall and RISK_MM*
+
+```{r Excluding data-leakage variables}
+weather_clean_r1 <- subset(weather_clean, select = -c(Date, RISK_MM))
+weather_clean_r1$RainTomorrow <- relevel(factor(weather_clean_r1$RainTomorrow),
+                                         ref = "Yes")
+```
+
+**Splitting data to train and test**
+```{r Splitting train-test}
+set.seed(1)
+trn_index = createDataPartition(y = weather_clean_r1$RainTomorrow, p = 0.70, list = FALSE)
+trn_weather = weather_clean_r1[trn_index, ]
+tst_weather = weather_clean_r1[-trn_index, ]
+```
+
+**Fitting training data to logistic regresssion**
+```{r Fitting to train split, warning=FALSE}
+set.seed(1)
+weather_lgr = train(RainTomorrow ~ ., method = "glm",
+  family = binomial(link = "logit"), data = trn_weather,
+  trControl = trainControl(method = 'cv', number = 5))
+weather_lgr
+```
+
+```{r Predicting on test set, warning=FALSE}
+set.seed(1)
+predicted_outcomes <- predict(weather_lgr, tst_weather)
+predicted_outcomes[1:10]
+```
+
+Once the training data is fitted on logistic regression with all features the prediction accuracy is 85% which is kind of good accuracy but definetely could be better by eliminationg the unimportant variables which can be noise for the model.
+```{r Calculating accuracy}
+accuracy <- sum(predicted_outcomes == tst_weather$RainTomorrow) /
+  length(tst_weather$RainTomorrow)
+accuracy
+```
+
+Zooming a bit more to the accuracy to understand at which class, the logistic resgression is better to predic (yes or no), actually it's more important to know for us when we predict when it'll rain because in the context it makes more sense to be prepared for rain. So, we're more interested in **recall score (sensitivity)** more than **accuracy**, meaning that out of all the positive classes, how much we predicted correctly. It should be high as possible. REgarding the model that we fitted, *sensitivity (52%)* is much lower than *accuracy(85%)*.
+
+```{r Creating confusion Matrix, warning=FALSE}
+weather_confM <- confusionMatrix(predicted_outcomes, tst_weather$RainTomorrow)
+weather_confM
+```
+
+So, to find the important features to increase recall & accuracy, we can use **Boruta** package that will help to classify features as important and unimportant then the only important ones can be fitted to the linear regression again and see if the scores improves. Then, we'll be able to answer research question 1 by identifying more important variables to predict whether it'll rain tomorrow or not.
+
+**Classifying features as important or unimportant with `Boruta`**
+
+Since Boruta algorithm is a wrapper built on random forest classification, if we use the all data set, it'll be computationally heavy and time-consuming, so, the data will be sampled to make it faster because the original purpose of the project to demonstrate our R skills rather than computational work.
+```{r, warning=FALSE}
+# Sample Data
+set.seed(1)
+sample_index = createDataPartition(y = weather_clean_r1$RainTomorrow, p = 0.01, 
+                                list = FALSE)
+sample_weather = weather_clean_r1[sample_index, ]
+
+
+set.seed(1)
+boruta_weather_train <- Boruta(RainTomorrow ~ .,
+                                  data = sample_weather,
+                                  doTrace = 0)
+boruta_weather_train
+
+```
+
+It seems that Location, Season, WinDir3pm and WindSpeed9am features are unimportant and they'll be removed from the features to fit the model again. 
+
+**Fitting only important features to logistic regression again**
+
+```{r}
+weather_clean_r1_1 <- subset(weather_clean, select = -c(Date, RISK_MM,Location, Season, WindDir3pm,
+                                                        WindSpeed9am, WindDir9am))
+weather_clean_r1_1$RainTomorrow <- relevel(factor(weather_clean_r1_1$RainTomorrow),
+                                         ref = "Yes")
+set.seed(1)
+trn_index = createDataPartition(y = weather_clean_r1_1$RainTomorrow, p = 0.70, list = FALSE)
+trn_weather = weather_clean_r1[trn_index, ]
+tst_weather = weather_clean_r1[-trn_index, ]
+
+set.seed(1)
+weather_lgr = train(RainTomorrow ~ ., method = "glm",
+  family = binomial(link = "logit"), data = trn_weather,
+  trControl = trainControl(method = 'cv', number = 5))
+
+
+set.seed(1)
+predicted_outcomes <- predict(weather_lgr, tst_weather)
+predicted_outcomes[1:10]
+
+accuracy <- sum(predicted_outcomes == tst_weather$RainTomorrow) /
+  length(tst_weather$RainTomorrow)
+accuracy
+
+weather_confM <- confusionMatrix(predicted_outcomes, tst_weather$RainTomorrow)
+weather_confM
+```
+
+After eliminating the unimportant variables based on `Burota` package, we observed that neither accuracy nor sensitivity score has changes, so it still supports our model that at least it's proved that Location, Season, WinDir3pm and WindSpeed9am features are not important predictors to predict it'll rain tomorrow since it didn't decrease the model accuracy by removing them.
+
+#### K-Neaarest Neighbor(KNN) & Principal Component Analysis (PCA)
+
+**Splitting data to test and train**
+```{r}
+set.seed(1)
+trn_index <- createDataPartition(weather_clean$RainTomorrow, p = 0.7, list = FALSE)
+trn_weather <- weather_clean[trn_index, ]
+tst_weather <- weather_clean[-trn_index, ]
+```
+
+
+** PCA for feature selection**
+```{r}
+pca_weather <- prcomp(na.omit(weather_clean[,c(3:7,9, 12:21,23)]),
+                      center = TRUE,
+                      scale. = TRUE)
+summary(pca_weather)
+saved_pca <- pca_weather$x[, 1:17]
+saved_pca <- cbind(saved_pca, RainTomorrow = factor(weather_clean$RainTomorrow))
+
+autoplot(pca_weather) # quick plot without color and edits
+
+ggplot(saved_pca, aes(x = PC1,y = PC2, color = "RainTomorrow"))+
+  geom_point(size=3,alpha=0.5)+
+  theme_classic()
+```
+
+
+**Fitting the data onto KNN model**
+
+```{r}
+## Training a basic KNN model for target RainTomorrow
+knn_weather <- train(RainTomorrow ~. -Date, method = "knn", data = trn_weather,
+                     trControl = trainControl(method = 'cv', number = 10),
+                     na.action = na.omit)
+knn_weather
+# k = 7 proves to be the most accurate (0.892)
+```
+
+
+### Modelling Research Question 2
+
+Different linear models were tried and compared to predict the target variable **RISK_MM** (amount of rain that will fall tomorrow). First a linear regression model was tried, including all variables of the dataset, except Date. Furthermore, forward and backwards feature selection was tried using leapforward and leapbackward when training a model with the caret package in combination with the leap package. Finally a simple neural network was tried using the neuralnet package, with a minimum amount of steps and repetitions, as a neural network is very computationally expensive. 
+
+```{r Splitting data for R2 }
+validation_index <- createDataPartition(weather_clean$RISK_MM, p=0.70, 
+  list=FALSE)
+validation <- weather[-validation_index,]
+training <- weather[validation_index,]
+```
+
+#### Linear Regression Without Feature Selection
+```{r}
+memory.limit()
+memory.limit(size=56000)
+# MSE normal linear regression without feature selection = 44.85, R2 = 0.31
+full_linear <- lm(RISK_MM ~., data= training) 
+summary(full_linear)
+MSE(y_pred = predict(full_linear, validation), y_true = validation$RISK_MM)
+
+```
+
+#### Stepwise feature selection using Caret, Leaps and MASS
+
+
+* 1. Backward feature Selection
+```{r Backward feature selection, warning=FALSE}
+set.seed(1)
+backwards_model <- train(RISK_MM ~. -Date, data = training,
+                    method = "leapBackward", 
+                    tuneGrid = data.frame(nvmax = 1:21),
+                    trControl = trainControl(method = "cv", number = 10),
+                    na.action = na.exclude)
+
+```
+
+```{r Results of backwards model}
+backwards_model$results
+```
+
+MSE backward feature selection = 50.02
+```{r}
+MSE(y_pred = predict(backwards_model, validation), y_true = validation$RISK_MM)
+```
+
+* 2. Forward Feature Selection
+```{r Forward feature selection, warning=FALSE}
+forwards_model <- train(RISK_MM ~. -Date, data = training,
+                    method = "leapForward", 
+                    tuneGrid = data.frame(nvmax = 1:21),
+                    trControl = trainControl(method = "cv", number = 10),
+                    na.action = na.exclude)
+```
+
+```{r Results of forward model}
+forwards_model$results
+```
+
+
+MSE forward feature selection = 64.76
+```{r}
+MSE(y_pred = predict(forwards_model, validation), y_true = validation$RISK_MM)
+```
+
+
+#### Deep Learning
+Deep Learning to get RISK_MM variable to be predicted accuractely.
+
+
+* First all factor variables have to become dummy variables
+```{r}
+# n <- names(weather_clean)
+# formula_bin <- as.formula(paste("~ ", paste(n, collapse= "+")))
+# binarized_train <- as.data.frame(model.matrix(formula_bin , data = training))
+# binarized_valid <- as.data.frame(model.matrix(formula_bin, data = validation))
+# 
+# binarized_train$`(Intercept)`<- NULL
+# binarized_valid$`(Intercept)`<- NULL
+```
+
+
+* Adding all variables in a formula to use in the neural network
+```{r}
+n_bin <-names(binarized_train) 
+formula_net <- as.formula(paste("RISK_MM ~", paste(n_bin[!n_bin %in% "RISK_MM"], 
+                          collapse = "+"))) 
+
+nn <- neuralnet(formula_net, data=binarized_train, hidden=3, rep=50, 
+                linear.output=T, lifesign="full", algorithm="rprop+", 
+                threshold=0.01, stepmax = 1000)
+```
+
+
+* Removing the target variable from the validation set to make predictions
+```{r}
+copy_bin_valid <- binarized_valid
+copy_bin_valid$RISK_MM <- NULL
+
+pred_nn <- neuralnet::compute(nn, copy_bin_valid)
+predicted_values <- pred_nn$net.result
+```
+
+* Simple neural network resulted in a MSE 
+```{r}
+MSE(y_pred = predicted_values, y_true = validation$RISK_MM)
+```
+
+#### Conclusion
+
+* **Research Question 1**
+Regarding the logistic regression model and important feature detection method (Burota algorithm), we can predict with 85% accuracy whether it'll rain tomorrow. To answer research question, **"Which weather features can most accurately predict whether it will rain tomorrow?"**, we have 14 important variable that predicts the rain with 85% accuracy and we identified 4 unimportant features as  Location, Season, WinDir3pm and WindSpeed9am that they don't change model accuracy. We assume to have better accuracy and recall score by using more advanced classification models which can be computationally heavy and anlso unsupervised models to indetify best predictors.
+
+* **Research Question 2**
+
+When interpreting the model results for research question 2, the linear regression model including all variables from the dataset performed best in predicting the amount of rain tomorrow. To answer the research question, **“how accurate can weather measurements from today predict the amount of rain that will fall tomorrow?”**, our models did not predict the amount of rain very accurately. The best model had a high mean squared error *(MSE = 44.85 )* and the R² score *(R² = 0.31)* was very low, which shows that the model did not explain a lot of variability in the target variable RISK_MM and thus does not fit the data well. We expect to get more accurate results with a more computationally expensive neural network, when normalizing the numerical variables on beforehand and when increasing the amount of steps and repetitions the network may make.  
+
+

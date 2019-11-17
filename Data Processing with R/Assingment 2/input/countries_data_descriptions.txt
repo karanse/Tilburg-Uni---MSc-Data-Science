@@ -1,0 +1,37 @@
+in 'countries_development.txt', the `development` data set:
+COUNTRY:			country name
+GDP_PER_CAP:			Gross Domestic Product, expressed per capita
+CO2_PER_CAP:			metric tons of CO2 production, expressed per capita, per year
+PER_ACCESS_ELECTRICITY:		percentage of the population that has access to electricity
+ATMS_PER_1e5:			the number of ATMs per 100,000 inhabitants
+PERC_INTERNET_USERS:		percentage of the population that uses the Internet
+SCIENTIFIC_ARTICLES_PER_YR:	scientific articles published, per year
+PERC_FEMALE_SECONDARY_EDU:	percentage of secondary school students that is female
+PERC_FEMALE_LABOR_FORCE:	percentage of the labor force that is female
+PERC_FEMALE_PARLIAMENT:		percentage of the parliamentarians that is female
+EQUAL_WORK:			whether women can do the same work as men, legally and practically
+EQUAL_PAY:			whether women must be paid equally for equal work, according to the law
+(all variables averaged over the available data from 2009 - 2017; the 'EQUAL_WORK' and 'EQUAL_PAY' variables were set to "YES" if they were TRUE in at least one year between 2009 and 2017; data taken from https://datacatalog.worldbank.org/dataset/world-development-indicators)
+
+in 'countries_population.txt', the `population` data set:
+Country:			country
+X2009 - X2017:			the country's population for the corresponding year
+(data taken from https://datacatalog.worldbank.org/dataset/world-development-indicators)			
+
+in 'countries_olympics.txt', the `olympics` data set:
+NOC:				National Olympic Committee
+Team:				team; some NOCs sent multiple teams
+Season:				whether the record concerns "Winter" or "Summer" Olympics
+Year:				year of the corresponding olympics
+Sex:				sex of the athletes
+Athletes:`			total number of athletes (from that Team, for that Year, of that Sex)
+Medals:				total medals won (by that Team, of Athletes of that Sex, for that Year)
+(data taken from Kaggle.com, https://www.kaggle.com/jack316/olympics-games-dataset)
+
+in 'countries_geography.txt', the `geography` data set:
+Country:			country
+Coastline_KM:			the country's coastline, in kilometers
+Climate:			the country's climate, ranked by its suitability for agriculture;
+				1 = dry tropical or tundra and ice; 2 = wet tropical;
+				3 = temperate and 4 = dry hot summers and wet winters
+(data taken from http://gsociology.icaap.org/data.htm)

@@ -1,0 +1,29 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1537221098122.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "AFEF6A24",
+    "lastKnownWriteTime" : 7235351850820706366,
+    "last_content_update" : 1537221098122,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "cacheKey" : "40D2E73D",
+        "caption" : "aqdata",
+        "contentUrl" : "grid_resource/gridviewer.html?env=&obj=aqdata&cache_key=40D2E73D",
+        "displayedObservations" : 153,
+        "environment" : "",
+        "object" : "aqdata",
+        "preview" : 0,
+        "totalObservations" : 153,
+        "variables" : 6
+    },
+    "relative_order" : 3,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_dataframe"
+}

@@ -1,0 +1,186 @@
+---
+title: "AUS Weather Analyis"
+output:
+  pdf_document: default
+  html_document: default
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r, warnings=False}
+library(tidyverse)
+library(corrr)
+library(caret)
+```
+
+
+```{r checking the data}
+library(readr)
+weatherAUS <- read_csv("weatherAUS.csv")
+
+str(weatherAUS)
+```
+
+```{r}
+table(weatherAUS$Location)
+```
+
+
+```{r}
+colMeans(is.na(weatherAUS)) # How many NAs we have for each column?
+```
+
+```{r}
+data <- subset(weatherAUS, select = -c(Evaporation, Sunshine, Cloud3pm, Cloud9am))
+weather <- data %>% 
+  filter(!is.na(RainToday)) %>% 
+  filter(!is.na(RainTomorrow))
+  
+weather$RainToday <- factor(weather$RainToday)
+weather$RainTomorrow <- factor(weather$RainTomorrow)
+weather$WindDir3pm <- factor(weather$WindDir3pm)
+weather$WindDir9am <- factor(weather$WindDir9am)
+weather$WindGustDir <- factor(weather$WindGustDir)
+weather$Location <- factor(weather$Location)
+```
+
+```{r}
+#Creating a new column with only the month number 
+weather$Season <- substr(weather$Date, 6, 7)
+weather$Season <- as.numeric(weather$Season)
+weather$Season[weather$Season == 12] <- 0 
+
+season <- function(Month) {
+  Month[Month <= 2] <- "Summer"
+  Month[Month >= 3 & Month <= 5] <- "Autumn"
+  Month[Month >= 6 & Month <= 8] <- "Winter"
+  Month[!(Month %in% c("Autumn", "Winter", "Summer"))] <- "Spring"
+  Month
+}
+
+mutate_at(weather, vars(Season), funs(season))
+weather$Season <- factor(weather_copy$Season)
+
+```
+
+
+```{r}
+ggplot(weather,aes( x = RainTomorrow)) + geom_bar()
+```
+
+```{r}
+num_values_paired <- weatherAUS %>% 
+  gather("NumericVar", "Value", c(3,4,5,9, 12:17))
+
+gg1 <- ggplot(num_values_paired, aes(x = RainToday, y = Value, color= RainToday )) +
+  geom_boxplot() + facet_wrap(.~NumericVar, ncol = 2, scales = "free") 
+ gg1
+```
+
+```{r}
+gg2 <-ggplot(data = num_values_paired, aes(x = Value, color = NumericVar)) +
+  geom_histogram() +
+  scale_y_continuous("Number of days") +
+  scale_x_continuous("value") +
+  facet_wrap( .~ NumericVar, ncol = 2, scales = "free")
+gg2
+```
+
+Remove the NA from target variable
+```{r}
+data_NA_removed <- weatherAUS %>% 
+  filter(!is.na(RainToday))
+table(data_NA_removed$RainToday)
+```
+
+Variables to exclude
+```{r}
+weatherAUS %>% group_by(RainToday) %>%  summarise(x=mean(Rainfall))
+
+```
+
+Correlation matrix 
+```{r}
+data_cor <- weatherAUS %>% 
+  select(-Cloud9am, -Cloud3pm, -WindGustDir, -WindDir9am, 
+         -RainToday, -RainTomorrow, -WindDir3pm, -Sunshine, -Evaporation, 
+         -Location, -Date) %>% 
+
+  correlate() %>%
+  rearrange() %>%
+  shave()
+  
+ fashion(data_cor) 
+ rplot(data_cor, shape = 16, colors = c("indianred2","skyblue1"))
+```
+
+Binary Classification proplem, try logistic regression 
+Target variable "RainTomorrow"
+independent variables :columns (-Date)
+try to remove all NA including columns
+
+by removing all NA's from data set  nrow(weather) - nrow(new_data) = 27862 rows excluded
+```{r}
+new_data <- na.omit(weather)
+```
+
+Train, validation, test split
+
+```{r}
+set.seed(1)
+new_data <- subset(new_data, select = -c(Date, RISK_MM) )
+
+trn_index = createDataPartition(y = new_data$RainTomorrow, p = 0.70, list = FALSE)
+trn_weather = new_data[trn_index, ]
+tst_weather = new_data[-trn_index, ]
+
+```
+
+```{r}
+set.seed(1)
+weather_lgr = train(RainTomorrow ~ ., method = "glm",
+  family = binomial(link = "logit"), data = trn_weather,
+  trControl = trainControl(method = 'cv', number = 5))
+```
+```{r}
+weather_lgr
+```
+```{r}
+set.seed(1)
+predicted_outcomes <- predict(weather_lgr, tst_weather)
+predicted_outcomes[1:10]
+```
+```{r}
+accuracy <- sum(predicted_outcomes == tst_weather$RainTomorrow) /
+  length(tst_weather$RainTomorrow)
+accuracy
+```
+
+
+```{r}
+weather_confM <- confusionMatrix(predicted_outcomes, tst_weather$RainTomorrow)
+weather_confM
+```
+
+
+
+
+
+
+```{r}
+# Look at the data
+str(grade)
+
+# Set seed and create assignment 
+set.seed(1)
+assignment <- sample(1:3, size = nrow(new_data), prob = c(0.7, 0.15, 0.15), replace = TRUE)
+
+# Create a train, validation and tests from the original data frame 
+grade_train <- grade[assignment == 1, ]  # subset grade to training indices only
+grade_valid <- grade[assignment == 2, ]  # subset grade to validation indices only
+grade_test <- grade[assignment == 3, ]   # subset grade to test indices only
+```
+

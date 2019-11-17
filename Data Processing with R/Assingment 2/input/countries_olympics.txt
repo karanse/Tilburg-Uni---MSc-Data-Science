@@ -1,0 +1,2129 @@
+"NOC"	"Team"	"Season"	"Year"	"Sex"	"Athletes"	"Medals"
+"AFG"	"Afghanistan"	"Winter"	2010	"F"	0	0
+"AFG"	"Afghanistan"	"Winter"	2010	"M"	0	0
+"AFG"	"Afghanistan"	"Summer"	2012	"F"	1	0
+"AFG"	"Afghanistan"	"Summer"	2012	"M"	5	1
+"AFG"	"Afghanistan"	"Winter"	2014	"F"	0	0
+"AFG"	"Afghanistan"	"Winter"	2014	"M"	0	0
+"AFG"	"Afghanistan"	"Summer"	2016	"F"	1	0
+"AFG"	"Afghanistan"	"Summer"	2016	"M"	2	0
+"ALB"	"Albania"	"Winter"	2010	"F"	0	0
+"ALB"	"Albania"	"Winter"	2010	"M"	1	0
+"ALB"	"Albania"	"Summer"	2012	"F"	3	0
+"ALB"	"Albania"	"Summer"	2012	"M"	6	0
+"ALB"	"Albania"	"Winter"	2014	"F"	1	0
+"ALB"	"Albania"	"Winter"	2014	"M"	0	0
+"ALB"	"Albania"	"Summer"	2016	"F"	3	0
+"ALB"	"Albania"	"Summer"	2016	"M"	3	0
+"ALG"	"Algeria"	"Winter"	2010	"F"	0	0
+"ALG"	"Algeria"	"Winter"	2010	"M"	1	0
+"ALG"	"Algeria"	"Summer"	2012	"F"	17	0
+"ALG"	"Algeria"	"Summer"	2012	"M"	17	1
+"ALG"	"Algeria"	"Winter"	2014	"F"	0	0
+"ALG"	"Algeria"	"Winter"	2014	"M"	0	0
+"ALG"	"Algeria"	"Summer"	2016	"F"	10	0
+"ALG"	"Algeria"	"Summer"	2016	"M"	54	2
+"ASA"	"American Samoa"	"Winter"	2010	"F"	0	0
+"ASA"	"American Samoa"	"Winter"	2010	"M"	0	0
+"ASA"	"American Samoa"	"Summer"	2012	"F"	1	0
+"ASA"	"American Samoa"	"Summer"	2012	"M"	2	0
+"ASA"	"American Samoa"	"Winter"	2014	"F"	0	0
+"ASA"	"American Samoa"	"Winter"	2014	"M"	0	0
+"ASA"	"American Samoa"	"Summer"	2016	"F"	1	0
+"ASA"	"American Samoa"	"Summer"	2016	"M"	3	0
+"AND"	"Andorra"	"Winter"	2010	"F"	2	0
+"AND"	"Andorra"	"Winter"	2010	"M"	4	0
+"AND"	"Andorra"	"Summer"	2012	"F"	1	0
+"AND"	"Andorra"	"Summer"	2012	"M"	4	0
+"AND"	"Andorra"	"Winter"	2014	"F"	2	0
+"AND"	"Andorra"	"Winter"	2014	"M"	4	0
+"AND"	"Andorra"	"Summer"	2016	"F"	2	0
+"AND"	"Andorra"	"Summer"	2016	"M"	2	0
+"ANG"	"Angola"	"Winter"	2010	"F"	0	0
+"ANG"	"Angola"	"Winter"	2010	"M"	0	0
+"ANG"	"Angola"	"Summer"	2012	"F"	29	0
+"ANG"	"Angola"	"Summer"	2012	"M"	4	0
+"ANG"	"Angola"	"Winter"	2014	"F"	0	0
+"ANG"	"Angola"	"Winter"	2014	"M"	0	0
+"ANG"	"Angola"	"Summer"	2016	"F"	18	0
+"ANG"	"Angola"	"Summer"	2016	"M"	8	0
+"ANT"	"Antigua and Barbuda"	"Winter"	2010	"F"	0	0
+"ANT"	"Antigua and Barbuda"	"Winter"	2010	"M"	0	0
+"ANT"	"Antigua and Barbuda"	"Summer"	2012	"F"	2	0
+"ANT"	"Antigua and Barbuda"	"Summer"	2012	"M"	2	0
+"ANT"	"Antigua and Barbuda"	"Winter"	2014	"F"	0	0
+"ANT"	"Antigua and Barbuda"	"Winter"	2014	"M"	0	0
+"ANT"	"Antigua and Barbuda"	"Summer"	2016	"F"	2	0
+"ANT"	"Antigua and Barbuda"	"Summer"	2016	"M"	5	0
+"ARG"	"Argentina"	"Winter"	2010	"F"	3	0
+"ARG"	"Argentina"	"Winter"	2010	"M"	4	0
+"ARG"	"Argentina"	"Summer"	2012	"F"	39	15
+"ARG"	"Argentina"	"Summer"	2012	"M"	97	4
+"ARG"	"Argentina"	"Winter"	2014	"F"	1	0
+"ARG"	"Argentina"	"Winter"	2014	"M"	1	0
+"ARG"	"Argentina"	"Summer"	2016	"F"	75	2
+"ARG"	"Argentina"	"Summer"	2016	"M"	138	20
+"ARG"	"Argentina-1"	"Winter"	2010	"F"	0	0
+"ARG"	"Argentina-1"	"Winter"	2010	"M"	0	0
+"ARG"	"Argentina-1"	"Summer"	2012	"F"	0	0
+"ARG"	"Argentina-1"	"Summer"	2012	"M"	0	0
+"ARG"	"Argentina-1"	"Winter"	2014	"F"	0	0
+"ARG"	"Argentina-1"	"Winter"	2014	"M"	0	0
+"ARG"	"Argentina-1"	"Summer"	2016	"F"	0	0
+"ARG"	"Argentina-1"	"Summer"	2016	"M"	2	0
+"ARG"	"Argentina-2"	"Winter"	2010	"F"	0	0
+"ARG"	"Argentina-2"	"Winter"	2010	"M"	0	0
+"ARG"	"Argentina-2"	"Summer"	2012	"F"	0	0
+"ARG"	"Argentina-2"	"Summer"	2012	"M"	0	0
+"ARG"	"Argentina-2"	"Winter"	2014	"F"	0	0
+"ARG"	"Argentina-2"	"Winter"	2014	"M"	0	0
+"ARG"	"Argentina-2"	"Summer"	2016	"F"	0	0
+"ARG"	"Argentina-2"	"Summer"	2016	"M"	2	0
+"ARM"	"Armenia"	"Winter"	2010	"F"	2	0
+"ARM"	"Armenia"	"Winter"	2010	"M"	2	0
+"ARM"	"Armenia"	"Summer"	2012	"F"	4	1
+"ARM"	"Armenia"	"Summer"	2012	"M"	20	2
+"ARM"	"Armenia"	"Winter"	2014	"F"	1	0
+"ARM"	"Armenia"	"Winter"	2014	"M"	3	0
+"ARM"	"Armenia"	"Summer"	2016	"F"	7	0
+"ARM"	"Armenia"	"Summer"	2016	"M"	24	4
+"ARU"	"Aruba"	"Winter"	2010	"F"	0	0
+"ARU"	"Aruba"	"Winter"	2010	"M"	0	0
+"ARU"	"Aruba"	"Summer"	2012	"F"	1	0
+"ARU"	"Aruba"	"Summer"	2012	"M"	3	0
+"ARU"	"Aruba"	"Winter"	2014	"F"	0	0
+"ARU"	"Aruba"	"Winter"	2014	"M"	0	0
+"ARU"	"Aruba"	"Summer"	2016	"F"	4	0
+"ARU"	"Aruba"	"Summer"	2016	"M"	3	0
+"AUS"	"Australia"	"Winter"	2010	"F"	20	2
+"AUS"	"Australia"	"Winter"	2010	"M"	15	1
+"AUS"	"Australia"	"Summer"	2012	"F"	173	65
+"AUS"	"Australia"	"Summer"	2012	"M"	210	49
+"AUS"	"Australia"	"Winter"	2014	"F"	31	2
+"AUS"	"Australia"	"Winter"	2014	"M"	27	1
+"AUS"	"Australia"	"Summer"	2016	"F"	203	39
+"AUS"	"Australia"	"Summer"	2016	"M"	206	43
+"AUS"	"Australia-1"	"Winter"	2010	"F"	0	0
+"AUS"	"Australia-1"	"Winter"	2010	"M"	3	0
+"AUS"	"Australia-1"	"Summer"	2012	"F"	4	0
+"AUS"	"Australia-1"	"Summer"	2012	"M"	0	0
+"AUS"	"Australia-1"	"Winter"	2014	"F"	0	0
+"AUS"	"Australia-1"	"Winter"	2014	"M"	0	0
+"AUS"	"Australia-1"	"Summer"	2016	"F"	4	0
+"AUS"	"Australia-1"	"Summer"	2016	"M"	0	0
+"AUS"	"Australia-2"	"Winter"	2010	"F"	0	0
+"AUS"	"Australia-2"	"Winter"	2010	"M"	2	0
+"AUS"	"Australia-2"	"Summer"	2012	"F"	4	0
+"AUS"	"Australia-2"	"Summer"	2012	"M"	0	0
+"AUS"	"Australia-2"	"Winter"	2014	"F"	0	0
+"AUS"	"Australia-2"	"Winter"	2014	"M"	0	0
+"AUS"	"Australia-2"	"Summer"	2016	"F"	4	0
+"AUS"	"Australia-2"	"Summer"	2016	"M"	0	0
+"AUT"	"Austria"	"Winter"	2010	"F"	26	6
+"AUT"	"Austria"	"Winter"	2010	"M"	44	18
+"AUT"	"Austria"	"Summer"	2012	"F"	31	0
+"AUT"	"Austria"	"Summer"	2012	"M"	39	0
+"AUT"	"Austria"	"Winter"	2014	"F"	40	8
+"AUT"	"Austria"	"Winter"	2014	"M"	84	17
+"AUT"	"Austria"	"Summer"	2016	"F"	34	1
+"AUT"	"Austria"	"Summer"	2016	"M"	33	1
+"AUT"	"Austria-1"	"Winter"	2010	"F"	0	0
+"AUT"	"Austria-1"	"Winter"	2010	"M"	4	2
+"AUT"	"Austria-1"	"Summer"	2012	"F"	0	0
+"AUT"	"Austria-1"	"Summer"	2012	"M"	0	0
+"AUT"	"Austria-1"	"Winter"	2014	"F"	0	0
+"AUT"	"Austria-1"	"Winter"	2014	"M"	2	2
+"AUT"	"Austria-1"	"Summer"	2016	"F"	0	0
+"AUT"	"Austria-1"	"Summer"	2016	"M"	2	0
+"AUT"	"Austria-2"	"Winter"	2010	"F"	0	0
+"AUT"	"Austria-2"	"Winter"	2010	"M"	4	0
+"AUT"	"Austria-2"	"Summer"	2012	"F"	0	0
+"AUT"	"Austria-2"	"Summer"	2012	"M"	0	0
+"AUT"	"Austria-2"	"Winter"	2014	"F"	0	0
+"AUT"	"Austria-2"	"Winter"	2014	"M"	2	0
+"AUT"	"Austria-2"	"Summer"	2016	"F"	0	0
+"AUT"	"Austria-2"	"Summer"	2016	"M"	2	0
+"AZE"	"Azerbaijan"	"Winter"	2010	"F"	1	0
+"AZE"	"Azerbaijan"	"Winter"	2010	"M"	1	0
+"AZE"	"Azerbaijan"	"Summer"	2012	"F"	13	2
+"AZE"	"Azerbaijan"	"Summer"	2012	"M"	33	8
+"AZE"	"Azerbaijan"	"Winter"	2014	"F"	0	0
+"AZE"	"Azerbaijan"	"Winter"	2014	"M"	1	0
+"AZE"	"Azerbaijan"	"Summer"	2016	"F"	14	4
+"AZE"	"Azerbaijan"	"Summer"	2016	"M"	42	14
+"BAH"	"Bahamas"	"Winter"	2010	"F"	0	0
+"BAH"	"Bahamas"	"Winter"	2010	"M"	0	0
+"BAH"	"Bahamas"	"Summer"	2012	"F"	7	0
+"BAH"	"Bahamas"	"Summer"	2012	"M"	11	4
+"BAH"	"Bahamas"	"Winter"	2014	"F"	0	0
+"BAH"	"Bahamas"	"Winter"	2014	"M"	0	0
+"BAH"	"Bahamas"	"Summer"	2016	"F"	11	1
+"BAH"	"Bahamas"	"Summer"	2016	"M"	13	5
+"BRN"	"Bahrain"	"Winter"	2010	"F"	0	0
+"BRN"	"Bahrain"	"Winter"	2010	"M"	0	0
+"BRN"	"Bahrain"	"Summer"	2012	"F"	8	1
+"BRN"	"Bahrain"	"Summer"	2012	"M"	4	0
+"BRN"	"Bahrain"	"Winter"	2014	"F"	0	0
+"BRN"	"Bahrain"	"Winter"	2014	"M"	0	0
+"BRN"	"Bahrain"	"Summer"	2016	"F"	10	2
+"BRN"	"Bahrain"	"Summer"	2016	"M"	18	0
+"BAN"	"Bangladesh"	"Winter"	2010	"F"	0	0
+"BAN"	"Bangladesh"	"Winter"	2010	"M"	0	0
+"BAN"	"Bangladesh"	"Summer"	2012	"F"	1	0
+"BAN"	"Bangladesh"	"Summer"	2012	"M"	4	0
+"BAN"	"Bangladesh"	"Winter"	2014	"F"	0	0
+"BAN"	"Bangladesh"	"Winter"	2014	"M"	0	0
+"BAN"	"Bangladesh"	"Summer"	2016	"F"	1	0
+"BAN"	"Bangladesh"	"Summer"	2016	"M"	3	0
+"BAR"	"Barbados"	"Winter"	2010	"F"	0	0
+"BAR"	"Barbados"	"Winter"	2010	"M"	0	0
+"BAR"	"Barbados"	"Summer"	2012	"F"	0	0
+"BAR"	"Barbados"	"Summer"	2012	"M"	6	0
+"BAR"	"Barbados"	"Winter"	2014	"F"	0	0
+"BAR"	"Barbados"	"Winter"	2014	"M"	0	0
+"BAR"	"Barbados"	"Summer"	2016	"F"	4	0
+"BAR"	"Barbados"	"Summer"	2016	"M"	7	0
+"BLR"	"Belarus"	"Winter"	2010	"F"	14	1
+"BLR"	"Belarus"	"Winter"	2010	"M"	33	2
+"BLR"	"Belarus"	"Summer"	2012	"F"	68	14
+"BLR"	"Belarus"	"Summer"	2012	"M"	87	6
+"BLR"	"Belarus"	"Winter"	2014	"F"	11	5
+"BLR"	"Belarus"	"Winter"	2014	"M"	15	1
+"BLR"	"Belarus"	"Summer"	2016	"F"	67	7
+"BLR"	"Belarus"	"Summer"	2016	"M"	53	5
+"BEL"	"Belgium"	"Winter"	2010	"F"	4	0
+"BEL"	"Belgium"	"Winter"	2010	"M"	4	0
+"BEL"	"Belgium"	"Summer"	2012	"F"	42	2
+"BEL"	"Belgium"	"Summer"	2012	"M"	69	1
+"BEL"	"Belgium"	"Winter"	2014	"F"	4	0
+"BEL"	"Belgium"	"Winter"	2014	"M"	2	0
+"BEL"	"Belgium"	"Summer"	2016	"F"	34	2
+"BEL"	"Belgium"	"Summer"	2016	"M"	70	19
+"BIZ"	"Belize"	"Winter"	2010	"F"	0	0
+"BIZ"	"Belize"	"Winter"	2010	"M"	0	0
+"BIZ"	"Belize"	"Summer"	2012	"F"	1	0
+"BIZ"	"Belize"	"Summer"	2012	"M"	2	0
+"BIZ"	"Belize"	"Winter"	2014	"F"	0	0
+"BIZ"	"Belize"	"Winter"	2014	"M"	0	0
+"BIZ"	"Belize"	"Summer"	2016	"F"	1	0
+"BIZ"	"Belize"	"Summer"	2016	"M"	2	0
+"BEN"	"Benin"	"Winter"	2010	"F"	0	0
+"BEN"	"Benin"	"Winter"	2010	"M"	0	0
+"BEN"	"Benin"	"Summer"	2012	"F"	1	0
+"BEN"	"Benin"	"Summer"	2012	"M"	3	0
+"BEN"	"Benin"	"Winter"	2014	"F"	0	0
+"BEN"	"Benin"	"Winter"	2014	"M"	0	0
+"BEN"	"Benin"	"Summer"	2016	"F"	2	0
+"BEN"	"Benin"	"Summer"	2016	"M"	4	0
+"BER"	"Bermuda"	"Winter"	2010	"F"	0	0
+"BER"	"Bermuda"	"Winter"	2010	"M"	1	0
+"BER"	"Bermuda"	"Summer"	2012	"F"	3	0
+"BER"	"Bermuda"	"Summer"	2012	"M"	3	0
+"BER"	"Bermuda"	"Winter"	2014	"F"	0	0
+"BER"	"Bermuda"	"Winter"	2014	"M"	1	0
+"BER"	"Bermuda"	"Summer"	2016	"F"	4	0
+"BER"	"Bermuda"	"Summer"	2016	"M"	4	0
+"BHU"	"Bhutan"	"Winter"	2010	"F"	0	0
+"BHU"	"Bhutan"	"Winter"	2010	"M"	0	0
+"BHU"	"Bhutan"	"Summer"	2012	"F"	2	0
+"BHU"	"Bhutan"	"Summer"	2012	"M"	0	0
+"BHU"	"Bhutan"	"Winter"	2014	"F"	0	0
+"BHU"	"Bhutan"	"Winter"	2014	"M"	0	0
+"BHU"	"Bhutan"	"Summer"	2016	"F"	2	0
+"BHU"	"Bhutan"	"Summer"	2016	"M"	0	0
+"BOL"	"Bolivia"	"Winter"	2010	"F"	0	0
+"BOL"	"Bolivia"	"Winter"	2010	"M"	0	0
+"BOL"	"Bolivia"	"Summer"	2012	"F"	2	0
+"BOL"	"Bolivia"	"Summer"	2012	"M"	2	0
+"BOL"	"Bolivia"	"Winter"	2014	"F"	0	0
+"BOL"	"Bolivia"	"Winter"	2014	"M"	0	0
+"BOL"	"Bolivia"	"Summer"	2016	"F"	6	0
+"BOL"	"Bolivia"	"Summer"	2016	"M"	6	0
+"BIH"	"Bosnia and Herzegovina"	"Winter"	2010	"F"	3	0
+"BIH"	"Bosnia and Herzegovina"	"Winter"	2010	"M"	2	0
+"BIH"	"Bosnia and Herzegovina"	"Summer"	2012	"F"	2	0
+"BIH"	"Bosnia and Herzegovina"	"Summer"	2012	"M"	4	0
+"BIH"	"Bosnia and Herzegovina"	"Winter"	2014	"F"	2	0
+"BIH"	"Bosnia and Herzegovina"	"Winter"	2014	"M"	3	0
+"BIH"	"Bosnia and Herzegovina"	"Summer"	2016	"F"	4	0
+"BIH"	"Bosnia and Herzegovina"	"Summer"	2016	"M"	7	0
+"BOT"	"Botswana"	"Winter"	2010	"F"	0	0
+"BOT"	"Botswana"	"Winter"	2010	"M"	0	0
+"BOT"	"Botswana"	"Summer"	2012	"F"	1	0
+"BOT"	"Botswana"	"Summer"	2012	"M"	2	1
+"BOT"	"Botswana"	"Winter"	2014	"F"	0	0
+"BOT"	"Botswana"	"Winter"	2014	"M"	0	0
+"BOT"	"Botswana"	"Summer"	2016	"F"	2	0
+"BOT"	"Botswana"	"Summer"	2016	"M"	6	0
+"BRA"	"Brazil"	"Winter"	2010	"F"	3	0
+"BRA"	"Brazil"	"Winter"	2010	"M"	2	0
+"BRA"	"Brazil"	"Summer"	2012	"F"	110	16
+"BRA"	"Brazil"	"Summer"	2012	"M"	122	38
+"BRA"	"Brazil"	"Winter"	2014	"F"	7	0
+"BRA"	"Brazil"	"Winter"	2014	"M"	6	0
+"BRA"	"Brazil"	"Summer"	2016	"F"	203	5
+"BRA"	"Brazil"	"Summer"	2016	"M"	248	41
+"BRA"	"Brazil-1"	"Winter"	2010	"F"	0	0
+"BRA"	"Brazil-1"	"Winter"	2010	"M"	0	0
+"BRA"	"Brazil-1"	"Summer"	2012	"F"	2	2
+"BRA"	"Brazil-1"	"Summer"	2012	"M"	4	2
+"BRA"	"Brazil-1"	"Winter"	2014	"F"	0	0
+"BRA"	"Brazil-1"	"Winter"	2014	"M"	0	0
+"BRA"	"Brazil-1"	"Summer"	2016	"F"	2	2
+"BRA"	"Brazil-1"	"Summer"	2016	"M"	4	2
+"BRA"	"Brazil-2"	"Winter"	2010	"F"	0	0
+"BRA"	"Brazil-2"	"Winter"	2010	"M"	0	0
+"BRA"	"Brazil-2"	"Summer"	2012	"F"	2	0
+"BRA"	"Brazil-2"	"Summer"	2012	"M"	4	0
+"BRA"	"Brazil-2"	"Winter"	2014	"F"	0	0
+"BRA"	"Brazil-2"	"Winter"	2014	"M"	0	0
+"BRA"	"Brazil-2"	"Summer"	2016	"F"	2	0
+"BRA"	"Brazil-2"	"Summer"	2016	"M"	4	0
+"IVB"	"British Virgin Islands"	"Winter"	2010	"F"	0	0
+"IVB"	"British Virgin Islands"	"Winter"	2010	"M"	0	0
+"IVB"	"British Virgin Islands"	"Summer"	2012	"F"	1	0
+"IVB"	"British Virgin Islands"	"Summer"	2012	"M"	1	0
+"IVB"	"British Virgin Islands"	"Winter"	2014	"F"	0	0
+"IVB"	"British Virgin Islands"	"Winter"	2014	"M"	1	0
+"IVB"	"British Virgin Islands"	"Summer"	2016	"F"	3	0
+"IVB"	"British Virgin Islands"	"Summer"	2016	"M"	0	0
+"BRU"	"Brunei"	"Winter"	2010	"F"	0	0
+"BRU"	"Brunei"	"Winter"	2010	"M"	0	0
+"BRU"	"Brunei"	"Summer"	2012	"F"	1	0
+"BRU"	"Brunei"	"Summer"	2012	"M"	2	0
+"BRU"	"Brunei"	"Winter"	2014	"F"	0	0
+"BRU"	"Brunei"	"Winter"	2014	"M"	0	0
+"BRU"	"Brunei"	"Summer"	2016	"F"	1	0
+"BRU"	"Brunei"	"Summer"	2016	"M"	2	0
+"BUL"	"Bulgaria"	"Winter"	2010	"F"	7	0
+"BUL"	"Bulgaria"	"Winter"	2010	"M"	12	0
+"BUL"	"Bulgaria"	"Summer"	2012	"F"	26	1
+"BUL"	"Bulgaria"	"Summer"	2012	"M"	37	1
+"BUL"	"Bulgaria"	"Winter"	2014	"F"	5	0
+"BUL"	"Bulgaria"	"Winter"	2014	"M"	13	0
+"BUL"	"Bulgaria"	"Summer"	2016	"F"	22	7
+"BUL"	"Bulgaria"	"Summer"	2016	"M"	29	0
+"BUR"	"Burkina Faso"	"Winter"	2010	"F"	0	0
+"BUR"	"Burkina Faso"	"Winter"	2010	"M"	0	0
+"BUR"	"Burkina Faso"	"Summer"	2012	"F"	3	0
+"BUR"	"Burkina Faso"	"Summer"	2012	"M"	2	0
+"BUR"	"Burkina Faso"	"Winter"	2014	"F"	0	0
+"BUR"	"Burkina Faso"	"Winter"	2014	"M"	0	0
+"BUR"	"Burkina Faso"	"Summer"	2016	"F"	2	0
+"BUR"	"Burkina Faso"	"Summer"	2016	"M"	3	0
+"BDI"	"Burundi"	"Winter"	2010	"F"	0	0
+"BDI"	"Burundi"	"Winter"	2010	"M"	0	0
+"BDI"	"Burundi"	"Summer"	2012	"F"	3	0
+"BDI"	"Burundi"	"Summer"	2012	"M"	2	0
+"BDI"	"Burundi"	"Winter"	2014	"F"	0	0
+"BDI"	"Burundi"	"Winter"	2014	"M"	0	0
+"BDI"	"Burundi"	"Summer"	2016	"F"	4	1
+"BDI"	"Burundi"	"Summer"	2016	"M"	5	0
+"CAM"	"Cambodia"	"Winter"	2010	"F"	0	0
+"CAM"	"Cambodia"	"Winter"	2010	"M"	0	0
+"CAM"	"Cambodia"	"Summer"	2012	"F"	3	0
+"CAM"	"Cambodia"	"Summer"	2012	"M"	3	0
+"CAM"	"Cambodia"	"Winter"	2014	"F"	0	0
+"CAM"	"Cambodia"	"Winter"	2014	"M"	0	0
+"CAM"	"Cambodia"	"Summer"	2016	"F"	4	0
+"CAM"	"Cambodia"	"Summer"	2016	"M"	2	0
+"CMR"	"Cameroon"	"Winter"	2010	"F"	0	0
+"CMR"	"Cameroon"	"Winter"	2010	"M"	0	0
+"CMR"	"Cameroon"	"Summer"	2012	"F"	22	0
+"CMR"	"Cameroon"	"Summer"	2012	"M"	9	0
+"CMR"	"Cameroon"	"Winter"	2014	"F"	0	0
+"CMR"	"Cameroon"	"Winter"	2014	"M"	0	0
+"CMR"	"Cameroon"	"Summer"	2016	"F"	17	0
+"CMR"	"Cameroon"	"Summer"	2016	"M"	5	0
+"CAN"	"Canada"	"Winter"	2010	"F"	80	39
+"CAN"	"Canada"	"Winter"	2010	"M"	97	41
+"CAN"	"Canada"	"Summer"	2012	"F"	154	38
+"CAN"	"Canada"	"Summer"	2012	"M"	119	17
+"CAN"	"Canada"	"Winter"	2014	"F"	89	39
+"CAN"	"Canada"	"Winter"	2014	"M"	104	43
+"CAN"	"Canada"	"Summer"	2016	"F"	179	59
+"CAN"	"Canada"	"Summer"	2016	"M"	121	10
+"CAN"	"Canada-1"	"Winter"	2010	"F"	4	3
+"CAN"	"Canada-1"	"Winter"	2010	"M"	8	5
+"CAN"	"Canada-1"	"Summer"	2012	"F"	0	0
+"CAN"	"Canada-1"	"Summer"	2012	"M"	0	0
+"CAN"	"Canada-1"	"Winter"	2014	"F"	4	3
+"CAN"	"Canada-1"	"Winter"	2014	"M"	8	1
+"CAN"	"Canada-1"	"Summer"	2016	"F"	2	0
+"CAN"	"Canada-1"	"Summer"	2016	"M"	2	0
+"CAN"	"Canada-2"	"Winter"	2010	"F"	4	2
+"CAN"	"Canada-2"	"Winter"	2010	"M"	8	0
+"CAN"	"Canada-2"	"Summer"	2012	"F"	0	0
+"CAN"	"Canada-2"	"Summer"	2012	"M"	0	0
+"CAN"	"Canada-2"	"Winter"	2014	"F"	4	0
+"CAN"	"Canada-2"	"Winter"	2014	"M"	8	0
+"CAN"	"Canada-2"	"Summer"	2016	"F"	2	0
+"CAN"	"Canada-2"	"Summer"	2016	"M"	2	0
+"CAN"	"Canada-3"	"Winter"	2010	"F"	0	0
+"CAN"	"Canada-3"	"Winter"	2010	"M"	0	0
+"CAN"	"Canada-3"	"Summer"	2012	"F"	0	0
+"CAN"	"Canada-3"	"Summer"	2012	"M"	0	0
+"CAN"	"Canada-3"	"Winter"	2014	"F"	2	0
+"CAN"	"Canada-3"	"Winter"	2014	"M"	9	0
+"CAN"	"Canada-3"	"Summer"	2016	"F"	0	0
+"CAN"	"Canada-3"	"Summer"	2016	"M"	0	0
+"CPV"	"Cape Verde"	"Winter"	2010	"F"	0	0
+"CPV"	"Cape Verde"	"Winter"	2010	"M"	0	0
+"CPV"	"Cape Verde"	"Summer"	2012	"F"	2	0
+"CPV"	"Cape Verde"	"Summer"	2012	"M"	1	0
+"CPV"	"Cape Verde"	"Winter"	2014	"F"	0	0
+"CPV"	"Cape Verde"	"Winter"	2014	"M"	0	0
+"CPV"	"Cape Verde"	"Summer"	2016	"F"	3	0
+"CPV"	"Cape Verde"	"Summer"	2016	"M"	1	0
+"CAY"	"Cayman Islands"	"Winter"	2010	"F"	0	0
+"CAY"	"Cayman Islands"	"Winter"	2010	"M"	1	0
+"CAY"	"Cayman Islands"	"Summer"	2012	"F"	0	0
+"CAY"	"Cayman Islands"	"Summer"	2012	"M"	4	0
+"CAY"	"Cayman Islands"	"Winter"	2014	"F"	0	0
+"CAY"	"Cayman Islands"	"Winter"	2014	"M"	1	0
+"CAY"	"Cayman Islands"	"Summer"	2016	"F"	2	0
+"CAY"	"Cayman Islands"	"Summer"	2016	"M"	3	0
+"CAF"	"Central African Republic"	"Winter"	2010	"F"	0	0
+"CAF"	"Central African Republic"	"Winter"	2010	"M"	0	0
+"CAF"	"Central African Republic"	"Summer"	2012	"F"	2	0
+"CAF"	"Central African Republic"	"Summer"	2012	"M"	2	0
+"CAF"	"Central African Republic"	"Winter"	2014	"F"	0	0
+"CAF"	"Central African Republic"	"Winter"	2014	"M"	0	0
+"CAF"	"Central African Republic"	"Summer"	2016	"F"	3	0
+"CAF"	"Central African Republic"	"Summer"	2016	"M"	2	0
+"CHA"	"Chad"	"Winter"	2010	"F"	0	0
+"CHA"	"Chad"	"Winter"	2010	"M"	0	0
+"CHA"	"Chad"	"Summer"	2012	"F"	2	0
+"CHA"	"Chad"	"Summer"	2012	"M"	0	0
+"CHA"	"Chad"	"Winter"	2014	"F"	0	0
+"CHA"	"Chad"	"Winter"	2014	"M"	0	0
+"CHA"	"Chad"	"Summer"	2016	"F"	1	0
+"CHA"	"Chad"	"Summer"	2016	"M"	1	0
+"CHI"	"Chile"	"Winter"	2010	"F"	1	0
+"CHI"	"Chile"	"Winter"	2010	"M"	2	0
+"CHI"	"Chile"	"Summer"	2012	"F"	14	0
+"CHI"	"Chile"	"Summer"	2012	"M"	21	0
+"CHI"	"Chile"	"Winter"	2014	"F"	2	0
+"CHI"	"Chile"	"Winter"	2014	"M"	2	0
+"CHI"	"Chile"	"Summer"	2016	"F"	17	0
+"CHI"	"Chile"	"Summer"	2016	"M"	25	0
+"CHN"	"China"	"Winter"	2010	"F"	52	14
+"CHN"	"China"	"Winter"	2010	"M"	27	1
+"CHN"	"China"	"Summer"	2012	"F"	203	69
+"CHN"	"China"	"Summer"	2012	"M"	153	48
+"CHN"	"China"	"Winter"	2014	"F"	35	5
+"CHN"	"China"	"Winter"	2014	"M"	25	7
+"CHN"	"China"	"Summer"	2016	"F"	233	74
+"CHN"	"China"	"Summer"	2016	"M"	145	35
+"CHN"	"China-1"	"Winter"	2010	"F"	1	1
+"CHN"	"China-1"	"Winter"	2010	"M"	1	1
+"CHN"	"China-1"	"Summer"	2012	"F"	4	3
+"CHN"	"China-1"	"Summer"	2012	"M"	3	3
+"CHN"	"China-1"	"Winter"	2014	"F"	1	0
+"CHN"	"China-1"	"Winter"	2014	"M"	1	0
+"CHN"	"China-1"	"Summer"	2016	"F"	5	1
+"CHN"	"China-1"	"Summer"	2016	"M"	2	3
+"CHN"	"China-2"	"Winter"	2010	"F"	1	1
+"CHN"	"China-2"	"Winter"	2010	"M"	1	1
+"CHN"	"China-2"	"Summer"	2012	"F"	5	1
+"CHN"	"China-2"	"Summer"	2012	"M"	3	1
+"CHN"	"China-2"	"Winter"	2014	"F"	1	0
+"CHN"	"China-2"	"Winter"	2014	"M"	1	0
+"CHN"	"China-2"	"Summer"	2016	"F"	5	0
+"CHN"	"China-2"	"Summer"	2016	"M"	3	0
+"CHN"	"China-3"	"Winter"	2010	"F"	1	0
+"CHN"	"China-3"	"Winter"	2010	"M"	1	0
+"CHN"	"China-3"	"Summer"	2012	"F"	0	0
+"CHN"	"China-3"	"Summer"	2012	"M"	0	0
+"CHN"	"China-3"	"Winter"	2014	"F"	0	0
+"CHN"	"China-3"	"Winter"	2014	"M"	0	0
+"CHN"	"China-3"	"Summer"	2016	"F"	0	0
+"CHN"	"China-3"	"Summer"	2016	"M"	0	0
+"TPE"	"Chinese Taipei"	"Winter"	2010	"F"	0	0
+"TPE"	"Chinese Taipei"	"Winter"	2010	"M"	1	0
+"TPE"	"Chinese Taipei"	"Summer"	2012	"F"	25	2
+"TPE"	"Chinese Taipei"	"Summer"	2012	"M"	19	0
+"TPE"	"Chinese Taipei"	"Winter"	2014	"F"	0	0
+"TPE"	"Chinese Taipei"	"Winter"	2014	"M"	2	0
+"TPE"	"Chinese Taipei"	"Summer"	2016	"F"	28	5
+"TPE"	"Chinese Taipei"	"Summer"	2016	"M"	26	0
+"COL"	"Colombia"	"Winter"	2010	"F"	1	0
+"COL"	"Colombia"	"Winter"	2010	"M"	0	0
+"COL"	"Colombia"	"Summer"	2012	"F"	55	4
+"COL"	"Colombia"	"Summer"	2012	"M"	44	4
+"COL"	"Colombia"	"Winter"	2014	"F"	0	0
+"COL"	"Colombia"	"Winter"	2014	"M"	0	0
+"COL"	"Colombia"	"Summer"	2016	"F"	70	4
+"COL"	"Colombia"	"Summer"	2016	"M"	73	4
+"COM"	"Comoros"	"Winter"	2010	"F"	0	0
+"COM"	"Comoros"	"Winter"	2010	"M"	0	0
+"COM"	"Comoros"	"Summer"	2012	"F"	2	0
+"COM"	"Comoros"	"Summer"	2012	"M"	1	0
+"COM"	"Comoros"	"Winter"	2014	"F"	0	0
+"COM"	"Comoros"	"Winter"	2014	"M"	0	0
+"COM"	"Comoros"	"Summer"	2016	"F"	2	0
+"COM"	"Comoros"	"Summer"	2016	"M"	2	0
+"CGO"	"Congo (Brazzaville)"	"Winter"	2010	"F"	0	0
+"CGO"	"Congo (Brazzaville)"	"Winter"	2010	"M"	0	0
+"CGO"	"Congo (Brazzaville)"	"Summer"	2012	"F"	3	0
+"CGO"	"Congo (Brazzaville)"	"Summer"	2012	"M"	4	0
+"CGO"	"Congo (Brazzaville)"	"Winter"	2014	"F"	0	0
+"CGO"	"Congo (Brazzaville)"	"Winter"	2014	"M"	0	0
+"CGO"	"Congo (Brazzaville)"	"Summer"	2016	"F"	3	0
+"CGO"	"Congo (Brazzaville)"	"Summer"	2016	"M"	5	0
+"COD"	"Congo (Kinshasa)"	"Winter"	2010	"F"	0	0
+"COD"	"Congo (Kinshasa)"	"Winter"	2010	"M"	0	0
+"COD"	"Congo (Kinshasa)"	"Summer"	2012	"F"	1	0
+"COD"	"Congo (Kinshasa)"	"Summer"	2012	"M"	3	0
+"COD"	"Congo (Kinshasa)"	"Winter"	2014	"F"	0	0
+"COD"	"Congo (Kinshasa)"	"Winter"	2014	"M"	0	0
+"COD"	"Congo (Kinshasa)"	"Summer"	2016	"F"	1	0
+"COD"	"Congo (Kinshasa)"	"Summer"	2016	"M"	0	0
+"COK"	"Cook Islands"	"Winter"	2010	"F"	0	0
+"COK"	"Cook Islands"	"Winter"	2010	"M"	0	0
+"COK"	"Cook Islands"	"Summer"	2012	"F"	5	0
+"COK"	"Cook Islands"	"Summer"	2012	"M"	3	0
+"COK"	"Cook Islands"	"Winter"	2014	"F"	0	0
+"COK"	"Cook Islands"	"Winter"	2014	"M"	0	0
+"COK"	"Cook Islands"	"Summer"	2016	"F"	5	0
+"COK"	"Cook Islands"	"Summer"	2016	"M"	4	0
+"CRC"	"Costa Rica"	"Winter"	2010	"F"	0	0
+"CRC"	"Costa Rica"	"Winter"	2010	"M"	0	0
+"CRC"	"Costa Rica"	"Summer"	2012	"F"	3	0
+"CRC"	"Costa Rica"	"Summer"	2012	"M"	8	0
+"CRC"	"Costa Rica"	"Winter"	2014	"F"	0	0
+"CRC"	"Costa Rica"	"Winter"	2014	"M"	0	0
+"CRC"	"Costa Rica"	"Summer"	2016	"F"	4	0
+"CRC"	"Costa Rica"	"Summer"	2016	"M"	6	0
+"CIV"	"Cote d'Ivoire"	"Winter"	2010	"F"	0	0
+"CIV"	"Cote d'Ivoire"	"Winter"	2010	"M"	0	0
+"CIV"	"Cote d'Ivoire"	"Summer"	2012	"F"	5	0
+"CIV"	"Cote d'Ivoire"	"Summer"	2012	"M"	4	0
+"CIV"	"Cote d'Ivoire"	"Winter"	2014	"F"	0	0
+"CIV"	"Cote d'Ivoire"	"Winter"	2014	"M"	0	0
+"CIV"	"Cote d'Ivoire"	"Summer"	2016	"F"	6	1
+"CIV"	"Cote d'Ivoire"	"Summer"	2016	"M"	5	1
+"CRO"	"Croatia"	"Winter"	2010	"F"	7	0
+"CRO"	"Croatia"	"Winter"	2010	"M"	12	3
+"CRO"	"Croatia"	"Summer"	2012	"F"	42	2
+"CRO"	"Croatia"	"Summer"	2012	"M"	62	32
+"CRO"	"Croatia"	"Winter"	2014	"F"	4	0
+"CRO"	"Croatia"	"Winter"	2014	"M"	7	1
+"CRO"	"Croatia"	"Summer"	2016	"F"	19	3
+"CRO"	"Croatia"	"Summer"	2016	"M"	66	21
+"CUB"	"Cuba"	"Winter"	2010	"F"	0	0
+"CUB"	"Cuba"	"Winter"	2010	"M"	0	0
+"CUB"	"Cuba"	"Summer"	2012	"F"	27	3
+"CUB"	"Cuba"	"Summer"	2012	"M"	52	11
+"CUB"	"Cuba"	"Winter"	2014	"F"	0	0
+"CUB"	"Cuba"	"Winter"	2014	"M"	0	0
+"CUB"	"Cuba"	"Summer"	2016	"F"	34	2
+"CUB"	"Cuba"	"Summer"	2016	"M"	83	9
+"CYP"	"Cyprus"	"Winter"	2010	"F"	1	0
+"CYP"	"Cyprus"	"Winter"	2010	"M"	1	0
+"CYP"	"Cyprus"	"Summer"	2012	"F"	4	0
+"CYP"	"Cyprus"	"Summer"	2012	"M"	9	1
+"CYP"	"Cyprus"	"Winter"	2014	"F"	0	0
+"CYP"	"Cyprus"	"Winter"	2014	"M"	1	0
+"CYP"	"Cyprus"	"Summer"	2016	"F"	6	0
+"CYP"	"Cyprus"	"Summer"	2016	"M"	9	0
+"CZE"	"Czech Republic"	"Winter"	2010	"F"	22	4
+"CZE"	"Czech Republic"	"Winter"	2010	"M"	62	5
+"CZE"	"Czech Republic"	"Summer"	2012	"F"	60	4
+"CZE"	"Czech Republic"	"Summer"	2012	"M"	66	8
+"CZE"	"Czech Republic"	"Winter"	2014	"F"	24	6
+"CZE"	"Czech Republic"	"Winter"	2014	"M"	63	5
+"CZE"	"Czech Republic"	"Summer"	2016	"F"	41	3
+"CZE"	"Czech Republic"	"Summer"	2016	"M"	62	10
+"CZE"	"Czech Republic-1"	"Winter"	2010	"F"	0	0
+"CZE"	"Czech Republic-1"	"Winter"	2010	"M"	4	0
+"CZE"	"Czech Republic-1"	"Summer"	2012	"F"	4	2
+"CZE"	"Czech Republic-1"	"Summer"	2012	"M"	2	0
+"CZE"	"Czech Republic-1"	"Winter"	2014	"F"	0	0
+"CZE"	"Czech Republic-1"	"Winter"	2014	"M"	0	0
+"CZE"	"Czech Republic-1"	"Summer"	2016	"F"	2	2
+"CZE"	"Czech Republic-1"	"Summer"	2016	"M"	0	0
+"CZE"	"Czech Republic-2"	"Winter"	2010	"F"	0	0
+"CZE"	"Czech Republic-2"	"Winter"	2010	"M"	4	0
+"CZE"	"Czech Republic-2"	"Summer"	2012	"F"	4	0
+"CZE"	"Czech Republic-2"	"Summer"	2012	"M"	2	0
+"CZE"	"Czech Republic-2"	"Winter"	2014	"F"	0	0
+"CZE"	"Czech Republic-2"	"Winter"	2014	"M"	0	0
+"CZE"	"Czech Republic-2"	"Summer"	2016	"F"	2	0
+"CZE"	"Czech Republic-2"	"Summer"	2016	"M"	0	0
+"DEN"	"Denmark"	"Winter"	2010	"F"	8	0
+"DEN"	"Denmark"	"Winter"	2010	"M"	9	0
+"DEN"	"Denmark"	"Summer"	2012	"F"	48	1
+"DEN"	"Denmark"	"Summer"	2012	"M"	63	13
+"DEN"	"Denmark"	"Winter"	2014	"F"	1	0
+"DEN"	"Denmark"	"Winter"	2014	"M"	6	0
+"DEN"	"Denmark"	"Summer"	2016	"F"	41	14
+"DEN"	"Denmark"	"Summer"	2016	"M"	78	27
+"DEN"	"Denmark-1"	"Winter"	2010	"F"	0	0
+"DEN"	"Denmark-1"	"Winter"	2010	"M"	0	0
+"DEN"	"Denmark-1"	"Summer"	2012	"F"	1	1
+"DEN"	"Denmark-1"	"Summer"	2012	"M"	1	1
+"DEN"	"Denmark-1"	"Winter"	2014	"F"	0	0
+"DEN"	"Denmark-1"	"Winter"	2014	"M"	0	0
+"DEN"	"Denmark-1"	"Summer"	2016	"F"	0	0
+"DEN"	"Denmark-1"	"Summer"	2016	"M"	0	0
+"DEN"	"Denmark-2"	"Winter"	2010	"F"	0	0
+"DEN"	"Denmark-2"	"Winter"	2010	"M"	0	0
+"DEN"	"Denmark-2"	"Summer"	2012	"F"	1	0
+"DEN"	"Denmark-2"	"Summer"	2012	"M"	1	0
+"DEN"	"Denmark-2"	"Winter"	2014	"F"	0	0
+"DEN"	"Denmark-2"	"Winter"	2014	"M"	0	0
+"DEN"	"Denmark-2"	"Summer"	2016	"F"	0	0
+"DEN"	"Denmark-2"	"Summer"	2016	"M"	0	0
+"DJI"	"Djibouti"	"Winter"	2010	"F"	0	0
+"DJI"	"Djibouti"	"Winter"	2010	"M"	0	0
+"DJI"	"Djibouti"	"Summer"	2012	"F"	1	0
+"DJI"	"Djibouti"	"Summer"	2012	"M"	1	0
+"DJI"	"Djibouti"	"Winter"	2014	"F"	0	0
+"DJI"	"Djibouti"	"Winter"	2014	"M"	0	0
+"DJI"	"Djibouti"	"Summer"	2016	"F"	1	0
+"DJI"	"Djibouti"	"Summer"	2016	"M"	6	0
+"DMA"	"Dominica"	"Winter"	2010	"F"	0	0
+"DMA"	"Dominica"	"Winter"	2010	"M"	0	0
+"DMA"	"Dominica"	"Summer"	2012	"F"	1	0
+"DMA"	"Dominica"	"Summer"	2012	"M"	1	0
+"DMA"	"Dominica"	"Winter"	2014	"F"	0	0
+"DMA"	"Dominica"	"Winter"	2014	"M"	1	0
+"DMA"	"Dominica"	"Summer"	2016	"F"	1	0
+"DMA"	"Dominica"	"Summer"	2016	"M"	1	0
+"DOM"	"Dominican Republic"	"Winter"	2010	"F"	0	0
+"DOM"	"Dominican Republic"	"Winter"	2010	"M"	0	0
+"DOM"	"Dominican Republic"	"Summer"	2012	"F"	20	0
+"DOM"	"Dominican Republic"	"Summer"	2012	"M"	10	2
+"DOM"	"Dominican Republic"	"Winter"	2014	"F"	0	0
+"DOM"	"Dominican Republic"	"Winter"	2014	"M"	0	0
+"DOM"	"Dominican Republic"	"Summer"	2016	"F"	8	0
+"DOM"	"Dominican Republic"	"Summer"	2016	"M"	18	1
+"ECU"	"Ecuador"	"Winter"	2010	"F"	0	0
+"ECU"	"Ecuador"	"Winter"	2010	"M"	0	0
+"ECU"	"Ecuador"	"Summer"	2012	"F"	13	0
+"ECU"	"Ecuador"	"Summer"	2012	"M"	23	0
+"ECU"	"Ecuador"	"Winter"	2014	"F"	0	0
+"ECU"	"Ecuador"	"Winter"	2014	"M"	0	0
+"ECU"	"Ecuador"	"Summer"	2016	"F"	15	0
+"ECU"	"Ecuador"	"Summer"	2016	"M"	21	0
+"EGY"	"Egypt"	"Winter"	2010	"F"	0	0
+"EGY"	"Egypt"	"Winter"	2010	"M"	0	0
+"EGY"	"Egypt"	"Summer"	2012	"F"	34	0
+"EGY"	"Egypt"	"Summer"	2012	"M"	73	2
+"EGY"	"Egypt"	"Winter"	2014	"F"	0	0
+"EGY"	"Egypt"	"Winter"	2014	"M"	0	0
+"EGY"	"Egypt"	"Summer"	2016	"F"	36	2
+"EGY"	"Egypt"	"Summer"	2016	"M"	82	1
+"ESA"	"El Salvador"	"Winter"	2010	"F"	0	0
+"ESA"	"El Salvador"	"Winter"	2010	"M"	0	0
+"ESA"	"El Salvador"	"Summer"	2012	"F"	5	0
+"ESA"	"El Salvador"	"Summer"	2012	"M"	5	0
+"ESA"	"El Salvador"	"Winter"	2014	"F"	0	0
+"ESA"	"El Salvador"	"Winter"	2014	"M"	0	0
+"ESA"	"El Salvador"	"Summer"	2016	"F"	2	0
+"ESA"	"El Salvador"	"Summer"	2016	"M"	4	0
+"GEQ"	"Equatorial Guinea"	"Winter"	2010	"F"	0	0
+"GEQ"	"Equatorial Guinea"	"Winter"	2010	"M"	0	0
+"GEQ"	"Equatorial Guinea"	"Summer"	2012	"F"	1	0
+"GEQ"	"Equatorial Guinea"	"Summer"	2012	"M"	1	0
+"GEQ"	"Equatorial Guinea"	"Winter"	2014	"F"	0	0
+"GEQ"	"Equatorial Guinea"	"Winter"	2014	"M"	0	0
+"GEQ"	"Equatorial Guinea"	"Summer"	2016	"F"	0	0
+"GEQ"	"Equatorial Guinea"	"Summer"	2016	"M"	1	0
+"ERI"	"Eritrea"	"Winter"	2010	"F"	0	0
+"ERI"	"Eritrea"	"Winter"	2010	"M"	0	0
+"ERI"	"Eritrea"	"Summer"	2012	"F"	1	0
+"ERI"	"Eritrea"	"Summer"	2012	"M"	11	0
+"ERI"	"Eritrea"	"Winter"	2014	"F"	0	0
+"ERI"	"Eritrea"	"Winter"	2014	"M"	0	0
+"ERI"	"Eritrea"	"Summer"	2016	"F"	1	0
+"ERI"	"Eritrea"	"Summer"	2016	"M"	5	0
+"EST"	"Estonia"	"Winter"	2010	"F"	12	1
+"EST"	"Estonia"	"Winter"	2010	"M"	18	0
+"EST"	"Estonia"	"Summer"	2012	"F"	9	0
+"EST"	"Estonia"	"Summer"	2012	"M"	23	2
+"EST"	"Estonia"	"Winter"	2014	"F"	5	0
+"EST"	"Estonia"	"Winter"	2014	"M"	18	0
+"EST"	"Estonia"	"Summer"	2016	"F"	18	0
+"EST"	"Estonia"	"Summer"	2016	"M"	28	4
+"ETH"	"Ethiopia"	"Winter"	2010	"F"	0	0
+"ETH"	"Ethiopia"	"Winter"	2010	"M"	1	0
+"ETH"	"Ethiopia"	"Summer"	2012	"F"	15	5
+"ETH"	"Ethiopia"	"Summer"	2012	"M"	17	2
+"ETH"	"Ethiopia"	"Winter"	2014	"F"	0	0
+"ETH"	"Ethiopia"	"Winter"	2014	"M"	0	0
+"ETH"	"Ethiopia"	"Summer"	2016	"F"	19	5
+"ETH"	"Ethiopia"	"Summer"	2016	"M"	17	3
+"FSM"	"Federated States of Micronesia"	"Winter"	2010	"F"	0	0
+"FSM"	"Federated States of Micronesia"	"Winter"	2010	"M"	0	0
+"FSM"	"Federated States of Micronesia"	"Summer"	2012	"F"	2	0
+"FSM"	"Federated States of Micronesia"	"Summer"	2012	"M"	4	0
+"FSM"	"Federated States of Micronesia"	"Winter"	2014	"F"	0	0
+"FSM"	"Federated States of Micronesia"	"Winter"	2014	"M"	0	0
+"FSM"	"Federated States of Micronesia"	"Summer"	2016	"F"	3	0
+"FSM"	"Federated States of Micronesia"	"Summer"	2016	"M"	2	0
+"FIJ"	"Fiji"	"Winter"	2010	"F"	0	0
+"FIJ"	"Fiji"	"Winter"	2010	"M"	0	0
+"FIJ"	"Fiji"	"Summer"	2012	"F"	3	0
+"FIJ"	"Fiji"	"Summer"	2012	"M"	6	0
+"FIJ"	"Fiji"	"Winter"	2014	"F"	0	0
+"FIJ"	"Fiji"	"Winter"	2014	"M"	0	0
+"FIJ"	"Fiji"	"Summer"	2016	"F"	13	0
+"FIJ"	"Fiji"	"Summer"	2016	"M"	34	13
+"FIN"	"Finland"	"Winter"	2010	"F"	33	24
+"FIN"	"Finland"	"Winter"	2010	"M"	58	23
+"FIN"	"Finland"	"Summer"	2012	"F"	27	4
+"FIN"	"Finland"	"Summer"	2012	"M"	29	1
+"FIN"	"Finland"	"Winter"	2014	"F"	33	7
+"FIN"	"Finland"	"Winter"	2014	"M"	66	26
+"FIN"	"Finland"	"Summer"	2016	"F"	28	1
+"FIN"	"Finland"	"Summer"	2016	"M"	25	0
+"FRA"	"France"	"Winter"	2010	"F"	35	8
+"FRA"	"France"	"Winter"	2010	"M"	65	6
+"FRA"	"France"	"Summer"	2012	"F"	142	31
+"FRA"	"France"	"Summer"	2012	"M"	180	47
+"FRA"	"France"	"Winter"	2014	"F"	37	3
+"FRA"	"France"	"Winter"	2014	"M"	59	14
+"FRA"	"France"	"Summer"	2016	"F"	166	28
+"FRA"	"France"	"Summer"	2016	"M"	223	68
+"FRA"	"France-1"	"Winter"	2010	"F"	1	0
+"FRA"	"France-1"	"Winter"	2010	"M"	1	0
+"FRA"	"France-1"	"Summer"	2012	"F"	0	0
+"FRA"	"France-1"	"Summer"	2012	"M"	2	2
+"FRA"	"France-1"	"Winter"	2014	"F"	1	0
+"FRA"	"France-1"	"Winter"	2014	"M"	5	0
+"FRA"	"France-1"	"Summer"	2016	"F"	1	0
+"FRA"	"France-1"	"Summer"	2016	"M"	3	0
+"FRA"	"France-2"	"Winter"	2010	"F"	1	0
+"FRA"	"France-2"	"Winter"	2010	"M"	1	0
+"FRA"	"France-2"	"Summer"	2012	"F"	0	0
+"FRA"	"France-2"	"Summer"	2012	"M"	2	2
+"FRA"	"France-2"	"Winter"	2014	"F"	0	0
+"FRA"	"France-2"	"Winter"	2014	"M"	4	0
+"FRA"	"France-2"	"Summer"	2016	"F"	1	0
+"FRA"	"France-2"	"Summer"	2016	"M"	2	0
+"GAB"	"Gabon"	"Winter"	2010	"F"	0	0
+"GAB"	"Gabon"	"Winter"	2010	"M"	0	0
+"GAB"	"Gabon"	"Summer"	2012	"F"	2	0
+"GAB"	"Gabon"	"Summer"	2012	"M"	19	1
+"GAB"	"Gabon"	"Winter"	2014	"F"	0	0
+"GAB"	"Gabon"	"Winter"	2014	"M"	0	0
+"GAB"	"Gabon"	"Summer"	2016	"F"	2	0
+"GAB"	"Gabon"	"Summer"	2016	"M"	4	0
+"GAM"	"Gambia"	"Winter"	2010	"F"	0	0
+"GAM"	"Gambia"	"Winter"	2010	"M"	0	0
+"GAM"	"Gambia"	"Summer"	2012	"F"	1	0
+"GAM"	"Gambia"	"Summer"	2012	"M"	1	0
+"GAM"	"Gambia"	"Winter"	2014	"F"	0	0
+"GAM"	"Gambia"	"Winter"	2014	"M"	0	0
+"GAM"	"Gambia"	"Summer"	2016	"F"	0	0
+"GAM"	"Gambia"	"Summer"	2016	"M"	0	0
+"GEO"	"Georgia"	"Winter"	2010	"F"	3	0
+"GEO"	"Georgia"	"Winter"	2010	"M"	3	0
+"GEO"	"Georgia"	"Summer"	2012	"F"	6	0
+"GEO"	"Georgia"	"Summer"	2012	"M"	28	7
+"GEO"	"Georgia"	"Winter"	2014	"F"	2	0
+"GEO"	"Georgia"	"Winter"	2014	"M"	2	0
+"GEO"	"Georgia"	"Summer"	2016	"F"	10	0
+"GEO"	"Georgia"	"Summer"	2016	"M"	30	7
+"GER"	"Germany"	"Winter"	2010	"F"	48	28
+"GER"	"Germany"	"Winter"	2010	"M"	75	14
+"GER"	"Germany"	"Summer"	2012	"F"	166	27
+"GER"	"Germany"	"Summer"	2012	"M"	208	65
+"GER"	"Germany"	"Winter"	2014	"F"	65	13
+"GER"	"Germany"	"Winter"	2014	"M"	53	19
+"GER"	"Germany"	"Summer"	2016	"F"	189	66
+"GER"	"Germany"	"Summer"	2016	"M"	223	91
+"GER"	"Germany-1"	"Winter"	2010	"F"	3	1
+"GER"	"Germany-1"	"Winter"	2010	"M"	7	7
+"GER"	"Germany-1"	"Summer"	2012	"F"	5	0
+"GER"	"Germany-1"	"Summer"	2012	"M"	3	2
+"GER"	"Germany-1"	"Winter"	2014	"F"	3	1
+"GER"	"Germany-1"	"Winter"	2014	"M"	9	3
+"GER"	"Germany-1"	"Summer"	2016	"F"	4	2
+"GER"	"Germany-1"	"Summer"	2016	"M"	0	0
+"GER"	"Germany-2"	"Winter"	2010	"F"	3	0
+"GER"	"Germany-2"	"Winter"	2010	"M"	7	4
+"GER"	"Germany-2"	"Summer"	2012	"F"	4	0
+"GER"	"Germany-2"	"Summer"	2012	"M"	3	0
+"GER"	"Germany-2"	"Winter"	2014	"F"	3	0
+"GER"	"Germany-2"	"Winter"	2014	"M"	9	0
+"GER"	"Germany-2"	"Summer"	2016	"F"	4	0
+"GER"	"Germany-2"	"Summer"	2016	"M"	0	0
+"GER"	"Germany-3"	"Winter"	2010	"F"	2	0
+"GER"	"Germany-3"	"Winter"	2010	"M"	4	0
+"GER"	"Germany-3"	"Summer"	2012	"F"	0	0
+"GER"	"Germany-3"	"Summer"	2012	"M"	0	0
+"GER"	"Germany-3"	"Winter"	2014	"F"	2	0
+"GER"	"Germany-3"	"Winter"	2014	"M"	6	0
+"GER"	"Germany-3"	"Summer"	2016	"F"	0	0
+"GER"	"Germany-3"	"Summer"	2016	"M"	0	0
+"GHA"	"Ghana"	"Winter"	2010	"F"	0	0
+"GHA"	"Ghana"	"Winter"	2010	"M"	1	0
+"GHA"	"Ghana"	"Summer"	2012	"F"	1	0
+"GHA"	"Ghana"	"Summer"	2012	"M"	3	0
+"GHA"	"Ghana"	"Winter"	2014	"F"	0	0
+"GHA"	"Ghana"	"Winter"	2014	"M"	0	0
+"GHA"	"Ghana"	"Summer"	2016	"F"	5	0
+"GHA"	"Ghana"	"Summer"	2016	"M"	3	0
+"GBR"	"Great Britain"	"Winter"	2010	"F"	17	1
+"GBR"	"Great Britain"	"Winter"	2010	"M"	26	0
+"GBR"	"Great Britain"	"Summer"	2012	"F"	257	50
+"GBR"	"Great Britain"	"Summer"	2012	"M"	263	69
+"GBR"	"Great Britain"	"Winter"	2014	"F"	21	6
+"GBR"	"Great Britain"	"Winter"	2014	"M"	25	4
+"GBR"	"Great Britain"	"Summer"	2016	"F"	155	63
+"GBR"	"Great Britain"	"Summer"	2016	"M"	195	80
+"GBR"	"Great Britain-1"	"Winter"	2010	"F"	3	0
+"GBR"	"Great Britain-1"	"Winter"	2010	"M"	3	0
+"GBR"	"Great Britain-1"	"Summer"	2012	"F"	2	0
+"GBR"	"Great Britain-1"	"Summer"	2012	"M"	4	2
+"GBR"	"Great Britain-1"	"Winter"	2014	"F"	0	0
+"GBR"	"Great Britain-1"	"Winter"	2014	"M"	4	0
+"GBR"	"Great Britain-1"	"Summer"	2016	"F"	1	0
+"GBR"	"Great Britain-1"	"Summer"	2016	"M"	3	0
+"GBR"	"Great Britain-2"	"Winter"	2010	"F"	3	0
+"GBR"	"Great Britain-2"	"Winter"	2010	"M"	1	0
+"GBR"	"Great Britain-2"	"Summer"	2012	"F"	2	0
+"GBR"	"Great Britain-2"	"Summer"	2012	"M"	4	2
+"GBR"	"Great Britain-2"	"Winter"	2014	"F"	0	0
+"GBR"	"Great Britain-2"	"Winter"	2014	"M"	3	0
+"GBR"	"Great Britain-2"	"Summer"	2016	"F"	1	0
+"GBR"	"Great Britain-2"	"Summer"	2016	"M"	2	0
+"GRE"	"Greece"	"Winter"	2010	"F"	3	0
+"GRE"	"Greece"	"Winter"	2010	"M"	4	0
+"GRE"	"Greece"	"Summer"	2012	"F"	33	2
+"GRE"	"Greece"	"Summer"	2012	"M"	65	1
+"GRE"	"Greece"	"Winter"	2014	"F"	2	0
+"GRE"	"Greece"	"Winter"	2014	"M"	5	0
+"GRE"	"Greece"	"Summer"	2016	"F"	35	3
+"GRE"	"Greece"	"Summer"	2016	"M"	56	4
+"GRN"	"Grenada"	"Winter"	2010	"F"	0	0
+"GRN"	"Grenada"	"Winter"	2010	"M"	0	0
+"GRN"	"Grenada"	"Summer"	2012	"F"	3	0
+"GRN"	"Grenada"	"Summer"	2012	"M"	5	1
+"GRN"	"Grenada"	"Winter"	2014	"F"	0	0
+"GRN"	"Grenada"	"Winter"	2014	"M"	0	0
+"GRN"	"Grenada"	"Summer"	2016	"F"	1	0
+"GRN"	"Grenada"	"Summer"	2016	"M"	3	1
+"GUM"	"Guam"	"Winter"	2010	"F"	0	0
+"GUM"	"Guam"	"Winter"	2010	"M"	0	0
+"GUM"	"Guam"	"Summer"	2012	"F"	3	0
+"GUM"	"Guam"	"Summer"	2012	"M"	5	0
+"GUM"	"Guam"	"Winter"	2014	"F"	0	0
+"GUM"	"Guam"	"Winter"	2014	"M"	0	0
+"GUM"	"Guam"	"Summer"	2016	"F"	2	0
+"GUM"	"Guam"	"Summer"	2016	"M"	3	0
+"GUA"	"Guatemala"	"Winter"	2010	"F"	0	0
+"GUA"	"Guatemala"	"Winter"	2010	"M"	0	0
+"GUA"	"Guatemala"	"Summer"	2012	"F"	7	0
+"GUA"	"Guatemala"	"Summer"	2012	"M"	12	1
+"GUA"	"Guatemala"	"Winter"	2014	"F"	0	0
+"GUA"	"Guatemala"	"Winter"	2014	"M"	0	0
+"GUA"	"Guatemala"	"Summer"	2016	"F"	6	0
+"GUA"	"Guatemala"	"Summer"	2016	"M"	15	0
+"GUI"	"Guinea"	"Winter"	2010	"F"	0	0
+"GUI"	"Guinea"	"Winter"	2010	"M"	0	0
+"GUI"	"Guinea"	"Summer"	2012	"F"	2	0
+"GUI"	"Guinea"	"Summer"	2012	"M"	2	0
+"GUI"	"Guinea"	"Winter"	2014	"F"	0	0
+"GUI"	"Guinea"	"Winter"	2014	"M"	0	0
+"GUI"	"Guinea"	"Summer"	2016	"F"	3	0
+"GUI"	"Guinea"	"Summer"	2016	"M"	2	0
+"GBS"	"Guinea Bissau"	"Winter"	2010	"F"	0	0
+"GBS"	"Guinea Bissau"	"Winter"	2010	"M"	0	0
+"GBS"	"Guinea Bissau"	"Summer"	2012	"F"	2	0
+"GBS"	"Guinea Bissau"	"Summer"	2012	"M"	2	0
+"GBS"	"Guinea Bissau"	"Winter"	2014	"F"	0	0
+"GBS"	"Guinea Bissau"	"Winter"	2014	"M"	0	0
+"GBS"	"Guinea Bissau"	"Summer"	2016	"F"	2	0
+"GBS"	"Guinea Bissau"	"Summer"	2016	"M"	3	0
+"GUY"	"Guyana"	"Winter"	2010	"F"	0	0
+"GUY"	"Guyana"	"Winter"	2010	"M"	0	0
+"GUY"	"Guyana"	"Summer"	2012	"F"	2	0
+"GUY"	"Guyana"	"Summer"	2012	"M"	3	0
+"GUY"	"Guyana"	"Winter"	2014	"F"	0	0
+"GUY"	"Guyana"	"Winter"	2014	"M"	0	0
+"GUY"	"Guyana"	"Summer"	2016	"F"	3	0
+"GUY"	"Guyana"	"Summer"	2016	"M"	3	0
+"HAI"	"Haiti"	"Winter"	2010	"F"	0	0
+"HAI"	"Haiti"	"Winter"	2010	"M"	0	0
+"HAI"	"Haiti"	"Summer"	2012	"F"	1	0
+"HAI"	"Haiti"	"Summer"	2012	"M"	3	0
+"HAI"	"Haiti"	"Winter"	2014	"F"	0	0
+"HAI"	"Haiti"	"Winter"	2014	"M"	0	0
+"HAI"	"Haiti"	"Summer"	2016	"F"	1	0
+"HAI"	"Haiti"	"Summer"	2016	"M"	5	0
+"HON"	"Honduras"	"Winter"	2010	"F"	0	0
+"HON"	"Honduras"	"Winter"	2010	"M"	0	0
+"HON"	"Honduras"	"Summer"	2012	"F"	3	0
+"HON"	"Honduras"	"Summer"	2012	"M"	21	0
+"HON"	"Honduras"	"Winter"	2014	"F"	0	0
+"HON"	"Honduras"	"Winter"	2014	"M"	0	0
+"HON"	"Honduras"	"Summer"	2016	"F"	1	0
+"HON"	"Honduras"	"Summer"	2016	"M"	22	0
+"HKG"	"Hong Kong"	"Winter"	2010	"F"	1	0
+"HKG"	"Hong Kong"	"Winter"	2010	"M"	0	0
+"HKG"	"Hong Kong"	"Summer"	2012	"F"	20	1
+"HKG"	"Hong Kong"	"Summer"	2012	"M"	21	0
+"HKG"	"Hong Kong"	"Winter"	2014	"F"	0	0
+"HKG"	"Hong Kong"	"Winter"	2014	"M"	1	0
+"HKG"	"Hong Kong"	"Summer"	2016	"F"	22	0
+"HKG"	"Hong Kong"	"Summer"	2016	"M"	15	0
+"HUN"	"Hungary"	"Winter"	2010	"F"	9	0
+"HUN"	"Hungary"	"Winter"	2010	"M"	6	0
+"HUN"	"Hungary"	"Summer"	2012	"F"	58	10
+"HUN"	"Hungary"	"Summer"	2012	"M"	92	16
+"HUN"	"Hungary"	"Winter"	2014	"F"	9	0
+"HUN"	"Hungary"	"Winter"	2014	"M"	7	0
+"HUN"	"Hungary"	"Summer"	2016	"F"	65	14
+"HUN"	"Hungary"	"Summer"	2016	"M"	88	8
+"ISL"	"Iceland"	"Winter"	2010	"F"	1	0
+"ISL"	"Iceland"	"Winter"	2010	"M"	3	0
+"ISL"	"Iceland"	"Summer"	2012	"F"	5	0
+"ISL"	"Iceland"	"Summer"	2012	"M"	20	0
+"ISL"	"Iceland"	"Winter"	2014	"F"	0	0
+"ISL"	"Iceland"	"Winter"	2014	"M"	2	0
+"ISL"	"Iceland"	"Summer"	2016	"F"	5	0
+"ISL"	"Iceland"	"Summer"	2016	"M"	3	0
+"IND"	"India"	"Winter"	2010	"F"	0	0
+"IND"	"India"	"Winter"	2010	"M"	3	0
+"IND"	"India"	"Summer"	2012	"F"	20	2
+"IND"	"India"	"Summer"	2012	"M"	40	4
+"IND"	"India"	"Winter"	2014	"F"	0	0
+"IND"	"India"	"Winter"	2014	"M"	2	0
+"IND"	"India"	"Summer"	2016	"F"	47	2
+"IND"	"India"	"Summer"	2016	"M"	57	0
+"IND"	"India-1"	"Winter"	2010	"F"	0	0
+"IND"	"India-1"	"Winter"	2010	"M"	0	0
+"IND"	"India-1"	"Summer"	2012	"F"	0	0
+"IND"	"India-1"	"Summer"	2012	"M"	2	0
+"IND"	"India-1"	"Winter"	2014	"F"	0	0
+"IND"	"India-1"	"Winter"	2014	"M"	0	0
+"IND"	"India-1"	"Summer"	2016	"F"	0	0
+"IND"	"India-1"	"Summer"	2016	"M"	0	0
+"IND"	"India-2"	"Winter"	2010	"F"	0	0
+"IND"	"India-2"	"Winter"	2010	"M"	0	0
+"IND"	"India-2"	"Summer"	2012	"F"	0	0
+"IND"	"India-2"	"Summer"	2012	"M"	2	0
+"IND"	"India-2"	"Winter"	2014	"F"	0	0
+"IND"	"India-2"	"Winter"	2014	"M"	0	0
+"IND"	"India-2"	"Summer"	2016	"F"	0	0
+"IND"	"India-2"	"Summer"	2016	"M"	0	0
+"IOA"	"Individual Olympic Athletes"	"Winter"	2010	"F"	0	0
+"IOA"	"Individual Olympic Athletes"	"Winter"	2010	"M"	0	0
+"IOA"	"Individual Olympic Athletes"	"Summer"	2012	"F"	1	0
+"IOA"	"Individual Olympic Athletes"	"Summer"	2012	"M"	3	0
+"IOA"	"Individual Olympic Athletes"	"Winter"	2014	"F"	0	0
+"IOA"	"Individual Olympic Athletes"	"Winter"	2014	"M"	1	0
+"IOA"	"Individual Olympic Athletes"	"Summer"	2016	"F"	1	0
+"IOA"	"Individual Olympic Athletes"	"Summer"	2016	"M"	5	2
+"INA"	"Indonesia"	"Winter"	2010	"F"	0	0
+"INA"	"Indonesia"	"Winter"	2010	"M"	0	0
+"INA"	"Indonesia"	"Summer"	2012	"F"	9	0
+"INA"	"Indonesia"	"Summer"	2012	"M"	11	2
+"INA"	"Indonesia"	"Winter"	2014	"F"	0	0
+"INA"	"Indonesia"	"Winter"	2014	"M"	0	0
+"INA"	"Indonesia"	"Summer"	2016	"F"	9	1
+"INA"	"Indonesia"	"Summer"	2016	"M"	15	1
+"INA"	"Indonesia-1"	"Winter"	2010	"F"	0	0
+"INA"	"Indonesia-1"	"Winter"	2010	"M"	0	0
+"INA"	"Indonesia-1"	"Summer"	2012	"F"	0	0
+"INA"	"Indonesia-1"	"Summer"	2012	"M"	0	0
+"INA"	"Indonesia-1"	"Winter"	2014	"F"	0	0
+"INA"	"Indonesia-1"	"Winter"	2014	"M"	0	0
+"INA"	"Indonesia-1"	"Summer"	2016	"F"	1	1
+"INA"	"Indonesia-1"	"Summer"	2016	"M"	1	1
+"INA"	"Indonesia-2"	"Winter"	2010	"F"	0	0
+"INA"	"Indonesia-2"	"Winter"	2010	"M"	0	0
+"INA"	"Indonesia-2"	"Summer"	2012	"F"	0	0
+"INA"	"Indonesia-2"	"Summer"	2012	"M"	0	0
+"INA"	"Indonesia-2"	"Winter"	2014	"F"	0	0
+"INA"	"Indonesia-2"	"Winter"	2014	"M"	0	0
+"INA"	"Indonesia-2"	"Summer"	2016	"F"	1	0
+"INA"	"Indonesia-2"	"Summer"	2016	"M"	1	0
+"IRI"	"Iran"	"Winter"	2010	"F"	1	0
+"IRI"	"Iran"	"Winter"	2010	"M"	3	0
+"IRI"	"Iran"	"Summer"	2012	"F"	8	0
+"IRI"	"Iran"	"Summer"	2012	"M"	42	12
+"IRI"	"Iran"	"Winter"	2014	"F"	2	0
+"IRI"	"Iran"	"Winter"	2014	"M"	3	0
+"IRI"	"Iran"	"Summer"	2016	"F"	9	1
+"IRI"	"Iran"	"Summer"	2016	"M"	54	7
+"IRQ"	"Iraq"	"Winter"	2010	"F"	0	0
+"IRQ"	"Iraq"	"Winter"	2010	"M"	0	0
+"IRQ"	"Iraq"	"Summer"	2012	"F"	2	0
+"IRQ"	"Iraq"	"Summer"	2012	"M"	4	0
+"IRQ"	"Iraq"	"Winter"	2014	"F"	0	0
+"IRQ"	"Iraq"	"Winter"	2014	"M"	0	0
+"IRQ"	"Iraq"	"Summer"	2016	"F"	0	0
+"IRQ"	"Iraq"	"Summer"	2016	"M"	20	0
+"IRL"	"Ireland"	"Winter"	2010	"F"	3	0
+"IRL"	"Ireland"	"Winter"	2010	"M"	3	0
+"IRL"	"Ireland"	"Summer"	2012	"F"	28	1
+"IRL"	"Ireland"	"Summer"	2012	"M"	33	4
+"IRL"	"Ireland"	"Winter"	2014	"F"	1	0
+"IRL"	"Ireland"	"Winter"	2014	"M"	4	0
+"IRL"	"Ireland"	"Summer"	2016	"F"	26	1
+"IRL"	"Ireland"	"Summer"	2016	"M"	50	2
+"ISR"	"Israel"	"Winter"	2010	"F"	1	0
+"ISR"	"Israel"	"Winter"	2010	"M"	2	0
+"ISR"	"Israel"	"Summer"	2012	"F"	17	0
+"ISR"	"Israel"	"Summer"	2012	"M"	19	0
+"ISR"	"Israel"	"Winter"	2014	"F"	0	0
+"ISR"	"Israel"	"Winter"	2014	"M"	1	0
+"ISR"	"Israel"	"Summer"	2016	"F"	25	1
+"ISR"	"Israel"	"Summer"	2016	"M"	22	1
+"ITA"	"Italy"	"Winter"	2010	"F"	38	1
+"ITA"	"Italy"	"Winter"	2010	"M"	61	4
+"ITA"	"Italy"	"Summer"	2012	"F"	120	14
+"ITA"	"Italy"	"Summer"	2012	"M"	157	52
+"ITA"	"Italy"	"Winter"	2014	"F"	39	9
+"ITA"	"Italy"	"Winter"	2014	"M"	61	5
+"ITA"	"Italy"	"Summer"	2016	"F"	141	23
+"ITA"	"Italy"	"Summer"	2016	"M"	164	47
+"ITA"	"Italy-1"	"Winter"	2010	"F"	1	0
+"ITA"	"Italy-1"	"Winter"	2010	"M"	5	0
+"ITA"	"Italy-1"	"Summer"	2012	"F"	2	0
+"ITA"	"Italy-1"	"Summer"	2012	"M"	1	0
+"ITA"	"Italy-1"	"Winter"	2014	"F"	1	0
+"ITA"	"Italy-1"	"Winter"	2014	"M"	3	0
+"ITA"	"Italy-1"	"Summer"	2016	"F"	0	0
+"ITA"	"Italy-1"	"Summer"	2016	"M"	2	2
+"ITA"	"Italy-2"	"Winter"	2010	"F"	1	0
+"ITA"	"Italy-2"	"Winter"	2010	"M"	5	0
+"ITA"	"Italy-2"	"Summer"	2012	"F"	3	0
+"ITA"	"Italy-2"	"Summer"	2012	"M"	1	0
+"ITA"	"Italy-2"	"Winter"	2014	"F"	1	0
+"ITA"	"Italy-2"	"Winter"	2014	"M"	2	0
+"ITA"	"Italy-2"	"Summer"	2016	"F"	0	0
+"ITA"	"Italy-2"	"Summer"	2016	"M"	2	0
+"JAM"	"Jamaica"	"Winter"	2010	"F"	0	0
+"JAM"	"Jamaica"	"Winter"	2010	"M"	1	0
+"JAM"	"Jamaica"	"Summer"	2012	"F"	22	14
+"JAM"	"Jamaica"	"Summer"	2012	"M"	23	11
+"JAM"	"Jamaica"	"Winter"	2014	"F"	0	0
+"JAM"	"Jamaica"	"Winter"	2014	"M"	2	0
+"JAM"	"Jamaica"	"Summer"	2016	"F"	31	16
+"JAM"	"Jamaica"	"Summer"	2016	"M"	23	12
+"JPN"	"Japan"	"Winter"	2010	"F"	43	4
+"JPN"	"Japan"	"Winter"	2010	"M"	48	3
+"JPN"	"Japan"	"Summer"	2012	"F"	143	51
+"JPN"	"Japan"	"Summer"	2012	"M"	130	29
+"JPN"	"Japan"	"Winter"	2014	"F"	56	2
+"JPN"	"Japan"	"Winter"	2014	"M"	45	8
+"JPN"	"Japan"	"Summer"	2016	"F"	164	29
+"JPN"	"Japan"	"Summer"	2016	"M"	171	35
+"JPN"	"Japan-1"	"Winter"	2010	"F"	0	0
+"JPN"	"Japan-1"	"Winter"	2010	"M"	0	0
+"JPN"	"Japan-1"	"Summer"	2012	"F"	2	2
+"JPN"	"Japan-1"	"Summer"	2012	"M"	0	0
+"JPN"	"Japan-1"	"Winter"	2014	"F"	0	0
+"JPN"	"Japan-1"	"Winter"	2014	"M"	0	0
+"JPN"	"Japan-1"	"Summer"	2016	"F"	0	0
+"JPN"	"Japan-1"	"Summer"	2016	"M"	0	0
+"JPN"	"Japan-2"	"Winter"	2010	"F"	0	0
+"JPN"	"Japan-2"	"Winter"	2010	"M"	0	0
+"JPN"	"Japan-2"	"Summer"	2012	"F"	2	0
+"JPN"	"Japan-2"	"Summer"	2012	"M"	0	0
+"JPN"	"Japan-2"	"Winter"	2014	"F"	0	0
+"JPN"	"Japan-2"	"Winter"	2014	"M"	0	0
+"JPN"	"Japan-2"	"Summer"	2016	"F"	0	0
+"JPN"	"Japan-2"	"Summer"	2016	"M"	0	0
+"JOR"	"Jordan"	"Winter"	2010	"F"	0	0
+"JOR"	"Jordan"	"Winter"	2010	"M"	0	0
+"JOR"	"Jordan"	"Summer"	2012	"F"	4	0
+"JOR"	"Jordan"	"Summer"	2012	"M"	4	0
+"JOR"	"Jordan"	"Winter"	2014	"F"	0	0
+"JOR"	"Jordan"	"Winter"	2014	"M"	0	0
+"JOR"	"Jordan"	"Summer"	2016	"F"	1	0
+"JOR"	"Jordan"	"Summer"	2016	"M"	7	1
+"KAZ"	"Kazakhstan"	"Winter"	2010	"F"	16	1
+"KAZ"	"Kazakhstan"	"Winter"	2010	"M"	21	0
+"KAZ"	"Kazakhstan"	"Summer"	2012	"F"	34	5
+"KAZ"	"Kazakhstan"	"Summer"	2012	"M"	70	7
+"KAZ"	"Kazakhstan"	"Winter"	2014	"F"	16	0
+"KAZ"	"Kazakhstan"	"Winter"	2014	"M"	34	1
+"KAZ"	"Kazakhstan"	"Summer"	2016	"F"	46	8
+"KAZ"	"Kazakhstan"	"Summer"	2016	"M"	55	10
+"KEN"	"Kenya"	"Winter"	2010	"F"	0	0
+"KEN"	"Kenya"	"Winter"	2010	"M"	0	0
+"KEN"	"Kenya"	"Summer"	2012	"F"	19	4
+"KEN"	"Kenya"	"Summer"	2012	"M"	27	7
+"KEN"	"Kenya"	"Winter"	2014	"F"	0	0
+"KEN"	"Kenya"	"Winter"	2014	"M"	0	0
+"KEN"	"Kenya"	"Summer"	2016	"F"	29	6
+"KEN"	"Kenya"	"Summer"	2016	"M"	44	6
+"KIR"	"Kiribati"	"Winter"	2010	"F"	0	0
+"KIR"	"Kiribati"	"Winter"	2010	"M"	0	0
+"KIR"	"Kiribati"	"Summer"	2012	"F"	1	0
+"KIR"	"Kiribati"	"Summer"	2012	"M"	2	0
+"KIR"	"Kiribati"	"Winter"	2014	"F"	0	0
+"KIR"	"Kiribati"	"Winter"	2014	"M"	0	0
+"KIR"	"Kiribati"	"Summer"	2016	"F"	1	0
+"KIR"	"Kiribati"	"Summer"	2016	"M"	2	0
+"KOS"	"Kosovo"	"Winter"	2010	"F"	0	0
+"KOS"	"Kosovo"	"Winter"	2010	"M"	0	0
+"KOS"	"Kosovo"	"Summer"	2012	"F"	0	0
+"KOS"	"Kosovo"	"Summer"	2012	"M"	0	0
+"KOS"	"Kosovo"	"Winter"	2014	"F"	0	0
+"KOS"	"Kosovo"	"Winter"	2014	"M"	0	0
+"KOS"	"Kosovo"	"Summer"	2016	"F"	5	1
+"KOS"	"Kosovo"	"Summer"	2016	"M"	3	0
+"KUW"	"Kuwait"	"Winter"	2010	"F"	0	0
+"KUW"	"Kuwait"	"Winter"	2010	"M"	0	0
+"KUW"	"Kuwait"	"Summer"	2012	"F"	2	0
+"KUW"	"Kuwait"	"Summer"	2012	"M"	8	1
+"KUW"	"Kuwait"	"Winter"	2014	"F"	0	0
+"KUW"	"Kuwait"	"Winter"	2014	"M"	0	0
+"KUW"	"Kuwait"	"Summer"	2016	"F"	0	0
+"KUW"	"Kuwait"	"Summer"	2016	"M"	0	0
+"KGZ"	"Kyrgyzstan"	"Winter"	2010	"F"	1	0
+"KGZ"	"Kyrgyzstan"	"Winter"	2010	"M"	1	0
+"KGZ"	"Kyrgyzstan"	"Summer"	2012	"F"	3	0
+"KGZ"	"Kyrgyzstan"	"Summer"	2012	"M"	11	0
+"KGZ"	"Kyrgyzstan"	"Winter"	2014	"F"	0	0
+"KGZ"	"Kyrgyzstan"	"Winter"	2014	"M"	0	0
+"KGZ"	"Kyrgyzstan"	"Summer"	2016	"F"	7	0
+"KGZ"	"Kyrgyzstan"	"Summer"	2016	"M"	11	0
+"LAO"	"Laos"	"Winter"	2010	"F"	0	0
+"LAO"	"Laos"	"Winter"	2010	"M"	0	0
+"LAO"	"Laos"	"Summer"	2012	"F"	1	0
+"LAO"	"Laos"	"Summer"	2012	"M"	2	0
+"LAO"	"Laos"	"Winter"	2014	"F"	0	0
+"LAO"	"Laos"	"Winter"	2014	"M"	0	0
+"LAO"	"Laos"	"Summer"	2016	"F"	2	0
+"LAO"	"Laos"	"Summer"	2016	"M"	2	0
+"LAT"	"Latvia"	"Winter"	2010	"F"	9	0
+"LAT"	"Latvia"	"Winter"	2010	"M"	40	1
+"LAT"	"Latvia"	"Summer"	2012	"F"	14	0
+"LAT"	"Latvia"	"Summer"	2012	"M"	27	1
+"LAT"	"Latvia"	"Winter"	2014	"F"	7	1
+"LAT"	"Latvia"	"Winter"	2014	"M"	39	4
+"LAT"	"Latvia"	"Summer"	2016	"F"	13	0
+"LAT"	"Latvia"	"Summer"	2016	"M"	19	0
+"LAT"	"Latvia-1"	"Winter"	2010	"F"	0	0
+"LAT"	"Latvia-1"	"Winter"	2010	"M"	2	2
+"LAT"	"Latvia-1"	"Summer"	2012	"F"	0	0
+"LAT"	"Latvia-1"	"Summer"	2012	"M"	2	2
+"LAT"	"Latvia-1"	"Winter"	2014	"F"	0	0
+"LAT"	"Latvia-1"	"Winter"	2014	"M"	6	6
+"LAT"	"Latvia-1"	"Summer"	2016	"F"	0	0
+"LAT"	"Latvia-1"	"Summer"	2016	"M"	0	0
+"LAT"	"Latvia-2"	"Winter"	2010	"F"	0	0
+"LAT"	"Latvia-2"	"Winter"	2010	"M"	2	0
+"LAT"	"Latvia-2"	"Summer"	2012	"F"	0	0
+"LAT"	"Latvia-2"	"Summer"	2012	"M"	2	0
+"LAT"	"Latvia-2"	"Winter"	2014	"F"	0	0
+"LAT"	"Latvia-2"	"Winter"	2014	"M"	6	0
+"LAT"	"Latvia-2"	"Summer"	2016	"F"	0	0
+"LAT"	"Latvia-2"	"Summer"	2016	"M"	0	0
+"LIB"	"Lebanon"	"Winter"	2010	"F"	2	0
+"LIB"	"Lebanon"	"Winter"	2010	"M"	1	0
+"LIB"	"Lebanon"	"Summer"	2012	"F"	7	0
+"LIB"	"Lebanon"	"Summer"	2012	"M"	3	0
+"LIB"	"Lebanon"	"Winter"	2014	"F"	1	0
+"LIB"	"Lebanon"	"Winter"	2014	"M"	1	0
+"LIB"	"Lebanon"	"Summer"	2016	"F"	4	0
+"LIB"	"Lebanon"	"Summer"	2016	"M"	4	0
+"LES"	"Lesotho"	"Winter"	2010	"F"	0	0
+"LES"	"Lesotho"	"Winter"	2010	"M"	0	0
+"LES"	"Lesotho"	"Summer"	2012	"F"	1	0
+"LES"	"Lesotho"	"Summer"	2012	"M"	2	0
+"LES"	"Lesotho"	"Winter"	2014	"F"	0	0
+"LES"	"Lesotho"	"Winter"	2014	"M"	0	0
+"LES"	"Lesotho"	"Summer"	2016	"F"	0	0
+"LES"	"Lesotho"	"Summer"	2016	"M"	2	0
+"LBR"	"Liberia"	"Winter"	2010	"F"	0	0
+"LBR"	"Liberia"	"Winter"	2010	"M"	0	0
+"LBR"	"Liberia"	"Summer"	2012	"F"	2	0
+"LBR"	"Liberia"	"Summer"	2012	"M"	1	0
+"LBR"	"Liberia"	"Winter"	2014	"F"	0	0
+"LBR"	"Liberia"	"Winter"	2014	"M"	0	0
+"LBR"	"Liberia"	"Summer"	2016	"F"	0	0
+"LBR"	"Liberia"	"Summer"	2016	"M"	0	0
+"LBA"	"Libya"	"Winter"	2010	"F"	0	0
+"LBA"	"Libya"	"Winter"	2010	"M"	0	0
+"LBA"	"Libya"	"Summer"	2012	"F"	1	0
+"LBA"	"Libya"	"Summer"	2012	"M"	3	0
+"LBA"	"Libya"	"Winter"	2014	"F"	0	0
+"LBA"	"Libya"	"Winter"	2014	"M"	0	0
+"LBA"	"Libya"	"Summer"	2016	"F"	0	0
+"LBA"	"Libya"	"Summer"	2016	"M"	2	0
+"LIE"	"Liechtenstein"	"Winter"	2010	"F"	1	0
+"LIE"	"Liechtenstein"	"Winter"	2010	"M"	3	0
+"LIE"	"Liechtenstein"	"Summer"	2012	"F"	2	0
+"LIE"	"Liechtenstein"	"Summer"	2012	"M"	1	0
+"LIE"	"Liechtenstein"	"Winter"	2014	"F"	1	0
+"LIE"	"Liechtenstein"	"Winter"	2014	"M"	2	0
+"LIE"	"Liechtenstein"	"Summer"	2016	"F"	2	0
+"LIE"	"Liechtenstein"	"Summer"	2016	"M"	1	0
+"LTU"	"Lithuania"	"Winter"	2010	"F"	2	0
+"LTU"	"Lithuania"	"Winter"	2010	"M"	4	0
+"LTU"	"Lithuania"	"Summer"	2012	"F"	22	2
+"LTU"	"Lithuania"	"Summer"	2012	"M"	38	3
+"LTU"	"Lithuania"	"Winter"	2014	"F"	4	0
+"LTU"	"Lithuania"	"Winter"	2014	"M"	3	0
+"LTU"	"Lithuania"	"Summer"	2016	"F"	19	2
+"LTU"	"Lithuania"	"Summer"	2016	"M"	48	5
+"LUX"	"Luxembourg"	"Winter"	2010	"F"	0	0
+"LUX"	"Luxembourg"	"Winter"	2010	"M"	0	0
+"LUX"	"Luxembourg"	"Summer"	2012	"F"	4	0
+"LUX"	"Luxembourg"	"Summer"	2012	"M"	5	0
+"LUX"	"Luxembourg"	"Winter"	2014	"F"	0	0
+"LUX"	"Luxembourg"	"Winter"	2014	"M"	1	0
+"LUX"	"Luxembourg"	"Summer"	2016	"F"	5	0
+"LUX"	"Luxembourg"	"Summer"	2016	"M"	5	0
+"MKD"	"Macedonia"	"Winter"	2010	"F"	1	0
+"MKD"	"Macedonia"	"Winter"	2010	"M"	2	0
+"MKD"	"Macedonia"	"Summer"	2012	"F"	2	0
+"MKD"	"Macedonia"	"Summer"	2012	"M"	2	0
+"MKD"	"Macedonia"	"Winter"	2014	"F"	1	0
+"MKD"	"Macedonia"	"Winter"	2014	"M"	2	0
+"MKD"	"Macedonia"	"Summer"	2016	"F"	4	0
+"MKD"	"Macedonia"	"Summer"	2016	"M"	2	0
+"MAD"	"Madagascar"	"Winter"	2010	"F"	0	0
+"MAD"	"Madagascar"	"Winter"	2010	"M"	0	0
+"MAD"	"Madagascar"	"Summer"	2012	"F"	4	0
+"MAD"	"Madagascar"	"Summer"	2012	"M"	3	0
+"MAD"	"Madagascar"	"Winter"	2014	"F"	0	0
+"MAD"	"Madagascar"	"Winter"	2014	"M"	0	0
+"MAD"	"Madagascar"	"Summer"	2016	"F"	4	0
+"MAD"	"Madagascar"	"Summer"	2016	"M"	2	0
+"MAW"	"Malawi"	"Winter"	2010	"F"	0	0
+"MAW"	"Malawi"	"Winter"	2010	"M"	0	0
+"MAW"	"Malawi"	"Summer"	2012	"F"	2	0
+"MAW"	"Malawi"	"Summer"	2012	"M"	1	0
+"MAW"	"Malawi"	"Winter"	2014	"F"	0	0
+"MAW"	"Malawi"	"Winter"	2014	"M"	0	0
+"MAW"	"Malawi"	"Summer"	2016	"F"	2	0
+"MAW"	"Malawi"	"Summer"	2016	"M"	3	0
+"MAS"	"Malaysia"	"Winter"	2010	"F"	0	0
+"MAS"	"Malaysia"	"Winter"	2010	"M"	0	0
+"MAS"	"Malaysia"	"Summer"	2012	"F"	13	1
+"MAS"	"Malaysia"	"Summer"	2012	"M"	16	1
+"MAS"	"Malaysia"	"Winter"	2014	"F"	0	0
+"MAS"	"Malaysia"	"Winter"	2014	"M"	0	0
+"MAS"	"Malaysia"	"Summer"	2016	"F"	15	3
+"MAS"	"Malaysia"	"Summer"	2016	"M"	17	5
+"MDV"	"Maldives"	"Winter"	2010	"F"	0	0
+"MDV"	"Maldives"	"Winter"	2010	"M"	0	0
+"MDV"	"Maldives"	"Summer"	2012	"F"	2	0
+"MDV"	"Maldives"	"Summer"	2012	"M"	3	0
+"MDV"	"Maldives"	"Winter"	2014	"F"	0	0
+"MDV"	"Maldives"	"Winter"	2014	"M"	0	0
+"MDV"	"Maldives"	"Summer"	2016	"F"	2	0
+"MDV"	"Maldives"	"Summer"	2016	"M"	1	0
+"MLI"	"Mali"	"Winter"	2010	"F"	0	0
+"MLI"	"Mali"	"Winter"	2010	"M"	0	0
+"MLI"	"Mali"	"Summer"	2012	"F"	2	0
+"MLI"	"Mali"	"Summer"	2012	"M"	1	0
+"MLI"	"Mali"	"Winter"	2014	"F"	0	0
+"MLI"	"Mali"	"Winter"	2014	"M"	0	0
+"MLI"	"Mali"	"Summer"	2016	"F"	2	0
+"MLI"	"Mali"	"Summer"	2016	"M"	3	0
+"MLT"	"Malta"	"Winter"	2010	"F"	0	0
+"MLT"	"Malta"	"Winter"	2010	"M"	0	0
+"MLT"	"Malta"	"Summer"	2012	"F"	2	0
+"MLT"	"Malta"	"Summer"	2012	"M"	3	0
+"MLT"	"Malta"	"Winter"	2014	"F"	1	0
+"MLT"	"Malta"	"Winter"	2014	"M"	0	0
+"MLT"	"Malta"	"Summer"	2016	"F"	2	0
+"MLT"	"Malta"	"Summer"	2016	"M"	3	0
+"MHL"	"Marshall Islands"	"Winter"	2010	"F"	0	0
+"MHL"	"Marshall Islands"	"Winter"	2010	"M"	0	0
+"MHL"	"Marshall Islands"	"Summer"	2012	"F"	2	0
+"MHL"	"Marshall Islands"	"Summer"	2012	"M"	2	0
+"MHL"	"Marshall Islands"	"Winter"	2014	"F"	0	0
+"MHL"	"Marshall Islands"	"Winter"	2014	"M"	0	0
+"MHL"	"Marshall Islands"	"Summer"	2016	"F"	3	0
+"MHL"	"Marshall Islands"	"Summer"	2016	"M"	2	0
+"MTN"	"Mauritania"	"Winter"	2010	"F"	0	0
+"MTN"	"Mauritania"	"Winter"	2010	"M"	0	0
+"MTN"	"Mauritania"	"Summer"	2012	"F"	1	0
+"MTN"	"Mauritania"	"Summer"	2012	"M"	1	0
+"MTN"	"Mauritania"	"Winter"	2014	"F"	0	0
+"MTN"	"Mauritania"	"Winter"	2014	"M"	0	0
+"MTN"	"Mauritania"	"Summer"	2016	"F"	1	0
+"MTN"	"Mauritania"	"Summer"	2016	"M"	1	0
+"MRI"	"Mauritius"	"Winter"	2010	"F"	0	0
+"MRI"	"Mauritius"	"Winter"	2010	"M"	0	0
+"MRI"	"Mauritius"	"Summer"	2012	"F"	7	0
+"MRI"	"Mauritius"	"Summer"	2012	"M"	4	0
+"MRI"	"Mauritius"	"Winter"	2014	"F"	0	0
+"MRI"	"Mauritius"	"Winter"	2014	"M"	0	0
+"MRI"	"Mauritius"	"Summer"	2016	"F"	5	0
+"MRI"	"Mauritius"	"Summer"	2016	"M"	5	0
+"MEX"	"Mexico"	"Winter"	2010	"F"	0	0
+"MEX"	"Mexico"	"Winter"	2010	"M"	1	0
+"MEX"	"Mexico"	"Summer"	2012	"F"	36	6
+"MEX"	"Mexico"	"Summer"	2012	"M"	60	17
+"MEX"	"Mexico"	"Winter"	2014	"F"	0	0
+"MEX"	"Mexico"	"Winter"	2014	"M"	1	0
+"MEX"	"Mexico"	"Summer"	2016	"F"	44	2
+"MEX"	"Mexico"	"Summer"	2016	"M"	79	3
+"MDA"	"Moldova"	"Winter"	2010	"F"	2	0
+"MDA"	"Moldova"	"Winter"	2010	"M"	5	0
+"MDA"	"Moldova"	"Summer"	2012	"F"	8	1
+"MDA"	"Moldova"	"Summer"	2012	"M"	12	1
+"MDA"	"Moldova"	"Winter"	2014	"F"	1	0
+"MDA"	"Moldova"	"Winter"	2014	"M"	3	0
+"MDA"	"Moldova"	"Summer"	2016	"F"	9	0
+"MDA"	"Moldova"	"Summer"	2016	"M"	14	0
+"MON"	"Monaco"	"Winter"	2010	"F"	1	0
+"MON"	"Monaco"	"Winter"	2010	"M"	2	0
+"MON"	"Monaco"	"Summer"	2012	"F"	1	0
+"MON"	"Monaco"	"Summer"	2012	"M"	5	0
+"MON"	"Monaco"	"Winter"	2014	"F"	1	0
+"MON"	"Monaco"	"Winter"	2014	"M"	4	0
+"MON"	"Monaco"	"Summer"	2016	"F"	0	0
+"MON"	"Monaco"	"Summer"	2016	"M"	3	0
+"MGL"	"Mongolia"	"Winter"	2010	"F"	1	0
+"MGL"	"Mongolia"	"Winter"	2010	"M"	1	0
+"MGL"	"Mongolia"	"Summer"	2012	"F"	13	1
+"MGL"	"Mongolia"	"Summer"	2012	"M"	15	4
+"MGL"	"Mongolia"	"Winter"	2014	"F"	1	0
+"MGL"	"Mongolia"	"Winter"	2014	"M"	1	0
+"MGL"	"Mongolia"	"Summer"	2016	"F"	17	1
+"MGL"	"Mongolia"	"Summer"	2016	"M"	25	1
+"MNE"	"Montenegro"	"Winter"	2010	"F"	0	0
+"MNE"	"Montenegro"	"Winter"	2010	"M"	1	0
+"MNE"	"Montenegro"	"Summer"	2012	"F"	15	14
+"MNE"	"Montenegro"	"Summer"	2012	"M"	18	0
+"MNE"	"Montenegro"	"Winter"	2014	"F"	1	0
+"MNE"	"Montenegro"	"Winter"	2014	"M"	1	0
+"MNE"	"Montenegro"	"Summer"	2016	"F"	18	0
+"MNE"	"Montenegro"	"Summer"	2016	"M"	17	0
+"MAR"	"Morocco"	"Winter"	2010	"F"	0	0
+"MAR"	"Morocco"	"Winter"	2010	"M"	1	0
+"MAR"	"Morocco"	"Summer"	2012	"F"	16	0
+"MAR"	"Morocco"	"Summer"	2012	"M"	38	1
+"MAR"	"Morocco"	"Winter"	2014	"F"	1	0
+"MAR"	"Morocco"	"Winter"	2014	"M"	1	0
+"MAR"	"Morocco"	"Summer"	2016	"F"	19	0
+"MAR"	"Morocco"	"Summer"	2016	"M"	29	1
+"MOZ"	"Mozambique"	"Winter"	2010	"F"	0	0
+"MOZ"	"Mozambique"	"Winter"	2010	"M"	0	0
+"MOZ"	"Mozambique"	"Summer"	2012	"F"	2	0
+"MOZ"	"Mozambique"	"Summer"	2012	"M"	3	0
+"MOZ"	"Mozambique"	"Winter"	2014	"F"	0	0
+"MOZ"	"Mozambique"	"Winter"	2014	"M"	0	0
+"MOZ"	"Mozambique"	"Summer"	2016	"F"	1	0
+"MOZ"	"Mozambique"	"Summer"	2016	"M"	5	0
+"MYA"	"Myanmar"	"Winter"	2010	"F"	0	0
+"MYA"	"Myanmar"	"Winter"	2010	"M"	0	0
+"MYA"	"Myanmar"	"Summer"	2012	"F"	3	0
+"MYA"	"Myanmar"	"Summer"	2012	"M"	3	0
+"MYA"	"Myanmar"	"Winter"	2014	"F"	0	0
+"MYA"	"Myanmar"	"Winter"	2014	"M"	0	0
+"MYA"	"Myanmar"	"Summer"	2016	"F"	2	0
+"MYA"	"Myanmar"	"Summer"	2016	"M"	4	0
+"NAM"	"Namibia"	"Winter"	2010	"F"	0	0
+"NAM"	"Namibia"	"Winter"	2010	"M"	0	0
+"NAM"	"Namibia"	"Summer"	2012	"F"	4	0
+"NAM"	"Namibia"	"Summer"	2012	"M"	5	0
+"NAM"	"Namibia"	"Winter"	2014	"F"	0	0
+"NAM"	"Namibia"	"Winter"	2014	"M"	0	0
+"NAM"	"Namibia"	"Summer"	2016	"F"	6	0
+"NAM"	"Namibia"	"Summer"	2016	"M"	4	0
+"NRU"	"Nauru"	"Winter"	2010	"F"	0	0
+"NRU"	"Nauru"	"Winter"	2010	"M"	0	0
+"NRU"	"Nauru"	"Summer"	2012	"F"	0	0
+"NRU"	"Nauru"	"Summer"	2012	"M"	2	0
+"NRU"	"Nauru"	"Winter"	2014	"F"	0	0
+"NRU"	"Nauru"	"Winter"	2014	"M"	0	0
+"NRU"	"Nauru"	"Summer"	2016	"F"	0	0
+"NRU"	"Nauru"	"Summer"	2016	"M"	2	0
+"NEP"	"Nepal"	"Winter"	2010	"F"	0	0
+"NEP"	"Nepal"	"Winter"	2010	"M"	1	0
+"NEP"	"Nepal"	"Summer"	2012	"F"	3	0
+"NEP"	"Nepal"	"Summer"	2012	"M"	2	0
+"NEP"	"Nepal"	"Winter"	2014	"F"	0	0
+"NEP"	"Nepal"	"Winter"	2014	"M"	1	0
+"NEP"	"Nepal"	"Summer"	2016	"F"	4	0
+"NEP"	"Nepal"	"Summer"	2016	"M"	3	0
+"NED"	"Netherlands"	"Winter"	2010	"F"	17	4
+"NED"	"Netherlands"	"Winter"	2010	"M"	15	7
+"NED"	"Netherlands"	"Summer"	2012	"F"	75	42
+"NED"	"Netherlands"	"Summer"	2012	"M"	94	27
+"NED"	"Netherlands"	"Winter"	2014	"F"	19	13
+"NED"	"Netherlands"	"Winter"	2014	"M"	20	16
+"NED"	"Netherlands"	"Summer"	2016	"F"	128	31
+"NED"	"Netherlands"	"Summer"	2016	"M"	101	14
+"NED"	"Netherlands-1"	"Winter"	2010	"F"	0	0
+"NED"	"Netherlands-1"	"Winter"	2010	"M"	0	0
+"NED"	"Netherlands-1"	"Summer"	2012	"F"	2	0
+"NED"	"Netherlands-1"	"Summer"	2012	"M"	0	0
+"NED"	"Netherlands-1"	"Winter"	2014	"F"	0	0
+"NED"	"Netherlands-1"	"Winter"	2014	"M"	0	0
+"NED"	"Netherlands-1"	"Summer"	2016	"F"	2	0
+"NED"	"Netherlands-1"	"Summer"	2016	"M"	2	2
+"NED"	"Netherlands-2"	"Winter"	2010	"F"	0	0
+"NED"	"Netherlands-2"	"Winter"	2010	"M"	0	0
+"NED"	"Netherlands-2"	"Summer"	2012	"F"	2	0
+"NED"	"Netherlands-2"	"Summer"	2012	"M"	0	0
+"NED"	"Netherlands-2"	"Winter"	2014	"F"	0	0
+"NED"	"Netherlands-2"	"Winter"	2014	"M"	0	0
+"NED"	"Netherlands-2"	"Summer"	2016	"F"	2	0
+"NED"	"Netherlands-2"	"Summer"	2016	"M"	2	0
+"NZL"	"New Zealand"	"Winter"	2010	"F"	7	0
+"NZL"	"New Zealand"	"Winter"	2010	"M"	9	0
+"NZL"	"New Zealand"	"Summer"	2012	"F"	79	9
+"NZL"	"New Zealand"	"Summer"	2012	"M"	81	18
+"NZL"	"New Zealand"	"Winter"	2014	"F"	8	0
+"NZL"	"New Zealand"	"Winter"	2014	"M"	6	0
+"NZL"	"New Zealand"	"Summer"	2016	"F"	96	24
+"NZL"	"New Zealand"	"Summer"	2016	"M"	97	11
+"NCA"	"Nicaragua"	"Winter"	2010	"F"	0	0
+"NCA"	"Nicaragua"	"Winter"	2010	"M"	0	0
+"NCA"	"Nicaragua"	"Summer"	2012	"F"	1	0
+"NCA"	"Nicaragua"	"Summer"	2012	"M"	3	0
+"NCA"	"Nicaragua"	"Winter"	2014	"F"	0	0
+"NCA"	"Nicaragua"	"Winter"	2014	"M"	0	0
+"NCA"	"Nicaragua"	"Summer"	2016	"F"	2	0
+"NCA"	"Nicaragua"	"Summer"	2016	"M"	3	0
+"NIG"	"Niger"	"Winter"	2010	"F"	0	0
+"NIG"	"Niger"	"Winter"	2010	"M"	0	0
+"NIG"	"Niger"	"Summer"	2012	"F"	2	0
+"NIG"	"Niger"	"Summer"	2012	"M"	3	0
+"NIG"	"Niger"	"Winter"	2014	"F"	0	0
+"NIG"	"Niger"	"Winter"	2014	"M"	0	0
+"NIG"	"Niger"	"Summer"	2016	"F"	2	0
+"NIG"	"Niger"	"Summer"	2016	"M"	4	1
+"NGR"	"Nigeria"	"Winter"	2010	"F"	0	0
+"NGR"	"Nigeria"	"Winter"	2010	"M"	0	0
+"NGR"	"Nigeria"	"Summer"	2012	"F"	16	0
+"NGR"	"Nigeria"	"Summer"	2012	"M"	24	0
+"NGR"	"Nigeria"	"Winter"	2014	"F"	0	0
+"NGR"	"Nigeria"	"Winter"	2014	"M"	0	0
+"NGR"	"Nigeria"	"Summer"	2016	"F"	23	0
+"NGR"	"Nigeria"	"Summer"	2016	"M"	44	17
+"PRK"	"North Korea"	"Winter"	2010	"F"	1	0
+"PRK"	"North Korea"	"Winter"	2010	"M"	1	0
+"PRK"	"North Korea"	"Summer"	2012	"F"	34	3
+"PRK"	"North Korea"	"Summer"	2012	"M"	14	3
+"PRK"	"North Korea"	"Winter"	2014	"F"	0	0
+"PRK"	"North Korea"	"Winter"	2014	"M"	0	0
+"PRK"	"North Korea"	"Summer"	2016	"F"	19	4
+"PRK"	"North Korea"	"Summer"	2016	"M"	11	3
+"NOR"	"Norway"	"Winter"	2010	"F"	19	9
+"NOR"	"Norway"	"Winter"	2010	"M"	60	25
+"NOR"	"Norway"	"Summer"	2012	"F"	18	8
+"NOR"	"Norway"	"Summer"	2012	"M"	23	3
+"NOR"	"Norway"	"Winter"	2014	"F"	11	11
+"NOR"	"Norway"	"Winter"	2014	"M"	52	12
+"NOR"	"Norway"	"Summer"	2016	"F"	25	14
+"NOR"	"Norway"	"Summer"	2016	"M"	23	5
+"OMA"	"Oman"	"Winter"	2010	"F"	0	0
+"OMA"	"Oman"	"Winter"	2010	"M"	0	0
+"OMA"	"Oman"	"Summer"	2012	"F"	1	0
+"OMA"	"Oman"	"Summer"	2012	"M"	2	0
+"OMA"	"Oman"	"Winter"	2014	"F"	0	0
+"OMA"	"Oman"	"Winter"	2014	"M"	0	0
+"OMA"	"Oman"	"Summer"	2016	"F"	1	0
+"OMA"	"Oman"	"Summer"	2016	"M"	2	0
+"PAK"	"Pakistan"	"Winter"	2010	"F"	0	0
+"PAK"	"Pakistan"	"Winter"	2010	"M"	1	0
+"PAK"	"Pakistan"	"Summer"	2012	"F"	0	0
+"PAK"	"Pakistan"	"Summer"	2012	"M"	8	0
+"PAK"	"Pakistan"	"Winter"	2014	"F"	0	0
+"PAK"	"Pakistan"	"Winter"	2014	"M"	1	0
+"PAK"	"Pakistan"	"Summer"	2016	"F"	2	0
+"PAK"	"Pakistan"	"Summer"	2016	"M"	3	0
+"PLW"	"Palau"	"Winter"	2010	"F"	0	0
+"PLW"	"Palau"	"Winter"	2010	"M"	0	0
+"PLW"	"Palau"	"Summer"	2012	"F"	3	0
+"PLW"	"Palau"	"Summer"	2012	"M"	2	0
+"PLW"	"Palau"	"Winter"	2014	"F"	0	0
+"PLW"	"Palau"	"Winter"	2014	"M"	0	0
+"PLW"	"Palau"	"Summer"	2016	"F"	2	0
+"PLW"	"Palau"	"Summer"	2016	"M"	3	0
+"PLE"	"Palestine"	"Winter"	2010	"F"	0	0
+"PLE"	"Palestine"	"Winter"	2010	"M"	0	0
+"PLE"	"Palestine"	"Summer"	2012	"F"	2	0
+"PLE"	"Palestine"	"Summer"	2012	"M"	3	0
+"PLE"	"Palestine"	"Winter"	2014	"F"	0	0
+"PLE"	"Palestine"	"Winter"	2014	"M"	0	0
+"PLE"	"Palestine"	"Summer"	2016	"F"	1	0
+"PLE"	"Palestine"	"Summer"	2016	"M"	3	0
+"PAN"	"Panama"	"Winter"	2010	"F"	0	0
+"PAN"	"Panama"	"Winter"	2010	"M"	0	0
+"PAN"	"Panama"	"Summer"	2012	"F"	2	0
+"PAN"	"Panama"	"Summer"	2012	"M"	5	0
+"PAN"	"Panama"	"Winter"	2014	"F"	0	0
+"PAN"	"Panama"	"Winter"	2014	"M"	0	0
+"PAN"	"Panama"	"Summer"	2016	"F"	6	0
+"PAN"	"Panama"	"Summer"	2016	"M"	4	0
+"PNG"	"Papua New Guinea"	"Winter"	2010	"F"	0	0
+"PNG"	"Papua New Guinea"	"Winter"	2010	"M"	0	0
+"PNG"	"Papua New Guinea"	"Summer"	2012	"F"	4	0
+"PNG"	"Papua New Guinea"	"Summer"	2012	"M"	4	0
+"PNG"	"Papua New Guinea"	"Winter"	2014	"F"	0	0
+"PNG"	"Papua New Guinea"	"Winter"	2014	"M"	0	0
+"PNG"	"Papua New Guinea"	"Summer"	2016	"F"	2	0
+"PNG"	"Papua New Guinea"	"Summer"	2016	"M"	6	0
+"PAR"	"Paraguay"	"Winter"	2010	"F"	0	0
+"PAR"	"Paraguay"	"Winter"	2010	"M"	0	0
+"PAR"	"Paraguay"	"Summer"	2012	"F"	4	0
+"PAR"	"Paraguay"	"Summer"	2012	"M"	3	0
+"PAR"	"Paraguay"	"Winter"	2014	"F"	1	0
+"PAR"	"Paraguay"	"Winter"	2014	"M"	0	0
+"PAR"	"Paraguay"	"Summer"	2016	"F"	5	0
+"PAR"	"Paraguay"	"Summer"	2016	"M"	6	0
+"PER"	"Peru"	"Winter"	2010	"F"	1	0
+"PER"	"Peru"	"Winter"	2010	"M"	2	0
+"PER"	"Peru"	"Summer"	2012	"F"	7	0
+"PER"	"Peru"	"Summer"	2012	"M"	9	0
+"PER"	"Peru"	"Winter"	2014	"F"	1	0
+"PER"	"Peru"	"Winter"	2014	"M"	2	0
+"PER"	"Peru"	"Summer"	2016	"F"	12	0
+"PER"	"Peru"	"Summer"	2016	"M"	17	0
+"PHI"	"Philippines"	"Winter"	2010	"F"	0	0
+"PHI"	"Philippines"	"Winter"	2010	"M"	0	0
+"PHI"	"Philippines"	"Summer"	2012	"F"	4	0
+"PHI"	"Philippines"	"Summer"	2012	"M"	7	0
+"PHI"	"Philippines"	"Winter"	2014	"F"	0	0
+"PHI"	"Philippines"	"Winter"	2014	"M"	0	0
+"PHI"	"Philippines"	"Summer"	2016	"F"	6	1
+"PHI"	"Philippines"	"Summer"	2016	"M"	6	0
+"POL"	"Poland"	"Winter"	2010	"F"	20	6
+"POL"	"Poland"	"Winter"	2010	"M"	26	2
+"POL"	"Poland"	"Summer"	2012	"F"	84	7
+"POL"	"Poland"	"Summer"	2012	"M"	124	5
+"POL"	"Poland"	"Winter"	2014	"F"	23	5
+"POL"	"Poland"	"Winter"	2014	"M"	35	6
+"POL"	"Poland"	"Summer"	2016	"F"	95	13
+"POL"	"Poland"	"Summer"	2016	"M"	135	3
+"POL"	"Poland-1"	"Winter"	2010	"F"	0	0
+"POL"	"Poland-1"	"Winter"	2010	"M"	0	0
+"POL"	"Poland-1"	"Summer"	2012	"F"	2	0
+"POL"	"Poland-1"	"Summer"	2012	"M"	0	0
+"POL"	"Poland-1"	"Winter"	2014	"F"	0	0
+"POL"	"Poland-1"	"Winter"	2014	"M"	0	0
+"POL"	"Poland-1"	"Summer"	2016	"F"	0	0
+"POL"	"Poland-1"	"Summer"	2016	"M"	2	0
+"POL"	"Poland-2"	"Winter"	2010	"F"	0	0
+"POL"	"Poland-2"	"Winter"	2010	"M"	0	0
+"POL"	"Poland-2"	"Summer"	2012	"F"	2	0
+"POL"	"Poland-2"	"Summer"	2012	"M"	0	0
+"POL"	"Poland-2"	"Winter"	2014	"F"	0	0
+"POL"	"Poland-2"	"Winter"	2014	"M"	0	0
+"POL"	"Poland-2"	"Summer"	2016	"F"	0	0
+"POL"	"Poland-2"	"Summer"	2016	"M"	2	0
+"POR"	"Portugal"	"Winter"	2010	"F"	0	0
+"POR"	"Portugal"	"Winter"	2010	"M"	1	0
+"POR"	"Portugal"	"Summer"	2012	"F"	32	0
+"POR"	"Portugal"	"Summer"	2012	"M"	44	2
+"POR"	"Portugal"	"Winter"	2014	"F"	1	0
+"POR"	"Portugal"	"Winter"	2014	"M"	1	0
+"POR"	"Portugal"	"Summer"	2016	"F"	29	1
+"POR"	"Portugal"	"Summer"	2016	"M"	61	0
+"PUR"	"Puerto Rico"	"Winter"	2010	"F"	0	0
+"PUR"	"Puerto Rico"	"Winter"	2010	"M"	0	0
+"PUR"	"Puerto Rico"	"Summer"	2012	"F"	5	0
+"PUR"	"Puerto Rico"	"Summer"	2012	"M"	9	2
+"PUR"	"Puerto Rico"	"Winter"	2014	"F"	0	0
+"PUR"	"Puerto Rico"	"Winter"	2014	"M"	0	0
+"PUR"	"Puerto Rico"	"Summer"	2016	"F"	26	1
+"PUR"	"Puerto Rico"	"Summer"	2016	"M"	13	0
+"QAT"	"Qatar"	"Winter"	2010	"F"	0	0
+"QAT"	"Qatar"	"Winter"	2010	"M"	0	0
+"QAT"	"Qatar"	"Summer"	2012	"F"	4	0
+"QAT"	"Qatar"	"Summer"	2012	"M"	8	2
+"QAT"	"Qatar"	"Winter"	2014	"F"	0	0
+"QAT"	"Qatar"	"Winter"	2014	"M"	0	0
+"QAT"	"Qatar"	"Summer"	2016	"F"	2	0
+"QAT"	"Qatar"	"Summer"	2016	"M"	35	1
+"ROT"	"Refugee Olympic Athletes"	"Winter"	2010	"F"	0	0
+"ROT"	"Refugee Olympic Athletes"	"Winter"	2010	"M"	0	0
+"ROT"	"Refugee Olympic Athletes"	"Summer"	2012	"F"	0	0
+"ROT"	"Refugee Olympic Athletes"	"Summer"	2012	"M"	0	0
+"ROT"	"Refugee Olympic Athletes"	"Winter"	2014	"F"	0	0
+"ROT"	"Refugee Olympic Athletes"	"Winter"	2014	"M"	0	0
+"ROT"	"Refugee Olympic Athletes"	"Summer"	2016	"F"	4	0
+"ROT"	"Refugee Olympic Athletes"	"Summer"	2016	"M"	6	0
+"ROU"	"Romania"	"Winter"	2010	"F"	14	0
+"ROU"	"Romania"	"Winter"	2010	"M"	10	0
+"ROU"	"Romania"	"Summer"	2012	"F"	46	7
+"ROU"	"Romania"	"Summer"	2012	"M"	53	6
+"ROU"	"Romania"	"Winter"	2014	"F"	7	0
+"ROU"	"Romania"	"Winter"	2014	"M"	15	0
+"ROU"	"Romania"	"Summer"	2016	"F"	60	13
+"ROU"	"Romania"	"Summer"	2016	"M"	34	3
+"ROU"	"Romania-1"	"Winter"	2010	"F"	0	0
+"ROU"	"Romania-1"	"Winter"	2010	"M"	2	0
+"ROU"	"Romania-1"	"Summer"	2012	"F"	0	0
+"ROU"	"Romania-1"	"Summer"	2012	"M"	0	0
+"ROU"	"Romania-1"	"Winter"	2014	"F"	0	0
+"ROU"	"Romania-1"	"Winter"	2014	"M"	0	0
+"ROU"	"Romania-1"	"Summer"	2016	"F"	2	0
+"ROU"	"Romania-1"	"Summer"	2016	"M"	0	0
+"ROU"	"Romania-2"	"Winter"	2010	"F"	0	0
+"ROU"	"Romania-2"	"Winter"	2010	"M"	2	0
+"ROU"	"Romania-2"	"Summer"	2012	"F"	0	0
+"ROU"	"Romania-2"	"Summer"	2012	"M"	0	0
+"ROU"	"Romania-2"	"Winter"	2014	"F"	0	0
+"ROU"	"Romania-2"	"Winter"	2014	"M"	0	0
+"ROU"	"Romania-2"	"Summer"	2016	"F"	2	0
+"ROU"	"Romania-2"	"Summer"	2016	"M"	0	0
+"RUS"	"Russia"	"Winter"	2010	"F"	71	8
+"RUS"	"Russia"	"Winter"	2010	"M"	71	13
+"RUS"	"Russia"	"Summer"	2012	"F"	220	69
+"RUS"	"Russia"	"Summer"	2012	"M"	202	68
+"RUS"	"Russia"	"Winter"	2014	"F"	77	16
+"RUS"	"Russia"	"Winter"	2014	"M"	101	34
+"RUS"	"Russia"	"Summer"	2016	"F"	140	80
+"RUS"	"Russia"	"Summer"	2016	"M"	136	33
+"RUS"	"Russia-1"	"Winter"	2010	"F"	4	1
+"RUS"	"Russia-1"	"Winter"	2010	"M"	10	3
+"RUS"	"Russia-1"	"Summer"	2012	"F"	4	2
+"RUS"	"Russia-1"	"Summer"	2012	"M"	0	0
+"RUS"	"Russia-1"	"Winter"	2014	"F"	3	1
+"RUS"	"Russia-1"	"Winter"	2014	"M"	7	7
+"RUS"	"Russia-1"	"Summer"	2016	"F"	2	0
+"RUS"	"Russia-1"	"Summer"	2016	"M"	2	0
+"RUS"	"Russia-2"	"Winter"	2010	"F"	4	0
+"RUS"	"Russia-2"	"Winter"	2010	"M"	10	0
+"RUS"	"Russia-2"	"Summer"	2012	"F"	4	0
+"RUS"	"Russia-2"	"Summer"	2012	"M"	0	0
+"RUS"	"Russia-2"	"Winter"	2014	"F"	3	0
+"RUS"	"Russia-2"	"Winter"	2014	"M"	7	0
+"RUS"	"Russia-2"	"Summer"	2016	"F"	2	2
+"RUS"	"Russia-2"	"Summer"	2016	"M"	2	0
+"RUS"	"Russia-3"	"Winter"	2010	"F"	2	0
+"RUS"	"Russia-3"	"Winter"	2010	"M"	6	0
+"RUS"	"Russia-3"	"Summer"	2012	"F"	0	0
+"RUS"	"Russia-3"	"Summer"	2012	"M"	0	0
+"RUS"	"Russia-3"	"Winter"	2014	"F"	1	0
+"RUS"	"Russia-3"	"Winter"	2014	"M"	5	0
+"RUS"	"Russia-3"	"Summer"	2016	"F"	0	0
+"RUS"	"Russia-3"	"Summer"	2016	"M"	0	0
+"RWA"	"Rwanda"	"Winter"	2010	"F"	0	0
+"RWA"	"Rwanda"	"Winter"	2010	"M"	0	0
+"RWA"	"Rwanda"	"Summer"	2012	"F"	2	0
+"RWA"	"Rwanda"	"Summer"	2012	"M"	5	0
+"RWA"	"Rwanda"	"Winter"	2014	"F"	0	0
+"RWA"	"Rwanda"	"Winter"	2014	"M"	0	0
+"RWA"	"Rwanda"	"Summer"	2016	"F"	1	0
+"RWA"	"Rwanda"	"Summer"	2016	"M"	1	0
+"SKN"	"Saint Kitts and Nevis"	"Winter"	2010	"F"	0	0
+"SKN"	"Saint Kitts and Nevis"	"Winter"	2010	"M"	0	0
+"SKN"	"Saint Kitts and Nevis"	"Summer"	2012	"F"	0	0
+"SKN"	"Saint Kitts and Nevis"	"Summer"	2012	"M"	4	0
+"SKN"	"Saint Kitts and Nevis"	"Winter"	2014	"F"	0	0
+"SKN"	"Saint Kitts and Nevis"	"Winter"	2014	"M"	0	0
+"SKN"	"Saint Kitts and Nevis"	"Summer"	2016	"F"	1	0
+"SKN"	"Saint Kitts and Nevis"	"Summer"	2016	"M"	5	0
+"LCA"	"Saint Lucia"	"Winter"	2010	"F"	0	0
+"LCA"	"Saint Lucia"	"Winter"	2010	"M"	0	0
+"LCA"	"Saint Lucia"	"Summer"	2012	"F"	3	0
+"LCA"	"Saint Lucia"	"Summer"	2012	"M"	1	0
+"LCA"	"Saint Lucia"	"Winter"	2014	"F"	0	0
+"LCA"	"Saint Lucia"	"Winter"	2014	"M"	0	0
+"LCA"	"Saint Lucia"	"Summer"	2016	"F"	3	0
+"LCA"	"Saint Lucia"	"Summer"	2016	"M"	2	0
+"VIN"	"Saint Vincent and the Grenadines"	"Winter"	2010	"F"	0	0
+"VIN"	"Saint Vincent and the Grenadines"	"Winter"	2010	"M"	0	0
+"VIN"	"Saint Vincent and the Grenadines"	"Summer"	2012	"F"	1	0
+"VIN"	"Saint Vincent and the Grenadines"	"Summer"	2012	"M"	1	0
+"VIN"	"Saint Vincent and the Grenadines"	"Winter"	2014	"F"	0	0
+"VIN"	"Saint Vincent and the Grenadines"	"Winter"	2014	"M"	0	0
+"VIN"	"Saint Vincent and the Grenadines"	"Summer"	2016	"F"	1	0
+"VIN"	"Saint Vincent and the Grenadines"	"Summer"	2016	"M"	1	0
+"SAM"	"Samoa"	"Winter"	2010	"F"	0	0
+"SAM"	"Samoa"	"Winter"	2010	"M"	0	0
+"SAM"	"Samoa"	"Summer"	2012	"F"	3	0
+"SAM"	"Samoa"	"Summer"	2012	"M"	5	0
+"SAM"	"Samoa"	"Winter"	2014	"F"	0	0
+"SAM"	"Samoa"	"Winter"	2014	"M"	0	0
+"SAM"	"Samoa"	"Summer"	2016	"F"	2	0
+"SAM"	"Samoa"	"Summer"	2016	"M"	3	0
+"SMR"	"San Marino"	"Winter"	2010	"F"	0	0
+"SMR"	"San Marino"	"Winter"	2010	"M"	1	0
+"SMR"	"San Marino"	"Summer"	2012	"F"	3	0
+"SMR"	"San Marino"	"Summer"	2012	"M"	1	0
+"SMR"	"San Marino"	"Winter"	2014	"F"	1	0
+"SMR"	"San Marino"	"Winter"	2014	"M"	1	0
+"SMR"	"San Marino"	"Summer"	2016	"F"	2	0
+"SMR"	"San Marino"	"Summer"	2016	"M"	2	0
+"STP"	"Sao Tome and Principe"	"Winter"	2010	"F"	0	0
+"STP"	"Sao Tome and Principe"	"Winter"	2010	"M"	0	0
+"STP"	"Sao Tome and Principe"	"Summer"	2012	"F"	1	0
+"STP"	"Sao Tome and Principe"	"Summer"	2012	"M"	1	0
+"STP"	"Sao Tome and Principe"	"Winter"	2014	"F"	0	0
+"STP"	"Sao Tome and Principe"	"Winter"	2014	"M"	0	0
+"STP"	"Sao Tome and Principe"	"Summer"	2016	"F"	1	0
+"STP"	"Sao Tome and Principe"	"Summer"	2016	"M"	2	0
+"KSA"	"Saudi Arabia"	"Winter"	2010	"F"	0	0
+"KSA"	"Saudi Arabia"	"Winter"	2010	"M"	0	0
+"KSA"	"Saudi Arabia"	"Summer"	2012	"F"	1	0
+"KSA"	"Saudi Arabia"	"Summer"	2012	"M"	12	3
+"KSA"	"Saudi Arabia"	"Winter"	2014	"F"	0	0
+"KSA"	"Saudi Arabia"	"Winter"	2014	"M"	0	0
+"KSA"	"Saudi Arabia"	"Summer"	2016	"F"	3	0
+"KSA"	"Saudi Arabia"	"Summer"	2016	"M"	7	0
+"SEN"	"Senegal"	"Winter"	2010	"F"	0	0
+"SEN"	"Senegal"	"Winter"	2010	"M"	0	0
+"SEN"	"Senegal"	"Summer"	2012	"F"	7	0
+"SEN"	"Senegal"	"Summer"	2012	"M"	24	0
+"SEN"	"Senegal"	"Winter"	2014	"F"	0	0
+"SEN"	"Senegal"	"Winter"	2014	"M"	0	0
+"SEN"	"Senegal"	"Summer"	2016	"F"	16	0
+"SEN"	"Senegal"	"Summer"	2016	"M"	6	0
+"SRB"	"Serbia"	"Winter"	2010	"F"	4	0
+"SRB"	"Serbia"	"Winter"	2010	"M"	6	0
+"SRB"	"Serbia"	"Summer"	2012	"F"	36	2
+"SRB"	"Serbia"	"Summer"	2012	"M"	80	14
+"SRB"	"Serbia"	"Winter"	2014	"F"	3	0
+"SRB"	"Serbia"	"Winter"	2014	"M"	5	0
+"SRB"	"Serbia"	"Summer"	2016	"F"	45	26
+"SRB"	"Serbia"	"Summer"	2016	"M"	58	28
+"SRB"	"Serbia-1"	"Winter"	2010	"F"	0	0
+"SRB"	"Serbia-1"	"Winter"	2010	"M"	0	0
+"SRB"	"Serbia-1"	"Summer"	2012	"F"	0	0
+"SRB"	"Serbia-1"	"Summer"	2012	"M"	2	0
+"SRB"	"Serbia-1"	"Winter"	2014	"F"	0	0
+"SRB"	"Serbia-1"	"Winter"	2014	"M"	0	0
+"SRB"	"Serbia-1"	"Summer"	2016	"F"	0	0
+"SRB"	"Serbia-1"	"Summer"	2016	"M"	0	0
+"SRB"	"Serbia-2"	"Winter"	2010	"F"	0	0
+"SRB"	"Serbia-2"	"Winter"	2010	"M"	0	0
+"SRB"	"Serbia-2"	"Summer"	2012	"F"	0	0
+"SRB"	"Serbia-2"	"Summer"	2012	"M"	2	0
+"SRB"	"Serbia-2"	"Winter"	2014	"F"	0	0
+"SRB"	"Serbia-2"	"Winter"	2014	"M"	0	0
+"SRB"	"Serbia-2"	"Summer"	2016	"F"	0	0
+"SRB"	"Serbia-2"	"Summer"	2016	"M"	0	0
+"SEY"	"Seychelles"	"Winter"	2010	"F"	0	0
+"SEY"	"Seychelles"	"Winter"	2010	"M"	0	0
+"SEY"	"Seychelles"	"Summer"	2012	"F"	2	0
+"SEY"	"Seychelles"	"Summer"	2012	"M"	3	0
+"SEY"	"Seychelles"	"Winter"	2014	"F"	0	0
+"SEY"	"Seychelles"	"Winter"	2014	"M"	0	0
+"SEY"	"Seychelles"	"Summer"	2016	"F"	2	0
+"SEY"	"Seychelles"	"Summer"	2016	"M"	8	0
+"SLE"	"Sierra Leone"	"Winter"	2010	"F"	0	0
+"SLE"	"Sierra Leone"	"Winter"	2010	"M"	0	0
+"SLE"	"Sierra Leone"	"Summer"	2012	"F"	1	0
+"SLE"	"Sierra Leone"	"Summer"	2012	"M"	1	0
+"SLE"	"Sierra Leone"	"Winter"	2014	"F"	0	0
+"SLE"	"Sierra Leone"	"Winter"	2014	"M"	0	0
+"SLE"	"Sierra Leone"	"Summer"	2016	"F"	0	0
+"SLE"	"Sierra Leone"	"Summer"	2016	"M"	0	0
+"SGP"	"Singapore"	"Winter"	2010	"F"	0	0
+"SGP"	"Singapore"	"Winter"	2010	"M"	0	0
+"SGP"	"Singapore"	"Summer"	2012	"F"	15	4
+"SGP"	"Singapore"	"Summer"	2012	"M"	8	0
+"SGP"	"Singapore"	"Winter"	2014	"F"	0	0
+"SGP"	"Singapore"	"Winter"	2014	"M"	0	0
+"SGP"	"Singapore"	"Summer"	2016	"F"	16	0
+"SGP"	"Singapore"	"Summer"	2016	"M"	9	1
+"SVK"	"Slovakia"	"Winter"	2010	"F"	30	2
+"SVK"	"Slovakia"	"Winter"	2010	"M"	38	1
+"SVK"	"Slovakia"	"Summer"	2012	"F"	21	2
+"SVK"	"Slovakia"	"Summer"	2012	"M"	26	3
+"SVK"	"Slovakia"	"Winter"	2014	"F"	17	1
+"SVK"	"Slovakia"	"Winter"	2014	"M"	43	0
+"SVK"	"Slovakia"	"Summer"	2016	"F"	19	0
+"SVK"	"Slovakia"	"Summer"	2016	"M"	32	8
+"SVK"	"Slovakia-1"	"Winter"	2010	"F"	0	0
+"SVK"	"Slovakia-1"	"Winter"	2010	"M"	0	0
+"SVK"	"Slovakia-1"	"Summer"	2012	"F"	0	0
+"SVK"	"Slovakia-1"	"Summer"	2012	"M"	0	0
+"SVK"	"Slovakia-1"	"Winter"	2014	"F"	0	0
+"SVK"	"Slovakia-1"	"Winter"	2014	"M"	2	0
+"SVK"	"Slovakia-1"	"Summer"	2016	"F"	0	0
+"SVK"	"Slovakia-1"	"Summer"	2016	"M"	0	0
+"SVK"	"Slovakia-2"	"Winter"	2010	"F"	0	0
+"SVK"	"Slovakia-2"	"Winter"	2010	"M"	0	0
+"SVK"	"Slovakia-2"	"Summer"	2012	"F"	0	0
+"SVK"	"Slovakia-2"	"Summer"	2012	"M"	0	0
+"SVK"	"Slovakia-2"	"Winter"	2014	"F"	0	0
+"SVK"	"Slovakia-2"	"Winter"	2014	"M"	2	0
+"SVK"	"Slovakia-2"	"Summer"	2016	"F"	0	0
+"SVK"	"Slovakia-2"	"Summer"	2016	"M"	0	0
+"SLO"	"Slovenia"	"Winter"	2010	"F"	17	3
+"SLO"	"Slovenia"	"Winter"	2010	"M"	30	0
+"SLO"	"Slovenia"	"Summer"	2012	"F"	37	1
+"SLO"	"Slovenia"	"Summer"	2012	"M"	28	4
+"SLO"	"Slovenia"	"Winter"	2014	"F"	15	4
+"SLO"	"Slovenia"	"Winter"	2014	"M"	43	4
+"SLO"	"Slovenia"	"Summer"	2016	"F"	24	2
+"SLO"	"Slovenia"	"Summer"	2016	"M"	39	2
+"SOL"	"Solomon Islands"	"Winter"	2010	"F"	0	0
+"SOL"	"Solomon Islands"	"Winter"	2010	"M"	0	0
+"SOL"	"Solomon Islands"	"Summer"	2012	"F"	1	0
+"SOL"	"Solomon Islands"	"Summer"	2012	"M"	1	0
+"SOL"	"Solomon Islands"	"Winter"	2014	"F"	0	0
+"SOL"	"Solomon Islands"	"Winter"	2014	"M"	0	0
+"SOL"	"Solomon Islands"	"Summer"	2016	"F"	1	0
+"SOL"	"Solomon Islands"	"Summer"	2016	"M"	0	0
+"RSA"	"South Africa"	"Winter"	2010	"F"	0	0
+"RSA"	"South Africa"	"Winter"	2010	"M"	2	0
+"RSA"	"South Africa"	"Summer"	2012	"F"	56	2
+"RSA"	"South Africa"	"Summer"	2012	"M"	66	7
+"RSA"	"South Africa"	"Winter"	2014	"F"	0	0
+"RSA"	"South Africa"	"Winter"	2014	"M"	0	0
+"RSA"	"South Africa"	"Summer"	2016	"F"	40	2
+"RSA"	"South Africa"	"Summer"	2016	"M"	91	20
+"KOR"	"South Korea"	"Winter"	2010	"F"	18	5
+"KOR"	"South Korea"	"Winter"	2010	"M"	27	13
+"KOR"	"South Korea"	"Summer"	2012	"F"	111	15
+"KOR"	"South Korea"	"Summer"	2012	"M"	131	44
+"KOR"	"South Korea"	"Winter"	2014	"F"	23	11
+"KOR"	"South Korea"	"Winter"	2014	"M"	32	3
+"KOR"	"South Korea"	"Summer"	2016	"F"	99	10
+"KOR"	"South Korea"	"Summer"	2016	"M"	99	14
+"KOR"	"South Korea-1"	"Winter"	2010	"F"	0	0
+"KOR"	"South Korea-1"	"Winter"	2010	"M"	0	0
+"KOR"	"South Korea-1"	"Summer"	2012	"F"	2	0
+"KOR"	"South Korea-1"	"Summer"	2012	"M"	2	2
+"KOR"	"South Korea-1"	"Winter"	2014	"F"	0	0
+"KOR"	"South Korea-1"	"Winter"	2014	"M"	4	0
+"KOR"	"South Korea-1"	"Summer"	2016	"F"	2	2
+"KOR"	"South Korea-1"	"Summer"	2016	"M"	2	0
+"KOR"	"South Korea-2"	"Winter"	2010	"F"	0	0
+"KOR"	"South Korea-2"	"Winter"	2010	"M"	0	0
+"KOR"	"South Korea-2"	"Summer"	2012	"F"	2	0
+"KOR"	"South Korea-2"	"Summer"	2012	"M"	2	0
+"KOR"	"South Korea-2"	"Winter"	2014	"F"	0	0
+"KOR"	"South Korea-2"	"Winter"	2014	"M"	5	0
+"KOR"	"South Korea-2"	"Summer"	2016	"F"	2	0
+"KOR"	"South Korea-2"	"Summer"	2016	"M"	2	0
+"SSD"	"South Sudan"	"Winter"	2010	"F"	0	0
+"SSD"	"South Sudan"	"Winter"	2010	"M"	0	0
+"SSD"	"South Sudan"	"Summer"	2012	"F"	0	0
+"SSD"	"South Sudan"	"Summer"	2012	"M"	0	0
+"SSD"	"South Sudan"	"Winter"	2014	"F"	0	0
+"SSD"	"South Sudan"	"Winter"	2014	"M"	0	0
+"SSD"	"South Sudan"	"Summer"	2016	"F"	1	0
+"SSD"	"South Sudan"	"Summer"	2016	"M"	2	0
+"ESP"	"Spain"	"Winter"	2010	"F"	8	0
+"ESP"	"Spain"	"Winter"	2010	"M"	10	0
+"ESP"	"Spain"	"Summer"	2012	"F"	107	45
+"ESP"	"Spain"	"Summer"	2012	"M"	166	17
+"ESP"	"Spain"	"Winter"	2014	"F"	6	0
+"ESP"	"Spain"	"Winter"	2014	"M"	14	0
+"ESP"	"Spain"	"Summer"	2016	"F"	141	24
+"ESP"	"Spain"	"Summer"	2016	"M"	162	19
+"ESP"	"Spain-1"	"Winter"	2010	"F"	0	0
+"ESP"	"Spain-1"	"Winter"	2010	"M"	0	0
+"ESP"	"Spain-1"	"Summer"	2012	"F"	2	0
+"ESP"	"Spain-1"	"Summer"	2012	"M"	2	0
+"ESP"	"Spain-1"	"Winter"	2014	"F"	0	0
+"ESP"	"Spain-1"	"Winter"	2014	"M"	0	0
+"ESP"	"Spain-1"	"Summer"	2016	"F"	2	0
+"ESP"	"Spain-1"	"Summer"	2016	"M"	2	0
+"ESP"	"Spain-2"	"Winter"	2010	"F"	0	0
+"ESP"	"Spain-2"	"Winter"	2010	"M"	0	0
+"ESP"	"Spain-2"	"Summer"	2012	"F"	2	0
+"ESP"	"Spain-2"	"Summer"	2012	"M"	2	0
+"ESP"	"Spain-2"	"Winter"	2014	"F"	0	0
+"ESP"	"Spain-2"	"Winter"	2014	"M"	0	0
+"ESP"	"Spain-2"	"Summer"	2016	"F"	2	0
+"ESP"	"Spain-2"	"Summer"	2016	"M"	2	2
+"SRI"	"Sri Lanka"	"Winter"	2010	"F"	0	0
+"SRI"	"Sri Lanka"	"Winter"	2010	"M"	0	0
+"SRI"	"Sri Lanka"	"Summer"	2012	"F"	3	0
+"SRI"	"Sri Lanka"	"Summer"	2012	"M"	4	0
+"SRI"	"Sri Lanka"	"Winter"	2014	"F"	0	0
+"SRI"	"Sri Lanka"	"Winter"	2014	"M"	0	0
+"SRI"	"Sri Lanka"	"Summer"	2016	"F"	2	0
+"SRI"	"Sri Lanka"	"Summer"	2016	"M"	7	0
+"SUD"	"Sudan"	"Winter"	2010	"F"	0	0
+"SUD"	"Sudan"	"Winter"	2010	"M"	0	0
+"SUD"	"Sudan"	"Summer"	2012	"F"	2	0
+"SUD"	"Sudan"	"Summer"	2012	"M"	4	0
+"SUD"	"Sudan"	"Winter"	2014	"F"	0	0
+"SUD"	"Sudan"	"Winter"	2014	"M"	0	0
+"SUD"	"Sudan"	"Summer"	2016	"F"	2	0
+"SUD"	"Sudan"	"Summer"	2016	"M"	4	0
+"SUR"	"Suriname"	"Winter"	2010	"F"	0	0
+"SUR"	"Suriname"	"Winter"	2010	"M"	0	0
+"SUR"	"Suriname"	"Summer"	2012	"F"	2	0
+"SUR"	"Suriname"	"Summer"	2012	"M"	3	0
+"SUR"	"Suriname"	"Winter"	2014	"F"	0	0
+"SUR"	"Suriname"	"Winter"	2014	"M"	0	0
+"SUR"	"Suriname"	"Summer"	2016	"F"	0	0
+"SUR"	"Suriname"	"Summer"	2016	"M"	2	0
+"SWZ"	"Swaziland"	"Winter"	2010	"F"	0	0
+"SWZ"	"Swaziland"	"Winter"	2010	"M"	0	0
+"SWZ"	"Swaziland"	"Summer"	2012	"F"	1	0
+"SWZ"	"Swaziland"	"Summer"	2012	"M"	2	0
+"SWZ"	"Swaziland"	"Winter"	2014	"F"	0	0
+"SWZ"	"Swaziland"	"Winter"	2014	"M"	0	0
+"SWZ"	"Swaziland"	"Summer"	2016	"F"	1	0
+"SWZ"	"Swaziland"	"Summer"	2016	"M"	1	0
+"SWE"	"Sweden"	"Winter"	2010	"F"	44	9
+"SWE"	"Sweden"	"Winter"	2010	"M"	57	9
+"SWE"	"Sweden"	"Summer"	2012	"F"	78	2
+"SWE"	"Sweden"	"Summer"	2012	"M"	55	20
+"SWE"	"Sweden"	"Winter"	2014	"F"	41	11
+"SWE"	"Sweden"	"Winter"	2014	"M"	56	38
+"SWE"	"Sweden"	"Summer"	2016	"F"	86	25
+"SWE"	"Sweden"	"Summer"	2016	"M"	64	3
+"SUI"	"Switzerland"	"Winter"	2010	"F"	52	1
+"SUI"	"Switzerland"	"Winter"	2010	"M"	78	11
+"SUI"	"Switzerland"	"Summer"	2012	"F"	28	1
+"SUI"	"Switzerland"	"Summer"	2012	"M"	66	3
+"SUI"	"Switzerland"	"Winter"	2014	"F"	65	23
+"SUI"	"Switzerland"	"Winter"	2014	"M"	80	5
+"SUI"	"Switzerland"	"Summer"	2016	"F"	41	5
+"SUI"	"Switzerland"	"Summer"	2016	"M"	57	6
+"SUI"	"Switzerland-1"	"Winter"	2010	"F"	2	0
+"SUI"	"Switzerland-1"	"Winter"	2010	"M"	0	0
+"SUI"	"Switzerland-1"	"Summer"	2012	"F"	0	0
+"SUI"	"Switzerland-1"	"Summer"	2012	"M"	2	0
+"SUI"	"Switzerland-1"	"Winter"	2014	"F"	0	0
+"SUI"	"Switzerland-1"	"Winter"	2014	"M"	2	2
+"SUI"	"Switzerland-1"	"Summer"	2016	"F"	2	0
+"SUI"	"Switzerland-1"	"Summer"	2016	"M"	0	0
+"SUI"	"Switzerland-2"	"Winter"	2010	"F"	2	0
+"SUI"	"Switzerland-2"	"Winter"	2010	"M"	0	0
+"SUI"	"Switzerland-2"	"Summer"	2012	"F"	0	0
+"SUI"	"Switzerland-2"	"Summer"	2012	"M"	2	0
+"SUI"	"Switzerland-2"	"Winter"	2014	"F"	0	0
+"SUI"	"Switzerland-2"	"Winter"	2014	"M"	2	0
+"SUI"	"Switzerland-2"	"Summer"	2016	"F"	2	0
+"SUI"	"Switzerland-2"	"Summer"	2016	"M"	0	0
+"SYR"	"Syria"	"Winter"	2010	"F"	0	0
+"SYR"	"Syria"	"Winter"	2010	"M"	0	0
+"SYR"	"Syria"	"Summer"	2012	"F"	4	0
+"SYR"	"Syria"	"Summer"	2012	"M"	6	0
+"SYR"	"Syria"	"Winter"	2014	"F"	0	0
+"SYR"	"Syria"	"Winter"	2014	"M"	0	0
+"SYR"	"Syria"	"Summer"	2016	"F"	2	0
+"SYR"	"Syria"	"Summer"	2016	"M"	4	0
+"TJK"	"Tajikistan"	"Winter"	2010	"F"	0	0
+"TJK"	"Tajikistan"	"Winter"	2010	"M"	1	0
+"TJK"	"Tajikistan"	"Summer"	2012	"F"	3	1
+"TJK"	"Tajikistan"	"Summer"	2012	"M"	13	0
+"TJK"	"Tajikistan"	"Winter"	2014	"F"	0	0
+"TJK"	"Tajikistan"	"Winter"	2014	"M"	1	0
+"TJK"	"Tajikistan"	"Summer"	2016	"F"	2	0
+"TJK"	"Tajikistan"	"Summer"	2016	"M"	5	1
+"TAN"	"Tanzania"	"Winter"	2010	"F"	0	0
+"TAN"	"Tanzania"	"Winter"	2010	"M"	0	0
+"TAN"	"Tanzania"	"Summer"	2012	"F"	2	0
+"TAN"	"Tanzania"	"Summer"	2012	"M"	4	0
+"TAN"	"Tanzania"	"Winter"	2014	"F"	0	0
+"TAN"	"Tanzania"	"Winter"	2014	"M"	0	0
+"TAN"	"Tanzania"	"Summer"	2016	"F"	1	0
+"TAN"	"Tanzania"	"Summer"	2016	"M"	3	0
+"THA"	"Thailand"	"Winter"	2010	"F"	0	0
+"THA"	"Thailand"	"Winter"	2010	"M"	0	0
+"THA"	"Thailand"	"Summer"	2012	"F"	18	2
+"THA"	"Thailand"	"Summer"	2012	"M"	19	1
+"THA"	"Thailand"	"Winter"	2014	"F"	1	0
+"THA"	"Thailand"	"Winter"	2014	"M"	1	0
+"THA"	"Thailand"	"Summer"	2016	"F"	28	4
+"THA"	"Thailand"	"Summer"	2016	"M"	26	2
+"TLS"	"Timor Leste"	"Winter"	2010	"F"	0	0
+"TLS"	"Timor Leste"	"Winter"	2010	"M"	0	0
+"TLS"	"Timor Leste"	"Summer"	2012	"F"	1	0
+"TLS"	"Timor Leste"	"Summer"	2012	"M"	1	0
+"TLS"	"Timor Leste"	"Winter"	2014	"F"	0	0
+"TLS"	"Timor Leste"	"Winter"	2014	"M"	1	0
+"TLS"	"Timor Leste"	"Summer"	2016	"F"	0	0
+"TLS"	"Timor Leste"	"Summer"	2016	"M"	1	0
+"TOG"	"Togo"	"Winter"	2010	"F"	0	0
+"TOG"	"Togo"	"Winter"	2010	"M"	0	0
+"TOG"	"Togo"	"Summer"	2012	"F"	2	0
+"TOG"	"Togo"	"Summer"	2012	"M"	3	0
+"TOG"	"Togo"	"Winter"	2014	"F"	2	0
+"TOG"	"Togo"	"Winter"	2014	"M"	0	0
+"TOG"	"Togo"	"Summer"	2016	"F"	1	0
+"TOG"	"Togo"	"Summer"	2016	"M"	0	0
+"TGA"	"Tonga"	"Winter"	2010	"F"	0	0
+"TGA"	"Tonga"	"Winter"	2010	"M"	0	0
+"TGA"	"Tonga"	"Summer"	2012	"F"	1	0
+"TGA"	"Tonga"	"Summer"	2012	"M"	1	0
+"TGA"	"Tonga"	"Winter"	2014	"F"	0	0
+"TGA"	"Tonga"	"Winter"	2014	"M"	1	0
+"TGA"	"Tonga"	"Summer"	2016	"F"	3	0
+"TGA"	"Tonga"	"Summer"	2016	"M"	4	0
+"TTO"	"Trinidad and Tobago"	"Winter"	2010	"F"	0	0
+"TTO"	"Trinidad and Tobago"	"Winter"	2010	"M"	0	0
+"TTO"	"Trinidad and Tobago"	"Summer"	2012	"F"	7	0
+"TTO"	"Trinidad and Tobago"	"Summer"	2012	"M"	17	10
+"TTO"	"Trinidad and Tobago"	"Winter"	2014	"F"	0	0
+"TTO"	"Trinidad and Tobago"	"Winter"	2014	"M"	0	0
+"TTO"	"Trinidad and Tobago"	"Summer"	2016	"F"	10	0
+"TTO"	"Trinidad and Tobago"	"Summer"	2016	"M"	15	1
+"TUN"	"Tunisia"	"Winter"	2010	"F"	0	0
+"TUN"	"Tunisia"	"Winter"	2010	"M"	0	0
+"TUN"	"Tunisia"	"Summer"	2012	"F"	18	1
+"TUN"	"Tunisia"	"Summer"	2012	"M"	60	2
+"TUN"	"Tunisia"	"Winter"	2014	"F"	0	0
+"TUN"	"Tunisia"	"Winter"	2014	"M"	0	0
+"TUN"	"Tunisia"	"Summer"	2016	"F"	18	2
+"TUN"	"Tunisia"	"Summer"	2016	"M"	41	1
+"TUR"	"Turkey"	"Winter"	2010	"F"	3	0
+"TUR"	"Turkey"	"Winter"	2010	"M"	2	0
+"TUR"	"Turkey"	"Summer"	2012	"F"	64	3
+"TUR"	"Turkey"	"Summer"	2012	"M"	48	2
+"TUR"	"Turkey"	"Winter"	2014	"F"	2	0
+"TUR"	"Turkey"	"Winter"	2014	"M"	2	0
+"TUR"	"Turkey"	"Summer"	2016	"F"	47	1
+"TUR"	"Turkey"	"Summer"	2016	"M"	53	7
+"TKM"	"Turkmenistan"	"Winter"	2010	"F"	0	0
+"TKM"	"Turkmenistan"	"Winter"	2010	"M"	0	0
+"TKM"	"Turkmenistan"	"Summer"	2012	"F"	3	0
+"TKM"	"Turkmenistan"	"Summer"	2012	"M"	7	0
+"TKM"	"Turkmenistan"	"Winter"	2014	"F"	0	0
+"TKM"	"Turkmenistan"	"Winter"	2014	"M"	0	0
+"TKM"	"Turkmenistan"	"Summer"	2016	"F"	5	0
+"TKM"	"Turkmenistan"	"Summer"	2016	"M"	4	0
+"TUV"	"Tuvalu"	"Winter"	2010	"F"	0	0
+"TUV"	"Tuvalu"	"Winter"	2010	"M"	0	0
+"TUV"	"Tuvalu"	"Summer"	2012	"F"	0	0
+"TUV"	"Tuvalu"	"Summer"	2012	"M"	2	0
+"TUV"	"Tuvalu"	"Winter"	2014	"F"	0	0
+"TUV"	"Tuvalu"	"Winter"	2014	"M"	0	0
+"TUV"	"Tuvalu"	"Summer"	2016	"F"	0	0
+"TUV"	"Tuvalu"	"Summer"	2016	"M"	1	0
+"UGA"	"Uganda"	"Winter"	2010	"F"	0	0
+"UGA"	"Uganda"	"Winter"	2010	"M"	0	0
+"UGA"	"Uganda"	"Summer"	2012	"F"	4	0
+"UGA"	"Uganda"	"Summer"	2012	"M"	11	1
+"UGA"	"Uganda"	"Winter"	2014	"F"	0	0
+"UGA"	"Uganda"	"Winter"	2014	"M"	0	0
+"UGA"	"Uganda"	"Summer"	2016	"F"	1	0
+"UGA"	"Uganda"	"Summer"	2016	"M"	5	0
+"UKR"	"Ukraine"	"Winter"	2010	"F"	19	0
+"UKR"	"Ukraine"	"Winter"	2010	"M"	18	0
+"UKR"	"Ukraine"	"Summer"	2012	"F"	107	16
+"UKR"	"Ukraine"	"Summer"	2012	"M"	117	10
+"UKR"	"Ukraine"	"Winter"	2014	"F"	23	5
+"UKR"	"Ukraine"	"Winter"	2014	"M"	19	0
+"UKR"	"Ukraine"	"Summer"	2016	"F"	114	6
+"UKR"	"Ukraine"	"Summer"	2016	"M"	85	9
+"UKR"	"Ukraine-1"	"Winter"	2010	"F"	1	0
+"UKR"	"Ukraine-1"	"Winter"	2010	"M"	3	0
+"UKR"	"Ukraine-1"	"Summer"	2012	"F"	0	0
+"UKR"	"Ukraine-1"	"Summer"	2012	"M"	0	0
+"UKR"	"Ukraine-1"	"Winter"	2014	"F"	0	0
+"UKR"	"Ukraine-1"	"Winter"	2014	"M"	0	0
+"UKR"	"Ukraine-1"	"Summer"	2016	"F"	2	0
+"UKR"	"Ukraine-1"	"Summer"	2016	"M"	0	0
+"UKR"	"Ukraine-2"	"Winter"	2010	"F"	1	0
+"UKR"	"Ukraine-2"	"Winter"	2010	"M"	3	0
+"UKR"	"Ukraine-2"	"Summer"	2012	"F"	0	0
+"UKR"	"Ukraine-2"	"Summer"	2012	"M"	0	0
+"UKR"	"Ukraine-2"	"Winter"	2014	"F"	0	0
+"UKR"	"Ukraine-2"	"Winter"	2014	"M"	0	0
+"UKR"	"Ukraine-2"	"Summer"	2016	"F"	2	0
+"UKR"	"Ukraine-2"	"Summer"	2016	"M"	0	0
+"UAE"	"United Arab Emirates"	"Winter"	2010	"F"	0	0
+"UAE"	"United Arab Emirates"	"Winter"	2010	"M"	0	0
+"UAE"	"United Arab Emirates"	"Summer"	2012	"F"	2	0
+"UAE"	"United Arab Emirates"	"Summer"	2012	"M"	22	0
+"UAE"	"United Arab Emirates"	"Winter"	2014	"F"	0	0
+"UAE"	"United Arab Emirates"	"Winter"	2014	"M"	0	0
+"UAE"	"United Arab Emirates"	"Summer"	2016	"F"	3	0
+"UAE"	"United Arab Emirates"	"Summer"	2016	"M"	8	1
+"USA"	"United States"	"Winter"	2010	"F"	81	35
+"USA"	"United States"	"Winter"	2010	"M"	99	54
+"USA"	"United States"	"Summer"	2012	"F"	262	153
+"USA"	"United States"	"Summer"	2012	"M"	255	85
+"USA"	"United States"	"Winter"	2014	"F"	91	34
+"USA"	"United States"	"Winter"	2014	"M"	108	18
+"USA"	"United States"	"Summer"	2016	"F"	285	145
+"USA"	"United States"	"Summer"	2016	"M"	258	110
+"ISV"	"United States Virgin Islands"	"Winter"	2010	"F"	0	0
+"ISV"	"United States Virgin Islands"	"Winter"	2010	"M"	0	0
+"ISV"	"United States Virgin Islands"	"Summer"	2012	"F"	3	0
+"ISV"	"United States Virgin Islands"	"Summer"	2012	"M"	4	0
+"ISV"	"United States Virgin Islands"	"Winter"	2014	"F"	1	0
+"ISV"	"United States Virgin Islands"	"Winter"	2014	"M"	0	0
+"ISV"	"United States Virgin Islands"	"Summer"	2016	"F"	1	0
+"ISV"	"United States Virgin Islands"	"Summer"	2016	"M"	4	0
+"USA"	"United States-1"	"Winter"	2010	"F"	4	1
+"USA"	"United States-1"	"Winter"	2010	"M"	8	5
+"USA"	"United States-1"	"Summer"	2012	"F"	5	5
+"USA"	"United States-1"	"Summer"	2012	"M"	4	3
+"USA"	"United States-1"	"Winter"	2014	"F"	4	3
+"USA"	"United States-1"	"Winter"	2014	"M"	8	7
+"USA"	"United States-1"	"Summer"	2016	"F"	4	3
+"USA"	"United States-1"	"Summer"	2016	"M"	4	1
+"USA"	"United States-2"	"Winter"	2010	"F"	4	2
+"USA"	"United States-2"	"Winter"	2010	"M"	8	0
+"USA"	"United States-2"	"Summer"	2012	"F"	4	2
+"USA"	"United States-2"	"Summer"	2012	"M"	5	0
+"USA"	"United States-2"	"Winter"	2014	"F"	4	2
+"USA"	"United States-2"	"Winter"	2014	"M"	10	0
+"USA"	"United States-2"	"Summer"	2016	"F"	4	1
+"USA"	"United States-2"	"Summer"	2016	"M"	4	3
+"USA"	"United States-3"	"Winter"	2010	"F"	3	0
+"USA"	"United States-3"	"Winter"	2010	"M"	5	0
+"USA"	"United States-3"	"Summer"	2012	"F"	0	0
+"USA"	"United States-3"	"Summer"	2012	"M"	0	0
+"USA"	"United States-3"	"Winter"	2014	"F"	3	0
+"USA"	"United States-3"	"Winter"	2014	"M"	3	0
+"USA"	"United States-3"	"Summer"	2016	"F"	0	0
+"USA"	"United States-3"	"Summer"	2016	"M"	0	0
+"URU"	"Uruguay"	"Winter"	2010	"F"	0	0
+"URU"	"Uruguay"	"Winter"	2010	"M"	0	0
+"URU"	"Uruguay"	"Summer"	2012	"F"	3	0
+"URU"	"Uruguay"	"Summer"	2012	"M"	24	0
+"URU"	"Uruguay"	"Winter"	2014	"F"	0	0
+"URU"	"Uruguay"	"Winter"	2014	"M"	0	0
+"URU"	"Uruguay"	"Summer"	2016	"F"	5	0
+"URU"	"Uruguay"	"Summer"	2016	"M"	12	0
+"UZB"	"Uzbekistan"	"Winter"	2010	"F"	2	0
+"UZB"	"Uzbekistan"	"Winter"	2010	"M"	1	0
+"UZB"	"Uzbekistan"	"Summer"	2012	"F"	16	0
+"UZB"	"Uzbekistan"	"Summer"	2012	"M"	33	3
+"UZB"	"Uzbekistan"	"Winter"	2014	"F"	1	0
+"UZB"	"Uzbekistan"	"Winter"	2014	"M"	1	0
+"UZB"	"Uzbekistan"	"Summer"	2016	"F"	21	0
+"UZB"	"Uzbekistan"	"Summer"	2016	"M"	47	13
+"VAN"	"Vanuatu"	"Winter"	2010	"F"	0	0
+"VAN"	"Vanuatu"	"Winter"	2010	"M"	0	0
+"VAN"	"Vanuatu"	"Summer"	2012	"F"	2	0
+"VAN"	"Vanuatu"	"Summer"	2012	"M"	3	0
+"VAN"	"Vanuatu"	"Winter"	2014	"F"	0	0
+"VAN"	"Vanuatu"	"Winter"	2014	"M"	0	0
+"VAN"	"Vanuatu"	"Summer"	2016	"F"	0	0
+"VAN"	"Vanuatu"	"Summer"	2016	"M"	3	0
+"VEN"	"Venezuela"	"Winter"	2010	"F"	0	0
+"VEN"	"Venezuela"	"Winter"	2010	"M"	0	0
+"VEN"	"Venezuela"	"Summer"	2012	"F"	25	0
+"VEN"	"Venezuela"	"Summer"	2012	"M"	41	1
+"VEN"	"Venezuela"	"Winter"	2014	"F"	0	0
+"VEN"	"Venezuela"	"Winter"	2014	"M"	1	0
+"VEN"	"Venezuela"	"Summer"	2016	"F"	24	2
+"VEN"	"Venezuela"	"Summer"	2016	"M"	60	1
+"VIE"	"Vietnam"	"Winter"	2010	"F"	0	0
+"VIE"	"Vietnam"	"Winter"	2010	"M"	0	0
+"VIE"	"Vietnam"	"Summer"	2012	"F"	12	0
+"VIE"	"Vietnam"	"Summer"	2012	"M"	6	0
+"VIE"	"Vietnam"	"Winter"	2014	"F"	0	0
+"VIE"	"Vietnam"	"Winter"	2014	"M"	0	0
+"VIE"	"Vietnam"	"Summer"	2016	"F"	12	0
+"VIE"	"Vietnam"	"Summer"	2016	"M"	10	2
+"YEM"	"Yemen"	"Winter"	2010	"F"	0	0
+"YEM"	"Yemen"	"Winter"	2010	"M"	0	0
+"YEM"	"Yemen"	"Summer"	2012	"F"	1	0
+"YEM"	"Yemen"	"Summer"	2012	"M"	3	0
+"YEM"	"Yemen"	"Winter"	2014	"F"	0	0
+"YEM"	"Yemen"	"Winter"	2014	"M"	0	0
+"YEM"	"Yemen"	"Summer"	2016	"F"	1	0
+"YEM"	"Yemen"	"Summer"	2016	"M"	2	0
+"ZAM"	"Zambia"	"Winter"	2010	"F"	0	0
+"ZAM"	"Zambia"	"Winter"	2010	"M"	0	0
+"ZAM"	"Zambia"	"Summer"	2012	"F"	1	0
+"ZAM"	"Zambia"	"Summer"	2012	"M"	5	0
+"ZAM"	"Zambia"	"Winter"	2014	"F"	0	0
+"ZAM"	"Zambia"	"Winter"	2014	"M"	0	0
+"ZAM"	"Zambia"	"Summer"	2016	"F"	2	0
+"ZAM"	"Zambia"	"Summer"	2016	"M"	4	0
+"ZIM"	"Zimbabwe"	"Winter"	2010	"F"	0	0
+"ZIM"	"Zimbabwe"	"Winter"	2010	"M"	0	0
+"ZIM"	"Zimbabwe"	"Summer"	2012	"F"	3	0
+"ZIM"	"Zimbabwe"	"Summer"	2012	"M"	4	0
+"ZIM"	"Zimbabwe"	"Winter"	2014	"F"	0	0
+"ZIM"	"Zimbabwe"	"Winter"	2014	"M"	1	0
+"ZIM"	"Zimbabwe"	"Summer"	2016	"F"	21	0
+"ZIM"	"Zimbabwe"	"Summer"	2016	"M"	9	0

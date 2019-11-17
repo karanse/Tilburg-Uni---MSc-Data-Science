@@ -1,0 +1,418 @@
+### Title:    Stats & Methods Group Project Script
+### Authors:  Sema Karan, Cigdem Dalbudak, Levi Pols, Vratislav Frits Kosovsky
+### Submitted:  2018-OCT-12
+
+
+
+###          ###
+### Overview ###
+###          ###
+
+
+## In this project, the data from Wave 6 of the World Values Survey is analized. 
+##These data are freely available online (http://www.worldvaluessurvey.org/WVSDocumentationWV6.jsp)
+
+## Unless otherwise noted, an α-level of α = 0.05  is used for all significance tests.
+
+## Unless otherwise noted, all prediction errors are quantified in terms of mean squared error (MSE).
+
+
+###                   ###
+### Tasks / Questions ###
+###                   ###
+
+
+##--Preliminaries-------------------------------------------------------------##
+
+## 1) Installing packages 
+
+#install.packages("psych")
+#install.packages("wec", repos = "http://cloud.r-project.org")
+#install.packages("dplyr")
+#install.packages("rockhalk")
+
+## 2) Loading the packages.
+library(dplyr)
+library(MLmetrics)
+library(rockchalk)
+
+## 3) Setting the directory & loading the data
+dataDir  <- "../data/"
+fileName <- "wvs_data.rds"
+data <- readRDS(paste0(dataDir, fileName))
+set.seed(631616)
+
+##----------------------------------------------------------------------------##
+
+### 2.1 Multiple Linear Regression ###
+
+##------1.Which countries are represented in these data?
+
+# variable V2 is the country code, changes the column name and convert to factor
+data$country <- factor(data$V2)
+
+# a tidy way to group observations by country - renames the country names & summarises the frequencies per country - factor level
+data%>%
+  mutate(country_name = factor(V2,labels = c("China", "Germany", "India", "Russia", "US"))) %>% 
+  group_by(country, country_name) %>%
+  summarise(freq = n())
+
+
+##------2.What are the sample sizes for each country represented in these data?
+data%>%
+  mutate(country_name = factor(V2,labels = c("China", "Germany", "India", "Russia", "US"))) %>% 
+  group_by(country, country_name) %>%
+  summarise(sample_size = n())
+
+##------3.Overall, is there a significant effect of country on feelings of happiness?
+
+data$FoH <- data$V10 # V10 is feeling of happiness; 1=very happy, 4=not at all happy
+data$country_name <- factor(data$V2,labels = c("China", "Germany", "India", "Russia", "US"))
+out1 <- lm(FoH ~ country_name, data = data) 
+summary(out1)  # F-statistic: 132.8, DF:4,, MSE:60.74,  p-value: < 2.2e-16
+anova(out1)
+
+##------4. & 5. Which country has the highest (lowest) level of feelings of happiness? 
+
+#unweighted effect codes
+data$country.ec <- data$country
+contrasts(data$country.ec) <- contr.sum(levels(data$country.ec))
+contrasts(data$country.ec)
+
+#better country names
+colnames(contrasts(data$country.ec)) <- c("China", "Germany", "India", "Russia")
+contrasts(data$country.ec)
+
+#change reference group
+data$country.ec2 <- data$country
+levels(data$country.ec2)
+data$country.ec2 <- relevel(data$country.ec2, ref = "840")
+
+#unweighted effect codes
+contrasts(data$country.ec2) <- contr.sum(levels(data$country.ec2))
+contrasts(data$country.ec2)
+
+#better names
+colnames(contrasts(data$country.ec2)) <- c("US", "China", "Germany", "India")
+contrasts(data$country.ec2)
+
+groupout1 <- lm(FoH ~ country.ec, data = data)
+s1 <- summary(groupout1)
+
+groupout2 <- lm(FoH ~ country.ec2, data = data)
+s2 <- summary(groupout2)
+
+s1$coefficients
+s2$coefficients
+
+##------6.How do the country-specific levels of feelings of happiness change after controlling for subjective state of health?
+
+#V11 is Subjective state of health (1very good 2 good 3 fair 4 poor)
+data$SSOH <- data$V11
+
+groupout3 <- lm(FoH ~ country.ec + SSOH, data = data)
+s3 <- summary(groupout3) 
+
+groupout4 <- lm(FoH ~ country.ec2 + SSOH, data = data)
+s4 <- summary(groupout4) 
+
+s2$coefficients
+s4$coefficients
+
+s1$coefficients
+s3$coefficients
+
+##----------------------------------------------------------------------------##
+
+
+### 2.2 Continuous variable moderation ###
+
+##------1.After controlling for country, does the importance people afforded to democracy (DemImp) significantly predict the 
+#extent to which they think their country is being run democratically (DemRun)?
+
+data$DemImp <- data$V140 # V140 ->importance of democracy: 1-Not at all important ; 10-Absolutely important
+data$DemRun <- data$V141 # V141 -> How democratically country governed: 1- Not at all democratic;10- Completely democratic
+data$country <- factor(data$V2)
+
+
+out3.0 <- lm(data = data, DemRun ~ country) # Base Model
+out3.1 <- lm(data = data, DemRun ~ country + DemImp) # Additive Model
+
+summary(out3.0)
+summary(out3.1)
+
+anova(out3.0, out3.1)
+
+##------2. After controlling for country, does the DemImp → DemRun effect vary as a function of peoples’ 
+#satisfaction with their lives (SWL)?
+
+data$SWL <- data$V23 # V23 -> satisfaction with your life: 1-completely dissatisfied ; 10-completely satisfied
+
+#Focal Effect
+out4.0 <- lm(data= data, DemRun~DemImp )
+summary(out4.0)
+
+# Additive Model
+out4.1 <- lm(data= data, DemRun ~ country_name + DemImp + SWL)
+summary(out4.1)
+
+#Moderated Model
+out4.2 <- lm(data= data, DemRun ~ country_name + DemImp*SWL)
+summary(out4.2)
+
+anova(out4.1,out4.2) # gives the answer for 2nd question
+
+
+## Probing via Centering ###
+
+## Center 'SWL' on Mean & Mean +/- 1SD
+m <- mean(data$SWL)
+s <- sd(data$SWL)
+
+data$zMid <- data$SWL - m 
+data$zLow  <- data$SWL - (m - s)
+data$zHigh  <- data$SWL - (m + s)
+
+out4.2Low <- lm(DemRun ~ country_name+DemImp*zLow, data = data)  ## Test SWL at Mean - 1SD
+out4.2Mid <- lm(DemRun ~ country_name+DemImp*zMid, data = data)  ## Test SWL at Mean  
+out4.2High <- lm(DemRun ~ country_name+DemImp*zHigh, data = data) ## Test SWL at Mean + 1SD
+
+summary(out4.2Low)
+summary(out4.2Mid)
+summary(out4.2High)
+
+
+#create a table which shows simple slopes, SE's, t-vales and p-values in a tidy way.
+DemImp_coef <- data.frame("Centering" = c("zLow","zMid","zHigh"), 
+                          "Simple Slopes" = c(as.data.frame(out4.2Low$coefficients)[6,],
+                                              as.data.frame(out4.2Mid$coefficients)[6,],
+                                              as.data.frame(out4.2High$coefficients)[6,]),
+                          "Standard Errors"= c(summary(out4.2Low)$coefficients[6,2],
+                                               summary(out4.2Mid)$coefficients[6,2],
+                                               summary(out4.2High)$coefficients[6,2]),
+                          "t-values" = c(summary(out4.2Low)$coefficients[6,3],
+                                                            summary(out4.2Mid)$coefficients[6,3],
+                                                            summary(out4.2High)$coefficients[6,3] ),
+                          "p-vlaues" = c(summary(out4.2Low)$coefficients[6,4],
+                                        summary(out4.2Mid)$coefficients[6,4],
+                                        summary(out4.2High)$coefficients[6,4] ) )
+
+DemImp_coef$Simple.Slopes <- round(DemImp_coef$Simple.Slopes,6)
+DemImp_coef$Standard.Errors <- round(DemImp_coef$Standard.Errors,6)
+DemImp_coef
+
+##------3. Within what range of SWL is the DemImp → DemRun simple slope from Question 2 statistically significant?
+
+## First we need to create a 'plotSlopes' object:
+plotOut4.2 <- plotSlopes(out4.2,
+                         plotx      = "DemImp",
+                         modx       = "SWL", #moderator
+                         modxVals   = "std.dev", # that is change 1 sd above and below for pick a point
+                         plotPoints = TRUE)
+
+## Implement the J-N test:
+testOut4.2 <- testSlopes(plotOut4.2)
+testOut4.2$jn$roots
+
+
+##----------------------------------------------------------------------------##
+
+### 2.3 Categorical variable moderation ###
+
+
+##------1. After controlling for SWL, does the DemImp → DemRun effect vary significantly by country?
+
+out4.3 <- lm(data= data, DemRun~  SWL + country_name*DemImp) #Moderated Model
+summary(out4.3)
+
+anova(out4.1,out4.3)
+
+##------2. Visualize the results from Question 1 in a suitable way.
+
+plotOut4.3 <- plotSlopes(model      = out4.3,
+                         plotx      = "DemImp",
+                         modx       = "country_name",
+                         plotPoints = FALSE)
+
+
+##------3. For which country is the effect of DemImp on DemRun strongest, after controlling for SWL? 
+
+#default reference group is China
+out5Chi <- lm(DemRun ~ SWL + DemImp * country_name, data=data) #reference = china
+summary(out5Chi)
+
+#US as reference group
+data$country2 <- data$country_name
+levels(data$country2)
+data$country2 <- relevel(data$country2, ref = "US")
+
+out5US <- lm(DemRun ~ SWL + DemImp * country2, data=data) #ref = US
+summary(out5US)
+
+#Germany as reference group
+data$country3 <- data$country_name
+levels(data$country3)
+data$country3 <- relevel(data$country3, ref = "Germany")
+
+out5Ger <- lm(DemRun ~ SWL + DemImp * country3, data=data)
+summary(out5Ger)
+
+#India as reference group
+data$country4 <- data$country_name
+levels(data$country4)
+data$country4 <- relevel(data$country4, ref = "India")
+
+out5Ind <- lm(DemRun ~ SWL + DemImp * country4, data=data)
+summary(out5Ind)
+
+#Russia as reference group
+data$country5 <- data$country_name
+levels(data$country5)
+data$country5 <- relevel(data$country5, ref = "Russia")
+
+out5Rus <- lm(DemRun ~ SWL + DemImp * country5, data=data)
+summary(out5Rus)
+
+#create a table which shows "DemImp affect for each reference group";
+#simple slopes, SE's, t-vales and p-values in a tidy way.
+DemImp_coef2 <- data.frame( "Countries" = c("China","US","Germany", "India", "Russia"), 
+                           
+                          "Simple Slopes" = c(as.data.frame(out5Chi$coefficients)[3,1],
+                                              as.data.frame(out5US$coefficients)[3,1],
+                                              as.data.frame(out5Ger$coefficients)[3,1],
+                                              as.data.frame(out5Ind$coefficients)[3,1],
+                                              as.data.frame(out5Rus$coefficients)[3,1]),
+                          
+                          "Standard Errors"= c(summary(out5Chi)$coefficients[3,2],
+                                               summary(out5US)$coefficients[3,2],
+                                               summary(out5Ger)$coefficients[3,2],
+                                               summary(out5Ind)$coefficients[3,2],
+                                               summary(out5Rus)$coefficients[3,2]),
+                                               
+                          "t-values" = c(summary(out5Chi)$coefficients[3,3],
+                                         summary(out5US)$coefficients[3,3],
+                                         summary(out5Ger)$coefficients[3,3],
+                                         summary(out5Ind)$coefficients[3,3],
+                                         summary(out5Rus)$coefficients[3,3]),
+                          
+                          "p-vlaues" = c(summary(out5Chi)$coefficients[3,4],
+                                         summary(out5US)$coefficients[3,4],
+                                         summary(out5Ger)$coefficients[3,4],
+                                         summary(out5Ind)$coefficients[3,4],
+                                         summary(out5Rus)$coefficients[3,4]))
+
+
+##Table shows the answer of the question - Look the highest simple slope                          
+DemImp_coef2
+
+
+##------4. For which country is the effect of DemImp on DemRun weakest, after controlling for SWL?
+
+##The same code will apply here as well, same result table - Look the lowest simple slope
+DemImp_coef2
+
+
+##------5. Are the simple slopes referenced in Questions 3 and 4 statistically significant?
+
+##The same code will apply here as well, same result table - Look the p-values whether they're significant
+DemImp_coef2
+
+
+##----------------------------------------------------------------------------##
+
+### 2.4 Predictive Modelling ###
+
+
+##------1. Select and list three (theoretically justified) sets of predictors (or functions thereof, 
+#e.g., interactions or polynomials) to use in predicting FinSat.
+
+data$SatFinHou <- data$V59
+data$CountChild <- data$V58
+data$Age <- data$V242
+data$IncomeScale <- data$V239
+data$Sex <- factor(data$V240, labels = c("male", "female"))
+data$HighestEd <- data$V248
+data$RichImportant <- data$V71
+data$CountryCode <- factor(data$V2, labels = c("China", "Germany", "India", "Russia", "USA"))
+data$MaritalStatus <- factor(data$V57, labels = c("Married","Living together as married","Divorced","Separated","Widowed","Single"))
+
+#Set1: "SatFinHou ~ CountryCode + MaritalStatus + Age + Sex + CountChild"
+
+#Set2: "SatFinHou ~  ~ age + HighestEd"
+
+#Set3: "SatFinHou ~ IncomeScale + RichImportant"
+
+
+##------2. Briefly explain why you expect the three sets of predictors you chose in Question 1 to 
+#perform well. That is, explain your rationale for defining these three sets.
+
+
+
+##------3. Use 10-fold cross-validation to compare the predictive performance of the three models define in Question 1.
+
+#First set a side test set (20% of our data set)
+ind   <- sample(1 : nrow(data))
+traindata <- data[ind[1 : 11790], ]
+testdata <- data[ind[11791 : nrow(data)], ]
+
+
+# a function to do K-Fold Cross-Validation with lm():
+cv.lm <- function(data, models, names = NULL, K = 10) {
+  ## Create a partition vector:
+  part <- sample(rep(1 : K, ceiling(nrow(data) / K)))[1 : nrow(data)]
+  
+  ## Find the DV:
+  dv <- trimws(strsplit(models[1], "~")[[1]][1])
+  
+  ## Apply over candidate models:
+  cve <- sapply(X = models, FUN = function(model, data, dv, K, part) {
+    ## Loop over K repititions:
+    mse <- c()
+    for(k in 1 : K) {
+      ## Partition data:
+      train <- data[part != k, ]
+      valid <- data[part == k, ]
+      
+      ## Fit model, generate predictions, and save the MSE:
+      fit    <- lm(model, data = train)
+      pred   <- predict(fit, newdata = valid)
+      mse[k] <- MSE(y_pred = pred, y_true = valid[ , dv])
+    }
+    ## Return the CVE:
+    sum((table(part) / length(part)) * mse)
+  },
+  data = data,
+  K    = K,
+  dv   = dv,
+  part = part)
+  
+  ## Name output, if applicable:
+  if(!is.null(names)) names(cve) <- names
+  cve
+}
+#rm(list = c("K", "k", "data", "models", "model"))# Clean up
+
+## Compare the four models from above using 10-fold cross-validation:
+cve <- cv.lm(data =  traindata,
+      models = c("SatFinHou~CountryCode + MaritalStatus + Age + Sex + CountChild",
+                 "SatFinHou~Age + HighestEd",
+                 "SatFinHou~IncomeScale + RichImportant"),
+      names  = c("set1", "set2", "set3"),
+      K      = 10)
+
+
+##------4. Which of the three models compared in Question 3 performed best? 
+cve
+which.min(cve) #Set 3 has the min CVE
+
+
+##------5. What is the estimated prediction error of the best model?
+
+out6 <- lm(SatFinHou~IncomeScale + RichImportant, data=traindata)
+
+MSE(y_pred = predict(out6, newdata = testdata), y_true = testdata$SatFinHou)
+
+
+##------6. Based on the selection you made in Question 4, what can you say about 
+#the attributes that are are important for predicting financial satisfaction?
+
