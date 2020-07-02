@@ -24,55 +24,6 @@ During the analysis of the stop words included in the NLTK corpus, some meaningf
 The following table shows a summary of the distance metrics tried and tuning methods applied:
   
   
-Distance / Similarity Metrics
-Tunings
-Error Rate
-   
-  
-Jaccard
--
-   
-  
-Eucledian
-0.4
-   
-  
-Cosine Similarity
-remove stopwords + tf-idf
-0.150
-   
-  
-Cosine Similarity
-keep stopwords + tf-idf
-0.130
-     
- 
-Cosine Similarity
-keep stopwords +remove punctuation+ stemming + tf-idf
-0.049
-   
-  
-Cosine Similarity
-keep stopwords + lemmatization _wordnet_POS + tf-idf
-keep stopwords +stemming + lemmatization_wordnet_POS + tf-idf
-0.100
-   
-  
-  
-Cosine Similarity
-0.050
-   
-  
-Cosine Similarity
-keep stopwords + lemmatization _TextBlob + tf-idf
-0.110
-  
-   
-  
-Cosine Similarity
-keep stopwords + stemming + tf-idf + remove !"#$%&\'()*,- ./:;<=>?@[\\]^_`{|}~
-0.0497
-  
-  
-Cosine Similarity keep stopwords + stemming + tf-idf + remove !"\'&(),-./:;<=>?[\\]^_`{|}~ 0.05
+![Applied Methods & Results.](results.png)
+
 As it’s emphasized in yellow, the lowest error rate on training data is gained by removing punctuations with stemming and transforming to tf-idf, so we used with this approach to apply test data and test error rate was 0.0599 on Codelab.
