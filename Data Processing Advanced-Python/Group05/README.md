@@ -2,7 +2,7 @@
 The aim of this project was to develop an algorithm to recognize the similarities between different texts.
 
 # Experimental setup
-Given a specific data set that contains 10000 questions, a model has been built to match the questions that contain the same information. Final error rate on the test data was .....? The process of achieving this score is elaborated below.
+Given a specific data set that contains 10000 questions, a model has been built to match the questions that contain the same information. Final error rate on the test data was 0.0599. The process of achieving this score is elaborated below.
 
 # Preprocessing
 
